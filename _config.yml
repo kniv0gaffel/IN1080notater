@@ -1,0 +1,22 @@
+title: LaTex Cheatsheet
+markdown: kramdown
+
+# for atom feed
+
+source              : .
+destination         : ./_site
+layouts_dir         : _layouts
+data_dir            : _data
+includes_dir        : _includes
+
+
+author:
+  name: Brage Wiseth
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
