@@ -6,6 +6,9 @@ usemathjax : true
 
 > Denne siden dekker ikke hele pensum
 
+
+
+
 {% for category in site.categories %}
 <h3>{{ category[0] }}</h3>
   <div class="button-grid">
