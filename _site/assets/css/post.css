@@ -39,18 +39,19 @@ body {
 
 .neumorphic-button {
     text-transform: capitalize;
-    color: var(--white-2);
+    color: #3affa3;
     font-weight: bold;
     font-size: medium;
     border: none;
     display: inline-block;
     position: relative;
-    width: 180px;
-    height: 80px;
+    width: 90%;
+    height: 100%;
     border-radius: 10px;
-    background: var(--gray-1);
-    /* box-shadow:  8px 8px 7px #121212ad,
-                -8px -8px 7px #1d1d1d7c; */
+    background: #0d0d13;
+    /* background: var(--gray-6); */
+    box-shadow:  8px 8px 7px #0c0c0cad,
+                -8px -8px 4px #1c1e1e7c;
     transition: all 750ms;
 }
 .neumorphic-button:hover {
@@ -62,15 +63,15 @@ body {
     color: var(--gray-1);
   }
 .neumorphic-button:active {
-  transition-duration: 25ms;
-    background: #1a1a1a;
-    color: #2cc47d;
+  transition-duration: 50ms;
+    scale: 90%;
   }
 
 
 .button-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    height: 100px;
     grid-column-gap: 10px;
     grid-row-gap: 20px;
     padding: 10px;
