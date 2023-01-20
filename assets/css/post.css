@@ -51,7 +51,7 @@ body {
     background: var(--gray-1);
     /* box-shadow:  8px 8px 7px #121212ad,
                 -8px -8px 7px #1d1d1d7c; */
-    transition: all 500ms;
+    transition: all 750ms;
 }
 .neumorphic-button:hover {
     box-shadow: -2px -2px 6px #1b1d2052,
@@ -62,8 +62,9 @@ body {
     color: var(--gray-1);
   }
 .neumorphic-button:active {
-  transition-duration: 50ms;
-    background: #ffffff49;
+  transition-duration: 25ms;
+    background: #1a1a1a;
+    color: #2cc47d;
   }
 
 
