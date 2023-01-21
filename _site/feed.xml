@@ -1,13 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/IN1080_Kompendium/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IN1080_Kompendium/" rel="alternate" type="text/html" /><updated>2023-01-20T18:48:32+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/feed.xml</id><title type="html">IN1080 Kompendium</title><subtitle></subtitle><entry><title type="html">Strøm Spenning og Motstand</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/19/Strom.html" rel="alternate" type="text/html" title="Strøm Spenning og Motstand" /><published>2023-01-19T00:00:00+01:00</published><updated>2023-01-19T00:00:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/19/Strom</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/19/Strom.html">&lt;h1 id=&quot;spenning&quot;&gt;Spenning&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/IN1080_Kompendium/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IN1080_Kompendium/" rel="alternate" type="text/html" /><updated>2023-01-21T15:29:51+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/feed.xml</id><title type="html">IN1080 Kompendium</title><subtitle></subtitle><entry><title type="html">Strøm Spenning og Effekt</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom.html" rel="alternate" type="text/html" title="Strøm Spenning og Effekt" /><published>2023-01-20T00:00:00+01:00</published><updated>2023-01-20T00:00:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom.html">&lt;p&gt;Spenning og strøm er de to grunnleggende størrelsene som vi bruker for å beskrive oppførselen til kretser og elektriske komponenter. De er nært beslektet, og forholdet mellom dem (V-I-karakteristikken) er ofte det avgjørende aspektet ved en komponents oppførsel.&lt;/p&gt;
 
-&lt;p&gt;The case of a constant electric field, as between charged parallel plate conductors, 
-is a good example of the relationship between work and voltage. 	
-The electric field is by definition the force per unit charge, so that multiplying the field times the plate separation gives the work per unit charge, which is by definition the change in voltage.&lt;/p&gt;
+&lt;h4 id=&quot;enheter&quot;&gt;Enheter&lt;/h4&gt;
 
-&lt;p&gt;\[ Ed = \dfrac{Fd}{q} = \dfrac{W}{q} = \Delta V \]&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ladning&lt;/code&gt; målt i Coulomb \(C\), i formler blir symbolet \(Q\) brukt. En coulomb er ladningen assosiert med 
+\(6.241506 × 10^{18}\) ladede partikler&lt;/li&gt;
+    &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Strøm&lt;/code&gt; målt i Ampere \(A\), i formler blir symbolet \(I\) brukt&lt;/li&gt;
+    &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Spenning&lt;/code&gt; målt i Volt \(V\), i formler blir symbolene \(U, E, V\) brukt&lt;/li&gt;
+    &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Motstand&lt;/code&gt; målt i Ohm \(\Omega\), i formler blir symbolet \(R\) brukt&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
 
 &lt;h1 id=&quot;strøm&quot;&gt;Strøm&lt;/h1&gt;
 
-&lt;h1 id=&quot;motstand&quot;&gt;Motstand&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Elektrisk strøm er antall ladede partikler som beveger seg forbi et gitt punkt i et tidsintervall i en elektrisk krets&lt;/em&gt;&lt;/strong&gt; 
+\[\frac{\text{d}Q}{\text{d}t}\] 
+Denne strømningshastigheten måles i ladning per sekund 
+\[1 A = 1 C/s \]
+Strømmen er analog med strømmen av vann i et rør. Dette er ikke en perfekt analogi av flere grunner, men det er likevel nyttig ved at det hjelper oss å utvikle intuisjon om oppførselen til disse usynlige elektriske strømmene.&lt;/p&gt;
 
-&lt;h1 id=&quot;ohms-lov&quot;&gt;Ohms Lov&lt;/h1&gt;</content><author><name></name></author><category term="Intro" /><summary type="html">Spenning</summary></entry><entry><title type="html">Arduino</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/16/arduino.html" rel="alternate" type="text/html" title="Arduino" /><published>2023-01-16T00:00:00+01:00</published><updated>2023-01-16T00:00:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/16/arduino</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/16/arduino.html"></content><author><name></name></author><category term="Intro" /><summary type="html"></summary></entry><entry><title type="html">Test</title><link href="http://localhost:4000/IN1080_Kompendium/jbc/2023/01/10/t.html" rel="alternate" type="text/html" title="Test" /><published>2023-01-10T00:00:00+01:00</published><updated>2023-01-10T00:00:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/jbc/2023/01/10/t</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/jbc/2023/01/10/t.html"></content><author><name></name></author><category term="jbc" /><summary type="html"></summary></entry><entry><title type="html">Spenningsdeler</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/09/spenningsdeler.html" rel="alternate" type="text/html" title="Spenningsdeler" /><published>2023-01-09T00:00:00+01:00</published><updated>2023-01-09T00:00:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/09/spenningsdeler</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/09/spenningsdeler.html"></content><author><name></name></author><category term="Intro" /><summary type="html"></summary></entry></feed>
+&lt;h1 id=&quot;spenning&quot;&gt;Spenning&lt;/h1&gt;
+
+&lt;p&gt;Ladninger flytter seg (strøm) som svar på et eksternt påført elektrisk felt. 
+Vi snakker om potensialet til en ladd partikkel i et elektriske felt på en måte som er analog med en masse sin potensielle energi i et gravitasjonsfelt.
+&lt;strong&gt;&lt;em&gt;Spenning er elektrisk potensiell energi per ladningsenhet, målt i joule per coulomb&lt;/em&gt;&lt;/strong&gt;
+\[1V = 1\frac{J}{C} \]
+Det blir ofte referert til som “elektrisk potensial”, som da må skilles fra elektrisk potensiell energi
+ved å merke seg at “potensialet” er en “per-enhet-ladning” mengde.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;elektrisk potensial ≠ elektrisk potensiell energi&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Et viktig aspekt ved spenning er at det ikke er en absolutt mengde, den er relativ. Spenning måles alltid som en forskjell mellom to punkter i en krets.
+Nullpunktet for potensialet kan velges på en virkårlig plass, så &lt;strong&gt;&lt;em&gt;forskjellen i spenning er mengden som er fysisk meningsfull&lt;/em&gt;&lt;/strong&gt;. Forskjellen i spenning målt mellom punkt &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; og punkt &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;B&lt;/code&gt; i en krets, er lik arbeidet som må gjøres, per enhetsladning, mot det elektriske feltet for å flytte ladningen fra &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; til &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;B&lt;/code&gt;. 
+\[\frac{W}{Q} = \Delta V \]
+Når en spenning genereres, er det noen ganger kalt en “elektromotorisk kraft” eller emf.&lt;/p&gt;
+
+&lt;h1 id=&quot;effekt&quot;&gt;Effekt&lt;/h1&gt;
+
+&lt;p&gt;Hastigheten på arbeidet som utføres av ladningene kalles effekt. Hvis arbeidet utføres med en konstant hastighet.
+vi kan uttrykke effekten som:&lt;/p&gt;
+
+&lt;p&gt;\[ P = \frac{W}{t} = \frac{J}{s} = \frac{J}{C}\cdot \frac{C}{s} = VI \]&lt;/p&gt;
+
+&lt;p&gt;Effekt, i elektriske termer, er produktet av spenning og strøm. Hvis du kjenner spenningen som påføres en enhet og mengden strøm som strømmer inn i den enheten, er strømmen som forbrukes av enheten ganske enkelt produktet av spenningen og strømmen.
+I elektriske kretser flyter strømmen som svar på forskjeller i spenning. Hvis det ikke er noen forskjell i spenning, vil det ikke være strøm. I en vannanalogi strømmer vann i et rør som svar på forskjeller i trykk. En leder er analog med røret, spenning er analog med trykk, og strømmen er analog med vannstrømmen.&lt;/p&gt;</content><author><name></name></author><category term="Intro" /><summary type="html">Spenning og strøm er de to grunnleggende størrelsene som vi bruker for å beskrive oppførselen til kretser og elektriske komponenter. De er nært beslektet, og forholdet mellom dem (V-I-karakteristikken) er ofte det avgjørende aspektet ved en komponents oppførsel.</summary></entry><entry><title type="html">Arduino</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/arduino.html" rel="alternate" type="text/html" title="Arduino" /><published>2023-01-20T00:00:00+01:00</published><updated>2023-01-20T00:00:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/arduino</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/arduino.html"></content><author><name></name></author><category term="Intro" /><summary type="html"></summary></entry><entry><title type="html">Kretser og Jord</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/jord.html" rel="alternate" type="text/html" title="Kretser og Jord" /><published>2023-01-20T00:00:00+01:00</published><updated>2023-01-20T00:00:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/jord</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/jord.html">&lt;h1 id=&quot;krets&quot;&gt;Krets&lt;/h1&gt;
+
+&lt;p&gt;For at strømmen skal flyte, må det være det som omtales som en komplett krets. En komplett krets er en krets der det er en vei fra den ene terminalen til kilden til den andre terminalen til den samme kilden
+Hvis banen fra en terminal av kilden til den andre er brutt eller ikke kontinuerlig
+dette omtales som en åpen krets og det går ingen strøm.
+Hvis det eksisterer en bane mellom to terminaler på samme enhet som ikke går gjennom andre enheter refereres det til som en kortslutning.
+Kortslutning over passive enheter resulterer i høyst en forbigående effekt. Kortslutning over spenningskilder vil føre til at det flyter svært høy strøm og bør unngås. Det resulterer ofte i skade på eller ødeleggelse av spenningskilden.&lt;/p&gt;
+
+&lt;h1 id=&quot;jord&quot;&gt;Jord&lt;/h1&gt;
+
+&lt;p&gt;Selvom spenning er en relativ mengde, vil du fortsatt høre noen snakke om “spenningen ved bunnen av transistoren” eller “spenningen i noden”
+Det viktige i disse tilfellene er at hvis bare et enkelt punkt er nevnt i forhold til spenning, er det underforståtte referansepunktet jord.
+Så, hva og hvor er “bakken”? I en krets som er koblet til bygningens strømsystem, kan jord fysisk spores tilbake til en stake eller et ledende rør som bokstavelig talt er begravd i jorden. Når det gjelder en enhet som drives av batterier eller en strømkilde som ikke er direkte koblet til bygningskraft, er jord et noe vilkårlig punkt, ofte koblet til den negative polen til et batteri eller annen strømkilde.
+I begge tilfeller er jord et felles referansepunkt gjennom en krets og representerer punktet som vil bli tildelt en verdi på \(0V\).
+Det er en rekke forskjellige symboler som brukes for å indikere de forskjellige typene jord som du vil møte i kretser og skjemaer.
+Det er uheldig, men det er ingen reell konsistens i bruken av de forskjellige jordsymbolene.
+I mange tilfeller brukes jordsymbolet som en erstatning for returbanen tilbake til den negative terminalen på en spenningskilde.&lt;/p&gt;</content><author><name></name></author><category term="Intro" /><summary type="html">Krets</summary></entry><entry><title type="html">Motstand og Ohms Lov</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/motstand.html" rel="alternate" type="text/html" title="Motstand og Ohms Lov" /><published>2023-01-20T00:00:00+01:00</published><updated>2023-01-20T00:00:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/motstand</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/motstand.html">&lt;h1 id=&quot;motstand&quot;&gt;Motstand&lt;/h1&gt;
+
+&lt;h1 id=&quot;ohms-lov&quot;&gt;Ohms Lov&lt;/h1&gt;</content><author><name></name></author><category term="Intro" /><summary type="html">Motstand</summary></entry></feed>
