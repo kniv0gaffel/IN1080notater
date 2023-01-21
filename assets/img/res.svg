@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50.800003mm"
+   height="6.7999191mm"
+   viewBox="0 0 50.800003 6.7999191"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:ns1="http://www.iki.fi/pav/software/textext/">
+  <defs
+     id="defs2" />
+  <g
+     id="g10624"
+     transform="translate(-84.599993,-106.60005)">
+    <g
+       id="g10609"
+       style="stroke:#ffffff;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 85,110 h 15.5 l 2,3 3,-6 3,6 3,-6 3,6 3,-6 2,3 H 135"
+         id="path10607" />
+    </g>
+    <g
+       id="g10622"
+       transform="matrix(0.552997,0,0,0.552997,-111.19898,-208.60372)">
+      <g
+         transform="matrix(1.33333,0,0,1.33333,395.25,555.313)"
+         ns1:version="1.8.2"
+         ns1:texconverter="pdflatex"
+         ns1:pdfconverter="inkscape"
+         ns1:text=" $R$"
+         ns1:preamble="/home/brage/.config/inkscape/extensions/circuitSymbols/circuitSymbolsPreamble.tex"
+         ns1:scale="1.0"
+         ns1:alignment="middle center"
+         ns1:stroke-to-path="0"
+         ns1:inkscapeversion="1.0.1"
+         ns1:jacobian_sqrt="1.33333"
+         id="g10620">
+        <defs
+           id="id-194ec956-7517-416c-898a-30202f2320e2" />
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           id="id-01ae835c-f0f9-41f5-a09f-91007446a3d2"
+           transform="translate(-149.118,-127.953)">
+          <g
+             transform="translate(148.712,134.765)"
+             id="g10617" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

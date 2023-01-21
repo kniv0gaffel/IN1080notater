@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50.799995mm"
+   height="14.800003mm"
+   viewBox="0 0 50.799995 14.800003"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:ns1="http://www.iki.fi/pav/software/textext/">
+  <defs
+     id="defs2" />
+  <g
+     id="g3207"
+     transform="translate(-84.6,-142.59999)"
+     style="stroke:#ffffff;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1">
+    <g
+       id="g3192"
+       style="stroke:#ffffff;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 103,150 H 85"
+         id="path3180" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 117,150 h 18"
+         id="path3182" />
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path3184"
+         cx="110"
+         cy="150"
+         r="7" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 113,150 h 2"
+         id="path3186" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 114,149 v 2"
+         id="path3188" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 106,149 v 2"
+         id="path3190" />
+    </g>
+    <g
+       id="g3205"
+       transform="matrix(0.552997,0,0,0.552997,-111.19819,-173.60372)"
+       style="stroke:#ffffff;stroke-width:1.44666;stroke-dasharray:none;stroke-opacity:1">
+      <g
+         transform="matrix(1.33333,0,0,1.33333,395.26,555.313)"
+         ns1:version="1.8.2"
+         ns1:texconverter="pdflatex"
+         ns1:pdfconverter="inkscape"
+         ns1:text=" $V$"
+         ns1:preamble="/home/brage/.config/inkscape/extensions/circuitSymbols/circuitSymbolsPreamble.tex"
+         ns1:scale="1.0"
+         ns1:alignment="middle center"
+         ns1:stroke-to-path="0"
+         ns1:inkscapeversion="1.0.1"
+         ns1:jacobian_sqrt="1.33333"
+         id="g3203"
+         style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1">
+        <defs
+           id="id-5b035ffb-6264-4891-b86d-53e4220e78e7" />
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           id="id-d6b7dd70-5fdd-40d5-9b0d-7dbf64e76587"
+           transform="translate(-149.275,-127.953)"
+           style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1">
+          <g
+             transform="translate(148.712,134.765)"
+             id="g3200"
+             style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

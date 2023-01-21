@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50.799995mm"
+   height="16.799965mm"
+   viewBox="0 0 50.799995 16.799965"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:ns1="http://www.iki.fi/pav/software/textext/">
+  <defs
+     id="defs2" />
+  <g
+     id="g9883"
+     style="stroke:#ffffff;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+     transform="translate(-121.75289,-44.398837)">
+    <g
+       id="g9849"
+       transform="translate(37.152887,-57.201182)"
+       style="stroke:#ffffff;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 102,110 H 85"
+         id="path9837" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 118,110 h 17"
+         id="path9839" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 102,110 8,8 8,-8 -8,-8 -8,8"
+         id="path9841" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 113,110 h 2"
+         id="path9843" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 114,109 v 2"
+         id="path9845" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 106,109 v 2"
+         id="path9847" />
+    </g>
+    <g
+       id="g9881"
+       transform="matrix(0.552997,0,0,0.552997,-111.1986,-214.13754)"
+       style="stroke:#ffffff;stroke-width:1.44666;stroke-dasharray:none;stroke-opacity:1">
+      <g
+         transform="matrix(1.33333,0,0,1.33333,389.331,554.348)"
+         ns1:version="1.8.2"
+         ns1:texconverter="pdflatex"
+         ns1:pdfconverter="inkscape"
+         ns1:text=" $k.v_c$"
+         ns1:preamble="/home/brage/.config/inkscape/extensions/circuitSymbols/circuitSymbolsPreamble.tex"
+         ns1:scale="1.0"
+         ns1:alignment="middle center"
+         ns1:stroke-to-path="0"
+         ns1:inkscapeversion="1.0.1"
+         ns1:jacobian_sqrt="1.33333"
+         id="g9879"
+         style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1">
+        <defs
+           id="id-32a25280-1893-4e93-98a8-cd09017dd6c1" />
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           id="id-8bc80206-265c-4c73-a69b-d073c5bae4f3"
+           transform="translate(-149.259,-127.843)"
+           style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1">
+          <g
+             transform="translate(148.712,134.765)"
+             id="g9864"
+             style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           id="id-561b80da-4102-4c34-8737-b881a6ce4938"
+           transform="translate(-149.259,-127.843)"
+           style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1">
+          <g
+             transform="translate(154.217,134.765)"
+             id="g9868"
+             style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           id="id-eb895335-f7e2-40e7-bc5f-f485c504bccf"
+           transform="translate(-149.259,-127.843)"
+           style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1">
+          <g
+             transform="translate(156.975,134.765)"
+             id="g9872"
+             style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           id="id-8f924019-119f-4255-bece-50b85898c26d"
+           transform="translate(-149.259,-127.843)"
+           style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1">
+          <g
+             transform="translate(161.809,136.259)"
+             id="g9876"
+             style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50.800003mm"
+   height="14.800003mm"
+   viewBox="0 0 50.800003 14.800003"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:ns1="http://www.iki.fi/pav/software/textext/">
+  <defs
+     id="defs2" />
+  <g
+     id="g1927"
+     transform="translate(-84.599996,-142.6)"
+     style="stroke:#ffffff;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1">
+    <g
+       id="g1912"
+       style="stroke:#ffffff;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 103,150 H 85"
+         id="path1894" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 117,150 h 18"
+         id="path1896" />
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path1898"
+         cx="110"
+         cy="150"
+         r="7" />
+      <g
+         id="g1904"
+         style="stroke:#ffffff;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1">
+        <path
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 110,150 a 2.5999999,2.5999999 0 0 1 -2.5,1.88586 A 2.5999999,2.5999999 0 0 1 105,150"
+           id="path1900" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 110,150 a 2.5999999,2.5999999 0 0 1 2.5,-1.88586 A 2.5999999,2.5999999 0 0 1 115,150"
+           id="path1902" />
+      </g>
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 119,146 h 2"
+         id="path1906" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 120,145 v 2"
+         id="path1908" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 100,145 v 2"
+         id="path1910" />
+    </g>
+    <g
+       id="g1925"
+       transform="matrix(0.552997,0,0,0.552997,-111.19819,-173.60372)"
+       style="stroke:#ffffff;stroke-width:1.44666;stroke-dasharray:none;stroke-opacity:1">
+      <g
+         transform="matrix(1.33333,0,0,1.33333,395.26,555.313)"
+         ns1:version="1.8.2"
+         ns1:texconverter="pdflatex"
+         ns1:pdfconverter="inkscape"
+         ns1:text=" $V$"
+         ns1:preamble="/home/brage/.config/inkscape/extensions/circuitSymbols/circuitSymbolsPreamble.tex"
+         ns1:scale="1.0"
+         ns1:alignment="middle center"
+         ns1:stroke-to-path="0"
+         ns1:inkscapeversion="1.0.1"
+         ns1:jacobian_sqrt="1.33333"
+         id="g1923"
+         style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1">
+        <defs
+           id="id-d692ac09-9347-4b8f-b44c-fe09bd521807" />
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           id="id-6f17072c-0b4d-4653-9dae-e037f7759459"
+           transform="translate(-149.275,-127.953)"
+           style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1">
+          <g
+             transform="translate(148.712,134.765)"
+             id="g1920"
+             style="stroke:#ffffff;stroke-width:1.085;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,4 +1,4 @@
-const categories = { Intro: [{ url: `/IN1080_Kompendium/intro/2023/01/20/motstand.html`, date: `20 Jan 2023`, title: `Motstand og Ohms Lov`},{ url: `/IN1080_Kompendium/intro/2023/01/20/jord.html`, date: `20 Jan 2023`, title: `Kretser og Jord`},{ url: `/IN1080_Kompendium/intro/2023/01/20/arduino.html`, date: `20 Jan 2023`, title: `Arduino`},{ url: `/IN1080_Kompendium/intro/2023/01/20/Strom.html`, date: `20 Jan 2023`, title: `Strøm Spenning og Effekt`},], }
+const categories = { Intro: [{ url: `/IN1080_Kompendium/intro/2023/01/20/Strom.html`, date: `20 Jan 2023`, title: `Strøm Spenning og Effekt`},{ url: `/IN1080_Kompendium/intro/2023/01/20/jord.html`, date: `20 Jan 2023`, title: `Kretser og Jord`},{ url: `/IN1080_Kompendium/intro/2023/01/20/motstand.html`, date: `20 Jan 2023`, title: `Impedans, Kretselementer og Ohms Lov`},{ url: `/IN1080_Kompendium/intro/2023/01/20/arduino.html`, date: `20 Jan 2023`, title: `Arduino`},], }
 
 console.log(categories)
 

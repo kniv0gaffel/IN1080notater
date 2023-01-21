@@ -78,14 +78,31 @@ body {
     padding: 1rem;
 }
 
+.centerimg
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.center
+{
+    display:flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 header {
-  padding: 2rem 0 4rem 0;
+    padding: 2rem 0 4rem 0;
 }
 .site-title {
-  font-size: 1.4rem;
-  font-weight: bolder;
-  line-height: 110%;
-  color: var(--white-1);
+    font-size: 1.4rem;
+    font-weight: bolder;
+    line-height: 110%;
+    color: var(--white-1);
 }
 main {
   margin: 0 auto;
