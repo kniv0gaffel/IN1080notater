@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/IN1080_Kompendium/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IN1080_Kompendium/" rel="alternate" type="text/html" /><updated>2023-01-21T22:52:55+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/feed.xml</id><title type="html">IN1080 Kompendium</title><subtitle></subtitle><entry><title type="html">Strøm Spenning og Effekt</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom.html" rel="alternate" type="text/html" title="Strøm Spenning og Effekt" /><published>2023-01-20T00:06:00+01:00</published><updated>2023-01-20T00:06:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom.html">&lt;p&gt;Spenning og strøm er de to grunnleggende størrelsene som vi bruker for å beskrive oppførselen til kretser og elektriske komponenter. De er nært beslektet, og forholdet mellom dem (V-I-karakteristikken) er ofte det avgjørende aspektet ved en komponents oppførsel.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/IN1080_Kompendium/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IN1080_Kompendium/" rel="alternate" type="text/html" /><updated>2023-01-21T23:16:53+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/feed.xml</id><title type="html">IN1080 Kompendium</title><subtitle></subtitle><entry><title type="html">Strøm Spenning og Effekt</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom.html" rel="alternate" type="text/html" title="Strøm Spenning og Effekt" /><published>2023-01-20T00:06:00+01:00</published><updated>2023-01-20T00:06:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom.html">&lt;p&gt;Spenning og strøm er de to grunnleggende størrelsene som vi bruker for å beskrive oppførselen til kretser og elektriske komponenter. De er nært beslektet, og forholdet mellom dem (V-I-karakteristikken) er ofte det avgjørende aspektet ved en komponents oppførsel.&lt;/p&gt;
 
 &lt;h4 id=&quot;enheter&quot;&gt;Enheter&lt;/h4&gt;
 
@@ -66,17 +66,23 @@ I elektriske kretser flyter strømmen som svar på forskjeller i spenning. Hvis 
 
 &lt;p&gt;For at strømmen skal flyte, må det være det som omtales som en komplett krets. En komplett krets er en krets der det er en vei fra den ene terminalen til kilden til den andre terminalen til den samme kilden&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080_Kompendium/assets/img/circuit.svg&quot; height=&quot;90px&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080_Kompendium/assets/img/circuit.svg&quot; height=&quot;90px&quot; /&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Hvis banen fra en terminal av kilden til den andre er brutt eller ikke kontinuerlig
 dette omtales som en åpen krets og det går ingen strøm.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080_Kompendium/assets/img/nocircuit.svg&quot; height=&quot;90px&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080_Kompendium/assets/img/nocircuit.svg&quot; height=&quot;90px&quot; /&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Hvis det eksisterer en bane mellom to terminaler på samme enhet som ikke går gjennom andre enheter refereres det til som en kortslutning.
 Kortslutning over passive enheter resulterer i høyst en forbigående effekt. Kortslutning over spenningskilder vil føre til at det flyter svært høy strøm og bør unngås. Det resulterer ofte i skade på eller ødeleggelse av spenningskilden.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080_Kompendium/assets/img/shortcircuit.svg&quot; height=&quot;90px&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img src=&quot;/IN1080_Kompendium/assets/img/shortcircuit.svg&quot; height=&quot;90px&quot; /&gt;
+&lt;/div&gt;
 
 &lt;h1 id=&quot;jord&quot;&gt;Jord&lt;/h1&gt;
 
@@ -88,7 +94,7 @@ Det er en rekke forskjellige symboler som brukes for å indikere de forskjellige
 Det er uheldig, men det er ingen reell konsistens i bruken av de forskjellige jordsymbolene.
 I mange tilfeller brukes jordsymbolet som en erstatning for returbanen tilbake til den negative terminalen på en spenningskilde.&lt;/p&gt;
 
-&lt;div class=&quot;center&quot;&gt;
+&lt;div class=&quot;centerimg&quot;&gt;
     &lt;img src=&quot;/IN1080_Kompendium/assets/img/gndcircuit.svg&quot; height=&quot;90px&quot; /&gt;&amp;nbsp;&amp;nbsp;
     &lt;img src=&quot;/IN1080_Kompendium/assets/img/gndcircuit1.svg&quot; height=&quot;90px&quot; /&gt;
 &lt;/div&gt;</content><author><name></name></author><category term="Intro" /><summary type="html">Symboler</summary></entry><entry><title type="html">Impedans, Kretselementer og Ohms Lov</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/motstand.html" rel="alternate" type="text/html" title="Impedans, Kretselementer og Ohms Lov" /><published>2023-01-20T00:04:00+01:00</published><updated>2023-01-20T00:04:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/motstand</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/motstand.html">&lt;p&gt;Når vann strømmer gjennom et rør, møter strømmen motstand på grunn av fenomener som en begrensning (en reduksjon av rørets tverrsnittsareal) og det viskøse draget til det bevegelige fluidet mot den faste veggen av røret. For å få vann til å strømme gjennom motstanden til røret eller en begrensning, må vi påføre trykk. Motstand mot strømning resulterer i at trykket i et rør faller når strømmen beveger seg, for eksempel lenger bort fra en pumpe.
