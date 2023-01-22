@@ -68,13 +68,14 @@ body {
   }
 
 
+
 .button-grid {
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(159px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
     grid-column-gap: 1.5rem; 
     grid-row-gap: 1.8rem;
-    padding-bottom: 0.5rem;
-
+    padding-bottom: 1rem;
+    padding-right: 1.4rem;
 }
 
 .centerimg
