@@ -39,17 +39,17 @@ body {
 
 .neumorphic-button {
     text-transform: capitalize;
-    color: #33e592;
+    color: #34ffaa;
     font-weight: bold;
-    font-size: 0.98rem;
+    font-size: 0.95rem;
     border: none;
     display: inline-block;
     position: relative;
     width: 175px;
     height: 90px;
     border-radius: 10px;
-    background: #0d0d13;
-    /* background: var(--gray-6); */
+    /* background: #0d0d13; */
+    background: var(--gray-6);
     box-shadow:  8px 8px 7px #0c0c0cad;
                 /* -8px -8px 4px #1c1e1e7c; */
     transition: all 750ms;
@@ -71,11 +71,11 @@ body {
 .button-grid {
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-column-gap: 1.8rem; 
+    grid-column-gap: 1.5rem; 
     grid-row-gap: 1.8rem;
     /* justify-content: center; */
     /* width: min-content; */
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .centerimg

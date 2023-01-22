@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/IN1080_Kompendium/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IN1080_Kompendium/" rel="alternate" type="text/html" /><updated>2023-01-21T23:16:53+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/feed.xml</id><title type="html">IN1080 Kompendium</title><subtitle></subtitle><entry><title type="html">Strøm Spenning og Effekt</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom.html" rel="alternate" type="text/html" title="Strøm Spenning og Effekt" /><published>2023-01-20T00:06:00+01:00</published><updated>2023-01-20T00:06:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom.html">&lt;p&gt;Spenning og strøm er de to grunnleggende størrelsene som vi bruker for å beskrive oppførselen til kretser og elektriske komponenter. De er nært beslektet, og forholdet mellom dem (V-I-karakteristikken) er ofte det avgjørende aspektet ved en komponents oppførsel.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/IN1080_Kompendium/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IN1080_Kompendium/" rel="alternate" type="text/html" /><updated>2023-01-22T10:20:16+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/feed.xml</id><title type="html">IN1080 Kompendium</title><subtitle></subtitle><entry><title type="html">Strøm Spenning og Effekt</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom.html" rel="alternate" type="text/html" title="Strøm Spenning og Effekt" /><published>2023-01-20T00:06:00+01:00</published><updated>2023-01-20T00:06:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom.html">&lt;p&gt;Spenning og strøm er de to grunnleggende størrelsene som vi bruker for å beskrive oppførselen til kretser og elektriske komponenter. De er nært beslektet, og forholdet mellom dem (V-I-karakteristikken) er ofte det avgjørende aspektet ved en komponents oppførsel.&lt;/p&gt;
 
 &lt;h4 id=&quot;enheter&quot;&gt;Enheter&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;ul&gt;
-    &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ladning&lt;/code&gt; målt i Coulomb \(\text{C}\), i formler blir symbolet \(Q\) brukt. En coulomb er ladningen assosiert med 
+    &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ladning&lt;/code&gt;&lt;/strong&gt; målt i Coulomb \(\text{C}\), i formler blir symbolet \(Q\) brukt. En coulomb er ladningen assosiert med 
 \(6.241506 × 10^{18}\) ladede partikler&lt;/li&gt;
-    &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Strøm&lt;/code&gt; målt i Ampere \(\text{A}\), i formler blir symbolene \(I,i\) brukt&lt;br /&gt;
+    &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Strøm&lt;/code&gt;&lt;/strong&gt; målt i Ampere \(\text{A}\), i formler blir symbolene \(I,i\) brukt&lt;br /&gt;
 \(I\) betegner DC, \(i\) betegner AC&lt;/li&gt;
-    &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Spenning&lt;/code&gt; målt i Volt \(\text{V}\), i formler blir symbolene \(U,E,V\) brukt&lt;/li&gt;
-    &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Motstand&lt;/code&gt; målt i Ohm \(\Omega\), i formler blir symbolet \(R\) brukt&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Spenning&lt;/code&gt;&lt;/strong&gt; målt i Volt \(\text{V}\), i formler blir symbolene \(U,E,V\) brukt&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Motstand&lt;/code&gt;&lt;/strong&gt; målt i Ohm \(\Omega\), i formler blir symbolet \(R\) brukt&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
@@ -41,7 +41,7 @@ Når en spenning genereres, er det noen ganger kalt en “elektromotorisk kraft�
 
 &lt;h1 id=&quot;effekt&quot;&gt;Effekt&lt;/h1&gt;
 
-&lt;p&gt;Hastigheten på arbeidet som utføres av ladningene kalles effekt. Hvis arbeidet utføres med en konstant hastighet.
+&lt;p&gt;Hastigheten på arbeidet som utføres av ladningene kalles &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;effekt&lt;/code&gt;&lt;/strong&gt;. Hvis arbeidet utføres med en konstant hastighet.
 vi kan uttrykke effekten som:&lt;/p&gt;
 
 &lt;p&gt;\[ P = \frac{W}{t} = \frac{\text{J}}{\text{s}} = \frac{\text{J}}{\text{C}}\cdot \frac{\text{C}}{\text{s}} = UI \]&lt;/p&gt;
@@ -64,7 +64,9 @@ I elektriske kretser flyter strømmen som svar på forskjeller i spenning. Hvis 
 
 &lt;h1 id=&quot;krets&quot;&gt;Krets&lt;/h1&gt;
 
-&lt;p&gt;For at strømmen skal flyte, må det være det som omtales som en komplett krets. En komplett krets er en krets der det er en vei fra den ene terminalen til kilden til den andre terminalen til den samme kilden&lt;/p&gt;
+&lt;p&gt;Kretser er en sammen kobling av kretselementer. Kretselementer er &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aktive&lt;/code&gt;&lt;/strong&gt; (spennings-/strømkilder) eller &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;passive&lt;/code&gt;&lt;/strong&gt; (resistorer, spoler, kondensatorer). Passive elementer kalles
+noen ganger for last.
+For at strømmen skal flyte, må det være det som omtales som en komplett krets. En komplett krets er en krets der det er en vei fra den ene terminalen til kilden til den andre terminalen til den samme kilden&lt;/p&gt;
 
 &lt;div class=&quot;centerimg&quot;&gt;
 &lt;img class=&quot;centerimg&quot; src=&quot;/IN1080_Kompendium/assets/img/circuit.svg&quot; height=&quot;90px&quot; /&gt;
@@ -97,24 +99,34 @@ I mange tilfeller brukes jordsymbolet som en erstatning for returbanen tilbake t
 &lt;div class=&quot;centerimg&quot;&gt;
     &lt;img src=&quot;/IN1080_Kompendium/assets/img/gndcircuit.svg&quot; height=&quot;90px&quot; /&gt;&amp;nbsp;&amp;nbsp;
     &lt;img src=&quot;/IN1080_Kompendium/assets/img/gndcircuit1.svg&quot; height=&quot;90px&quot; /&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="Intro" /><summary type="html">Symboler</summary></entry><entry><title type="html">Impedans, Kretselementer og Ohms Lov</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/motstand.html" rel="alternate" type="text/html" title="Impedans, Kretselementer og Ohms Lov" /><published>2023-01-20T00:04:00+01:00</published><updated>2023-01-20T00:04:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/motstand</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/motstand.html">&lt;p&gt;Når vann strømmer gjennom et rør, møter strømmen motstand på grunn av fenomener som en begrensning (en reduksjon av rørets tverrsnittsareal) og det viskøse draget til det bevegelige fluidet mot den faste veggen av røret. For å få vann til å strømme gjennom motstanden til røret eller en begrensning, må vi påføre trykk. Motstand mot strømning resulterer i at trykket i et rør faller når strømmen beveger seg, for eksempel lenger bort fra en pumpe.
-Selv om årsakene er svært forskjellige, møter elektrisk strøm også motstand når den strømmer gjennom enheter i en krets. Denne elektriske motstanden resulterer i et fall i spenningen når strømmen beveger seg gjennom motstanden.
+&lt;/div&gt;</content><author><name></name></author><category term="Intro" /><summary type="html">Symboler</summary></entry><entry><title type="html">Resistans og I-V-Karakteristikk</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/motstand.html" rel="alternate" type="text/html" title="Resistans og I-V-Karakteristikk" /><published>2023-01-20T00:04:00+01:00</published><updated>2023-01-20T00:04:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/motstand</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/motstand.html">&lt;p&gt;Når vann strømmer gjennom et rør, møter strømmen motstand på grunn av fenomener som en begrensning (en reduksjon av rørets tverrsnittsareal) og det viskøse draget til det bevegelige fluidet mot den faste veggen av røret. For å få vann til å strømme gjennom motstanden til røret eller en begrensning, må vi påføre trykk. Motstand mot strømning resulterer i at trykket i et rør faller når strømmen beveger seg, for eksempel lenger bort fra en pumpe.
+Selv om årsakene er svært forskjellige, møter elektrisk strøm også motstand når den strømmer gjennom enheter i en krets. Denne elektriske motstanden resulterer i et fall i spenningen når strømmen beveger seg gjennom motstanden.&lt;/p&gt;
+
+&lt;h1 id=&quot;resistans&quot;&gt;Resistans&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;resistivitet&lt;/code&gt;&lt;/strong&gt; \( \rho \) er en egenskap materialer har som sier noe om hvor mye motstand det har mot elektrisk strøm.
+&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;resistansen&lt;/code&gt;&lt;/strong&gt; til en resistor er bestemt av resistiviteten til materialet og dens fysikse form (lendge og tverrsnitt)
+Det inverse av resistans er &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;konduktuans&lt;/code&gt;&lt;/strong&gt; med symbol \( G \)&lt;/p&gt;
+
+&lt;p&gt;\[ G = \frac{1}{R} \]&lt;/p&gt;
+
+&lt;p&gt;Både resistans og konduktans er reelle verdier \( \in \mathbb{R} \) mens &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impedans&lt;/code&gt;&lt;/strong&gt; og &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;admittans&lt;/code&gt;&lt;/strong&gt; som vi kommer til senere er komplekse verdier \( \in \mathbb{C} \)
 Forholdet mellom spenning og strøm i et resistivt element er kjent som &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ohms lov&lt;/code&gt;&lt;/strong&gt; og er beskrevet av ligningen:&lt;/p&gt;
 
 &lt;p&gt;\[ U = IR \]&lt;/p&gt;
 
-&lt;p&gt;Spenning og motstand er ofte noe sirkulært definert ved å bruke Ohms lov og definisjonen av en ampere: 1 volt er potensialet som er nødvendig for å tvinge 1 ampere
+&lt;p&gt;Spenning og motstand er ofte definert ved å bruke Ohms lov: 1 volt er potensialet som er nødvendig for å tvinge 1 ampere
 strøm som skal flyte gjennom en motstand på 1 ohm. Selv om det også er en mer grunnleggende,
 fysisk definisjon for ohm, kan det være greit å bare akseptere at \( U = IR \) er en gitt lov.&lt;/p&gt;
 
-&lt;p&gt;Grafisk beskriver Ohms lov IV-karakteristikken:&lt;/p&gt;
+&lt;h1 id=&quot;-i---v--karakteristikk&quot;&gt;\( I \)-\( V \)-Karakteristikk&lt;/h1&gt;
+&lt;p&gt;Grafisk beskriver Ohms lov I-V-karakteristikken:&lt;/p&gt;
 
-&lt;p&gt;For en motstand kalles verdien av helningen til IV-karakteristikken &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;resistansen&lt;/code&gt;&lt;/strong&gt;. Det er veldig vanlig, selv for enheter som har et ikke-lineært IV-forhold, å beskrive oppførselen deres i form av IV-karakteristikken. I mange av disse tilfellene vil vi snakke om den øyeblikkelige helningen til IV-kurven som den effektive motstanden til enheten. Figuren over gjør det også klart at forholdet mellom V og I for motstanden er lineært, noe som gjør den til en lineær krets
-element.&lt;/p&gt;
+&lt;p&gt;(bilde bilde)
+(bilde bilde)
+(bilde bilde)&lt;/p&gt;
 
-&lt;h4 id=&quot;941-motstander-i-serie-og-parallell&quot;&gt;9.4.1 Motstander i serie og parallell&lt;/h4&gt;
-
-&lt;p&gt;Vi kan bruke disse tre lovene (KVL, KCL og Ohms lov) for å beskrive spenningene og strømmene i enhver krets som består av en vilkårlig kombinasjon av de tre elementene som er introdusert så langt: spenningskilder, strømkilder og motstander.&lt;/p&gt;</content><author><name></name></author><category term="Intro" /><summary type="html">Når vann strømmer gjennom et rør, møter strømmen motstand på grunn av fenomener som en begrensning (en reduksjon av rørets tverrsnittsareal) og det viskøse draget til det bevegelige fluidet mot den faste veggen av røret. For å få vann til å strømme gjennom motstanden til røret eller en begrensning, må vi påføre trykk. Motstand mot strømning resulterer i at trykket i et rør faller når strømmen beveger seg, for eksempel lenger bort fra en pumpe. Selv om årsakene er svært forskjellige, møter elektrisk strøm også motstand når den strømmer gjennom enheter i en krets. Denne elektriske motstanden resulterer i et fall i spenningen når strømmen beveger seg gjennom motstanden. Forholdet mellom spenning og strøm i et resistivt element er kjent som Ohms lov og er beskrevet av ligningen:</summary></entry><entry><title type="html">Arduino</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/arduino.html" rel="alternate" type="text/html" title="Arduino" /><published>2023-01-20T00:03:00+01:00</published><updated>2023-01-20T00:03:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/arduino</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/arduino.html">&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;p&gt;For en motstand er verdien av helningen til I-V-karakteristikken resistansen \( R = \frac{V}{I} \). Det er veldig vanlig, selv for enheter som har et ikke-lineært I-V-forhold, å beskrive oppførselen deres i form av I-V-karakteristikken. I mange av disse tilfellene vil vi snakke om den øyeblikkelige helningen til IV-kurven som den effektive motstanden til enheten. Kretselementer sin oppførsel blir beskrevet av matematiske funksjoner. I-V-karakteristikken er er en fin måte å visualisere disse funksjonene. Forholdet mellom V og I for motstanden er lineært, noe som gjør den til ett lineært kretselement.&lt;/p&gt;</content><author><name></name></author><category term="Intro" /><summary type="html">Når vann strømmer gjennom et rør, møter strømmen motstand på grunn av fenomener som en begrensning (en reduksjon av rørets tverrsnittsareal) og det viskøse draget til det bevegelige fluidet mot den faste veggen av røret. For å få vann til å strømme gjennom motstanden til røret eller en begrensning, må vi påføre trykk. Motstand mot strømning resulterer i at trykket i et rør faller når strømmen beveger seg, for eksempel lenger bort fra en pumpe. Selv om årsakene er svært forskjellige, møter elektrisk strøm også motstand når den strømmer gjennom enheter i en krets. Denne elektriske motstanden resulterer i et fall i spenningen når strømmen beveger seg gjennom motstanden.</summary></entry><entry><title type="html">Arduino</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/arduino.html" rel="alternate" type="text/html" title="Arduino" /><published>2023-01-20T00:03:00+01:00</published><updated>2023-01-20T00:03:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/arduino</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/arduino.html">&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 
