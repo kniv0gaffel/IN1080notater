@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="102.86378mm"
+   height="68.629715mm"
+   viewBox="0 0 102.86378 68.629715"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:ns1="http://www.iki.fi/pav/software/textext/">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <linearGradient
+       id="linearGradient37914">
+      <stop
+         style="stop-color:#b236b1;stop-opacity:1;"
+         offset="0"
+         id="stop37910" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0.69942343"
+         id="stop37912" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient15029">
+      <stop
+         style="stop-color:#b236b1;stop-opacity:1;"
+         offset="0"
+         id="stop15025" />
+      <stop
+         style="stop-color:#5236b2;stop-opacity:1;"
+         offset="1"
+         id="stop15027" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient15029"
+       id="linearGradient15031"
+       x1="-0.00050000002"
+       y1="3.515125"
+       x2="7.0932498"
+       y2="3.515125"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient37914"
+       id="linearGradient22541"
+       x1="-0.48999602"
+       y1="61.39262"
+       x2="5.9451728"
+       y2="61.39262"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-30.446637,-98.460034)">
+    <g
+       transform="matrix(0.43113542,0,0,0.42660763,39.807951,76.747396)"
+       ns1:version="1.8.2"
+       ns1:texconverter="pdflatex"
+       ns1:pdfconverter="inkscape"
+       ns1:text="I"
+       ns1:preamble="/home/brage/.config/inkscape/extensions/circuitSymbols/circuitSymbolsPreamble.tex"
+       ns1:scale="1.0"
+       ns1:alignment="middle center"
+       ns1:stroke-to-path="0"
+       ns1:jacobian_sqrt="0.352778"
+       id="g5590"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero">
+      <defs
+         id="id-b7d8924a-6ccc-478c-b183-06dd352eab41"
+         style="fill:url(#linearGradient22541);fill-opacity:1" />
+      <g
+         fill="#000000"
+         fill-opacity="1"
+         id="id-b4736f62-8d98-4c93-bb8b-ca9e13bca6c2"
+         transform="translate(-148.993,-127.953)"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero">
+        <g
+           transform="translate(148.712,134.765)"
+           id="g5587"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero">
+          <path
+             d="m 3.9705466,49.007897 c 0,-0.762933 0.033171,-0.99513 1.7248906,-0.99513 h 0.5307355 v -0.663419 c -0.7297614,0.06634 -2.38831,0.06634 -3.2175843,0.06634 -0.7961034,0 -2.48782303,0 -3.21758443,-0.06634 v 0.663419 h 0.53073556 c 1.69171957,0 1.75806157,0.232197 1.75806157,0.99513 v 11.145446 c 0,0.762933 -0.066342,0.99513 -1.75806157,0.99513 h -0.53073556 v 0.663419 c 0.7297614,-0.06634 2.42148103,-0.06634 3.21758443,-0.06634 0.8292743,0 2.4878229,0 3.2175843,0.06634 V 61.148473 H 5.6954372 c -1.6917196,0 -1.7248906,-0.232197 -1.7248906,-0.99513 z"
+             id="id-d5657527-27a3-41f1-b7e6-a7edcd0a93dd"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke-width:2.12294" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.85454987,0,0,0.84557539,125.35649,152.22271)"
+       ns1:version="1.8.2"
+       ns1:texconverter="pdflatex"
+       ns1:pdfconverter="inkscape"
+       ns1:text="V"
+       ns1:preamble="/home/brage/.config/inkscape/extensions/circuitSymbols/circuitSymbolsPreamble.tex"
+       ns1:scale="1.0"
+       ns1:alignment="middle center"
+       ns1:stroke-to-path="0"
+       ns1:jacobian_sqrt="0.352778"
+       id="g5660"
+       style="fill:#ffffff;fill-opacity:1">
+      <defs
+         id="id-13876b8f-e0de-4f10-bdd1-8723542328f3"
+         style="fill:url(#linearGradient15031);fill-opacity:1" />
+      <g
+         fill="#000000"
+         fill-opacity="1"
+         id="id-00fa8794-e3de-4b5f-b678-adca7967748f"
+         transform="translate(-148.9,-127.953)"
+         style="fill:#ffffff;fill-opacity:1">
+        <g
+           transform="translate(148.712,134.765)"
+           id="g5657"
+           style="fill:#ffffff;fill-opacity:1">
+          <path
+             d="M 6.1875,-5.828125 C 6.328125,-6.203125 6.59375,-6.484375 7.28125,-6.5 v -0.3125 c -0.3125,0.03125 -0.71875,0.03125 -0.96875,0.03125 -0.296875,0 -0.875,-0.015625 -1.140625,-0.03125 V -6.5 C 5.6875,-6.484375 5.90625,-6.234375 5.90625,-6 c 0,0.078125 -0.03125,0.140625 -0.046875,0.203125 L 4.03125,-1 2.125,-6.03125 C 2.0625,-6.171875 2.0625,-6.1875 2.0625,-6.203125 2.0625,-6.5 2.625,-6.5 2.875,-6.5 v -0.3125 c -0.359375,0.03125 -1.046875,0.03125 -1.421875,0.03125 -0.46875,0 -0.90625,-0.015625 -1.265625,-0.03125 V -6.5 c 0.65625,0 0.84375,0 0.984375,0.375 L 3.484375,0 c 0.0625,0.1875 0.109375,0.21875 0.25,0.21875 0.15625,0 0.1875,-0.046875 0.234375,-0.1875 z m 0,0"
+             id="id-cfe6d5b1-911a-458e-9a8e-91faae1192f0"
+             style="fill:#ffffff;fill-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#fbfbfb;stroke-width:0.799999;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:361.372;stroke-opacity:1;marker-end:url(#TriangleStart);paint-order:normal"
+       d="M 33.453144,164.08326 V 105.25518"
+       id="path44160" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#fbfbfb;stroke-width:0.799999;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:361.372;stroke-opacity:1;marker-end:url(#TriangleStart);paint-order:normal"
+       d="M 33.453144,164.08326 H 126.51527"
+       id="path44162" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#fbfbfb;stroke-width:0.607101;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:361.372;stroke-opacity:1;paint-order:normal"
+       d="m 36.156114,105.25518 h -5.40594 l 2.590223,-6.49164 z"
+       id="path44679-6" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#fbfbfb;stroke-width:0.607101;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:361.372;stroke-opacity:1;paint-order:normal"
+       d="m 126.51527,166.78622 v -5.40593 l 6.49164,2.59022 z"
+       id="path44679-3" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#fbfbfb;stroke-width:0.799999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:361.372;stroke-opacity:1;paint-order:normal"
+       d="M 33.453144,164.08326 C 125.10007,104.2878 125.10007,104.2878 125.10007,104.2878"
+       id="path45592" />
+  </g>
+</svg>
