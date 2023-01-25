@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,300;0,400;0,800;1,100;1,300;1,400;1,800&display=swap");
+@import "iosevka-custom.css";
+@import "iosevka-quasi.css";
 
 :root {
   --gray-1: #3f3f3f;
@@ -27,7 +29,8 @@ html,
 body {
   color: var(--white-2);
   background-color: var(--gray-6);
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Iosevka Quasi Web";
+  font-stretch: expanded;
   line-height: 2rem;
   background-color: var(--gray-5);
 }
@@ -40,7 +43,9 @@ body {
 .neumorphic-button {
     text-transform: capitalize;
     color: #34ffaa;
-    font-weight: bold;
+    font-weight: 900;
+    font-family: Iosevka Custom Web;
+    font-stretch: expanded;
     font-size: 0.90rem;
     border: none;
     display: inline-block;
@@ -232,13 +237,14 @@ main {
 }
 
 .content pre {
-  background: var(--gray-3) !important;
+  background: #282828 !important;
   padding: 1rem 2rem;
   margin-bottom: 1.75rem;
   border-radius: 12px;
 }
 
 .content code {
+  font-family: Iosevka Custom Web;
   border-radius: 5px;
   padding: 3px 5px;
   color: var(--white-2);
