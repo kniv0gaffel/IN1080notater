@@ -37,7 +37,10 @@ body {
 }
 .content a 
 {
-  color: rgb(58, 76, 72);
+  font-family: Iosevka Custom Web;
+  font-style: italic;
+  font-weight: 800;
+  color: rgb(44, 218, 180);
 }
 
 
@@ -186,16 +189,16 @@ main {
 .content ul {
   margin-left: 1rem;
   margin-bottom: 1.75rem;
-  list-style: none; /* remove bullet points */
-  padding: 0; /* remove padding */
-  margin: 0; /* remove margin */
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
   }
   
   li {
-    padding: 10px; /* add padding */
+    padding: 10px; 
     text-decoration: none;
-    margin-bottom: 10px; /* add margin between items */
-    border-radius: 10px; /* set border radius for rounded corners */
+    margin-bottom: 10px; 
+    border-radius: 10px; 
   }
 .content ol {
   margin-left: 1.75rem;
@@ -250,7 +253,7 @@ main {
   padding: 3px 5px;
   color: var(--white-2);
   white-space: pre;
-  background-color: var(--gray-3);
+  background-color: #282828
 
 }
 
