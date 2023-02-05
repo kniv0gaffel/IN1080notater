@@ -1,4 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/IN1080_Kompendium/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IN1080_Kompendium/" rel="alternate" type="text/html" /><updated>2023-01-31T14:34:42+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/feed.xml</id><title type="html">IN1080 Kompendium</title><subtitle></subtitle><entry><title type="html">Strøm Spenning og Effekt</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom.html" rel="alternate" type="text/html" title="Strøm Spenning og Effekt" /><published>2023-01-20T00:06:00+01:00</published><updated>2023-01-20T00:06:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom.html">&lt;p&gt;Spenning og strøm er de to grunnleggende størrelsene som vi bruker for å beskrive oppførselen til kretser og elektriske komponenter. De er nært beslektet, og forholdet mellom dem (V-I-karakteristikken) er ofte det avgjørende aspektet ved en komponents oppførsel.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/IN1080_Kompendium/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IN1080_Kompendium/" rel="alternate" type="text/html" /><updated>2023-02-05T21:09:06+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/feed.xml</id><title type="html">IN1080 Kompendium</title><subtitle></subtitle><entry><title type="html">KVL</title><link href="http://localhost:4000/IN1080_Kompendium/kirchoff/2023/02/05/KVL.html" rel="alternate" type="text/html" title="KVL" /><published>2023-02-05T00:10:00+01:00</published><updated>2023-02-05T00:10:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/kirchoff/2023/02/05/KVL</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/kirchoff/2023/02/05/KVL.html">&lt;p&gt;Kirchhoffs Spenningslov (også kjent som Kirchhoffs andre lov):
+Summen av spenningsforskjellene rundt enhver lukket sløyfe i en krets er null.
+Dette kan angis matematisk som&lt;/p&gt;
+
+\[\sum_{k=1}^n V_k = 0\]
+
+&lt;p&gt;“Kirchhoffs Voltage Law”(KVL) er sannsynligvis lettest å forstå ved å tenke på en vannanalogi til en lukket elektrisk krets.
+se for deg en rørsløyfe full av vann formet som en dørramme.
+Hvis vi måler trykket helt på toppen vil vi finne null overtrykk, siden det ikke er noen vannmasse over det punktet. Når vi beveger oss nedover en vertikal kolonne, vil trykket øke ettersom høyden på vannsøylen over målepunktet øker. Til slutt ville vi komme helt til bunnen av det vertikale røret hvor trykket ville være størst. Hvis vi fortsatte å følge røret, ville vi begynne å stige opp gjennom den andre vertikale søylen og trykket ville begynne å falle. Innen vi kom til toppen igjen, ville trykket igjen være 0. Vi kunne gjenta dette eksperimentet fra et hvilket som helst punkt i den hydrauliske kretsen. Etter å ha reist rundt sløyfen og returnert til stedet vi startet, vil trykket ha samme verdi som vi først målte.
+I flervariabel kalkulus vil dette tilsvare et linjeintegral over ett vektorfelt. Der vektorfeltet er et elektrisk felt. Et slikt integral er 
+ikke avhengig av veien siden feltet er konservativt. Det at elektriske felt er konservative danner grunnlaget til KVL.
+Et slikt integral er også en definisjon for spenning:&lt;/p&gt;
+
+\[\mathbf E = -\nabla V\]
+
+\[U=V_b-V_a=\int_a^b \mathbf E\cdot \mathrm d \mathbf s\]</content><author><name></name></author><category term="Kirchoff" /><summary type="html">Kirchhoffs Spenningslov (også kjent som Kirchhoffs andre lov): Summen av spenningsforskjellene rundt enhver lukket sløyfe i en krets er null. Dette kan angis matematisk som</summary></entry><entry><title type="html">KCL</title><link href="http://localhost:4000/IN1080_Kompendium/kirchoff/2023/02/05/KCL.html" rel="alternate" type="text/html" title="KCL" /><published>2023-02-05T00:09:00+01:00</published><updated>2023-02-05T00:09:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/kirchoff/2023/02/05/KCL</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/kirchoff/2023/02/05/KCL.html">&lt;p&gt;Kirchhoffs Strømlov (også kjent som Kirchhoffs første lov):
+Summen av all strømmen som kommer inn i en node i en krets er den samme som summen av all strømmen som forlater den samme noden.
+Hvis vi er enige om konvensjonen om at strøm som går inn i en node har et positivt fortegn og strøm som går ut av noden har et negativt fortegn (eller omvendt), så kan vi angi Kirchhoffs gjeldende lov matematisk som&lt;/p&gt;
+
+\[\sum_{k=1}^n I_k = 0\]
+
+&lt;p&gt;“Kirchhoffs Current Law” (KCL) er egentlig ikke noe annet enn bevaringsprinsippet som brukes på lading. Siden ladningsstrømmen ved roten er strømmen av elektroner og vi ikke skaper eller ødelegger elektroner, er det naturlig at summen av alle elektroner som kommer inn og forlater en node må være null. Hvis det ikke var null, ville vi enten ødelegge elektroner eller skape elektroner på et vis. For vår vannanalogi, forteller KCL oss at alt vannet som kommer inn i et rør må forlate det røret og ikke noe vann vil bli opprettet eller ødelagt inne i røret.&lt;/p&gt;</content><author><name></name></author><category term="Kirchoff" /><summary type="html">Kirchhoffs Strømlov (også kjent som Kirchhoffs første lov): Summen av all strømmen som kommer inn i en node i en krets er den samme som summen av all strømmen som forlater den samme noden. Hvis vi er enige om konvensjonen om at strøm som går inn i en node har et positivt fortegn og strøm som går ut av noden har et negativt fortegn (eller omvendt), så kan vi angi Kirchhoffs gjeldende lov matematisk som</summary></entry><entry><title type="html">Resistorer i serie og parallell</title><link href="http://localhost:4000/IN1080_Kompendium/kirchoff/2023/02/05/resiserie.html" rel="alternate" type="text/html" title="Resistorer i serie og parallell" /><published>2023-02-05T00:08:00+01:00</published><updated>2023-02-05T00:08:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/kirchoff/2023/02/05/resiserie</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/kirchoff/2023/02/05/resiserie.html">&lt;p&gt;Vi kan bruke disse tre lovene (KVL, KCL og Ohms lov) for å beskrive spenningene og strømmene i enhver krets som består av en vilkårlig kombinasjon av de tre elementene som vi har introdusert så langt: spenningskilder, strømkilder og motstander.&lt;/p&gt;
+
+&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080_Kompendium/assets/img/resiserie.svg&quot; height=&quot;150px&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Denne figuren viser en krets der to motstander er i serie. Per definisjon, når to elementer er i serie, flyter den samme strømmen i begge elementene. Vi kan bruke KVL til å skrive en ligning som relaterer spenning, strøm og motstand i denne kretsen ved ganske enkelt å krysse kretsen og summere spenningsfallet mens vi går:&lt;/p&gt;
+
+\[V-iR_1 - iR_2 = 0\]
+
+&lt;p&gt;Omorganiserer:&lt;/p&gt;
+
+\[V= i(R_1 + R_2)\]
+
+&lt;p&gt;hvorfra vi kan se at motstanden som følger av å ha motstander i serie, ganske enkelt er summen av deres individuelle verdier.
+Merk at for å skrive likningen måtte vi anta en retning for strømmen. Antakelsen om retning er helt vilkårlig, selv om det vil være mer intuitivt hvis du velger retningen for å antyde en økning i potensialet som går over spenningskilden. Hvis du hadde antatt den andre retningen, ville tegnet på uttrykket for strøm vært negativt, noe som indikerer at strømmen faktisk gikk i motsatt retning.&lt;/p&gt;
+
+&lt;p&gt;To motstander i en kretskonfigurasjon kjent som parallell:&lt;/p&gt;
+
+&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080_Kompendium/assets/img/resiparal.svg&quot; height=&quot;200px&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To kretselementer anses å være parallelle når det samme potensialet vises over begge elementene.
+Siden vi prøver å forstå hvordan disse to motstandene kombineres, er det vi ser etter et uttrykk i form av Ohms lov som vil beskrive sammenhengene mellom spenning, strøm og kombinasjonen av de to motstandene:&lt;/p&gt;
+
+\[V = I_{total}R_{parallel}\]
+
+&lt;p&gt;Vi kan starte analysen av hvordan disse motstandene kombineres ved å bruke KCL ved node
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt;:&lt;/p&gt;
+
+\[I_{total} = i_1 + i_2\]
+
+&lt;p&gt;Deretter kan vi se på hva som skjer ved hver av motstandene separat, ved å bruke det faktum at den samme spenningen \(V\) vises over begge motstandene:&lt;/p&gt;
+
+\[i_1 = \frac{V}{R_1}\]
+
+\[i_2 = \frac{V}{R_2}\]
+
+&lt;p&gt;Vi kan da kombinere de tre siste likningene og sette inn i første likning for å få:&lt;/p&gt;
+
+\[V=\left(\frac{V}{R_1} + \frac{V}{R_2}\right)R_{parallel}\]
+
+&lt;p&gt;Omorganiserer:&lt;/p&gt;
+
+\[R_{parallel} = \frac{V}{\left(\frac{V}{R_1} + \frac{V}{R_2}\right)}\]
+
+&lt;p&gt;Forenkler:&lt;/p&gt;
+
+\[R_{parallel} = \frac{V}{\left(\frac{V}{R_1} + \frac{V}{R_2}\right)} \cdot \frac{R_1R_2}{R_1R_2}\]
+
+\[R_{parallel} = \frac{R_1R_2}{R_1 + R_2}\]
+
+&lt;p&gt;Vi kan generalisere dette:&lt;/p&gt;
+
+\[\frac{1}{R_{parallel}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}\]</content><author><name></name></author><category term="Kirchoff" /><summary type="html">Vi kan bruke disse tre lovene (KVL, KCL og Ohms lov) for å beskrive spenningene og strømmene i enhver krets som består av en vilkårlig kombinasjon av de tre elementene som vi har introdusert så langt: spenningskilder, strømkilder og motstander.</summary></entry><entry><title type="html">Spenningdeler</title><link href="http://localhost:4000/IN1080_Kompendium/kirchoff/2023/02/05/spenningsdeler-copy.html" rel="alternate" type="text/html" title="Spenningdeler" /><published>2023-02-05T00:08:00+01:00</published><updated>2023-02-05T00:08:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/kirchoff/2023/02/05/spenningsdeler%20copy</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/kirchoff/2023/02/05/spenningsdeler-copy.html">&lt;p&gt;Kretsen nednfor har fått et eget navn: &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;spenningsdeler&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080_Kompendium/assets/img/spenningsdeler.svg&quot; height=&quot;250px&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For denne analysen vil vi anta at det ikke går strøm til \(V_{out}\). I følge KCL må all strømmen som kommer inn i noden merket &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; også gå ut. Derfor må strømmen gjennom \(R_1\), som beveger seg fra \(V_{in}\) til node &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt;, være lik strømmen gjennom \(R_2\), som beveger seg fra node &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; til jord. Ved å bruke Ohms lov kan vi skrive ned et par ligninger for spenningene over \(R_1\) og \(R_2\). I dette ligningsparet har vi antatt at strømmen som går fra \(R_1\) er den samme som strømmen gjennom \(R_2\), merket \(I\). Legg også merke til at den nedre terminalen til \(R_2\) er koblet til jord, som er vårt referansepunkt og derfor på nullpotensial \(0V\).&lt;/p&gt;
+
+\[V_{in} - V_{out} = IR_1 \tag{1}\]
+
+\[V_{out} - 0 = IR_2 \tag{2}\]
+
+&lt;p&gt;Vi antar at strømmen går fra \(V_{in}\) til jord. Denne antagelsen er kanskje ikke nøyaktig - hvis \(V_{in}\) er negativ, vil den strømme i den andre retningen. Det viktigste som imidlertid er nødvendig i analysen er at vi gjør en konsistent antagelse gjennom hele analysen. Når vi er ferdige, hvis faktisk den antatte strømretningen var feil, ville de resulterende ligningene for strømmen alle ende opp med negative fortegn. Konsistens i dine antagelser om retningen på strømstrømmen er avgjørende for suksessen når du setter opp ligningene gjennom analysen.
+Dette paret av to ligninger med to ukjente \(I\) og \(V_{out}\) kan løses ved hjelp av flere tilnærminger. Vi kan legge disse ligningene sammen for å få&lt;/p&gt;
+
+\[V_{in}=I(R_1+R_2)\]
+
+&lt;p&gt;Omorganiserer:&lt;/p&gt;
+
+\[I = \frac{V_{in}}{(R_1+R_2)}\]
+
+&lt;p&gt;Setter inn for \(I\):&lt;/p&gt;
+
+\[V_{out} = V_{in}\frac{R_2}{(R_1+R_2)}\]
+
+&lt;p&gt;Vi vil referere til dette resultatet som spenningsdelerligningen. Vi ser at utgangsspenningen er proporsjonal med inngangsspenningen, med en konstant skaleringsfaktor, som vi bør forvente for enhver lineær krets. La oss også teste dette forholdet for ekstreme tilfeller. For eksempel, hvis \(R_2\) var “uendelig” i verdi, ville det ikke være noen strømflyt og derfor ikke noe spenningsfall over \(R_1\), så vi forventer at \(V_{out}\) ville være lik \(V_{in}\). Til slutt, hvis \(R_2\) var en short (dvs. \(R_2 = 0\Omega\)), så \(V_{out}\) vil være koblet direkte til jord og vi forventer \(V_{out} = 0V\).&lt;/p&gt;</content><author><name></name></author><category term="Kirchoff" /><summary type="html">Kretsen nednfor har fått et eget navn: spenningsdeler.</summary></entry><entry><title type="html">Strøm Spenning og Effekt</title><link href="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom.html" rel="alternate" type="text/html" title="Strøm Spenning og Effekt" /><published>2023-01-20T00:06:00+01:00</published><updated>2023-01-20T00:06:00+01:00</updated><id>http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom</id><content type="html" xml:base="http://localhost:4000/IN1080_Kompendium/intro/2023/01/20/Strom.html">&lt;p&gt;Spenning og strøm er de to grunnleggende størrelsene som vi bruker for å beskrive oppførselen til kretser og elektriske komponenter. De er nært beslektet, og forholdet mellom dem (V-I-karakteristikken) er ofte det avgjørende aspektet ved en komponents oppførsel.&lt;/p&gt;
 
 &lt;h4 id=&quot;enheter&quot;&gt;Enheter&lt;/h4&gt;
 
