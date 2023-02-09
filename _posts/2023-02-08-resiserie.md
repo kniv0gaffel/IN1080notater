@@ -14,11 +14,11 @@ Vi kan bruke disse tre lovene (KVL, KCL og Ohms lov) for å beskrive spenningene
 
 Denne figuren viser en krets der to motstander er i serie. Per definisjon, når to elementer er i serie, flyter den samme strømmen i begge elementene. Vi kan bruke KVL til å skrive en ligning som relaterer spenning, strøm og motstand i denne kretsen ved ganske enkelt å krysse kretsen og summere spenningsfallet mens vi går:
 
-$$ V-iR_1 - iR_2 = 0$$
+$$ V-iR_1 - iR_2 = 0 \tag{1}$$
 
 Omorganiserer:
 
-$$V= i(R_1 + R_2)$$
+$$V= i(R_1 + R_2) \tag{2}$$
 
 hvorfra vi kan se at motstanden som følger av å ha motstander i serie, ganske enkelt er summen av deres individuelle verdier.
 Merk at for å skrive likningen måtte vi anta en retning for strømmen. Antakelsen om retning er helt vilkårlig, selv om det vil være mer intuitivt hvis du velger retningen for å antyde en økning i potensialet som går over spenningskilden. Hvis du hadde antatt den andre retningen, ville tegnet på uttrykket for strøm vært negativt, noe som indikerer at strømmen faktisk gikk i motsatt retning.
@@ -32,12 +32,12 @@ To motstander i en kretskonfigurasjon kjent som parallell:
 To kretselementer anses å være parallelle når det samme potensialet vises over begge elementene.
 Siden vi prøver å forstå hvordan disse to motstandene kombineres, er det vi ser etter et uttrykk i form av Ohms lov som vil beskrive sammenhengene mellom spenning, strøm og kombinasjonen av de to motstandene:
 
-$$V = I_{total}R_{parallel}$$
+$$V = I_{total}R_{parallel} \tag{3}$$
 
 Vi kan starte analysen av hvordan disse motstandene kombineres ved å bruke KCL ved node
 `A`:
 
-$$I_{total} = i_1 + i_2$$
+$$I_{total} = i_1 + i_2 \tag{4}$$
 
 Deretter kan vi se på hva som skjer ved hver av motstandene separat, ved å bruke det faktum at den samme spenningen \\(V\\) vises over begge motstandene:
 
