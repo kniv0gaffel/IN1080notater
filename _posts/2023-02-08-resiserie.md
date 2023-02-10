@@ -41,24 +41,24 @@ $$I_{total} = i_1 + i_2 \tag{4}$$
 
 Deretter kan vi se på hva som skjer ved hver av motstandene separat, ved å bruke det faktum at den samme spenningen \\(V\\) vises over begge motstandene:
 
-$$i_1 = \frac{V}{R_1}$$
+$$i_1 = \frac{V}{R_1}\tag{5}$$
 
-$$i_2 = \frac{V}{R_2}$$
+$$i_2 = \frac{V}{R_2}\tag{6}$$
 
-Vi kan da kombinere de tre siste likningene og sette inn i første likning for å få:
+Vi kan da kombinere lign. `4,5,6`:
 
-$$V=\left(\frac{V}{R_1} + \frac{V}{R_2}\right)R_{parallel}$$
+$$V=\left(\frac{V}{R_1} + \frac{V}{R_2}\right)R_{parallel}\tag{7}$$
 
 Omorganiserer:
 
-$$R_{parallel} = \frac{V}{\left(\frac{V}{R_1} + \frac{V}{R_2}\right)}$$
+$$R_{parallel} = \frac{V}{\left(\frac{V}{R_1} + \frac{V}{R_2}\right)}\tag{8}$$
 
 Forenkler:
 
-$$R_{parallel} = \frac{V}{\left(\frac{V}{R_1} + \frac{V}{R_2}\right)} \cdot \frac{R_1R_2}{R_1R_2}$$
+$$R_{parallel} = \frac{V}{\left(\frac{V}{R_1} + \frac{V}{R_2}\right)} \cdot \frac{R_1R_2}{R_1R_2}\tag{9}$$
 
-$$R_{parallel} = \frac{R_1R_2}{R_1 + R_2}$$
+$$R_{parallel} = \frac{R_1R_2}{R_1 + R_2}\tag{10}$$
 
 Vi kan generalisere dette:
 
-$$\frac{1}{R_{parallel}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}$$
+$$\frac{1}{R_{parallel}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}\tag{11}$$
