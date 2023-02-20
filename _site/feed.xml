@@ -1,4 +1,320 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/IN1080-kompendium/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IN1080-kompendium/" rel="alternate" type="text/html" /><updated>2023-02-10T14:52:07+01:00</updated><id>http://localhost:4000/IN1080-kompendium/feed.xml</id><title type="html">IN1080 Kompendium</title><subtitle></subtitle><entry><title type="html">KVL</title><link href="http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/KVL.html" rel="alternate" type="text/html" title="KVL" /><published>2023-02-05T00:10:00+01:00</published><updated>2023-02-05T00:10:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/KVL</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/KVL.html">&lt;p&gt;Kirchhoffs Spenningslov (også kjent som Kirchhoffs andre lov):
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/IN1080-kompendium/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IN1080-kompendium/" rel="alternate" type="text/html" /><updated>2023-02-20T11:58:53+01:00</updated><id>http://localhost:4000/IN1080-kompendium/feed.xml</id><title type="html">IN1080 Kompendium</title><subtitle></subtitle><entry><title type="html">Norton og Thevenin</title><link href="http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/norttheve.html" rel="alternate" type="text/html" title="Norton og Thevenin" /><published>2023-02-15T00:10:00+01:00</published><updated>2023-02-15T00:10:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/norttheve</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/norttheve.html">&lt;p&gt;For kompliserte nettverk. det er ofte nyttig å kunne forenkle deler av kretsløpsanalysen. En kraftig forenklingsteknikk er konseptet med Therein euth. utlånt krets. Thevenins teorem sier at ethvert to-terminalt nettverk av motstander (virker alle lineære elementer) og spennings- og/eller strømkilder tilsvarer en enkelt motstand. serie med en enkelt spenningskilde.
+Spenningskilden (kalt Thevenin ekvivalent spenning, eller Vth) er lik åpen kretsspenning mellom de to nodene. Seriemotstanden (kalt Theremin ekvivalent motstand, eller Rt) kan bli funnet ved å bruke et par forskjellige tilnærminger En metode er å hevde Ohms lov i den ekvivalente kretsen og beskrive Rth som Vin dividert med strømmen som ville flyte hvis nodene A og B ble kortsluttet sammen. En annen tilnærming er å analysere den ekvivalente motstanden til nettverket uten spennings- eller strømkildene. For å utføre denne analysen må spenningskildene i kretsen fjernes og erstattes kortslutninger. Nåværende kilder bør ganske enkelt fjernes, slik at den resulterende delen er åpen. Når dette er gjort, vil du sitte igjen med en samling motstander som du kan forenkle med reglene for parallell- og seriekombinasjoner.
+I figur 9.13 vil åpen kretsspenning være VA -VB:
+Vin
+R, + R2&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;RA X Re) - 0 = VinR, + Res = Vil
+(920
+*a kunne finne Ply ved å fjerne Va-spenningskilden og deretter kortslutte den wouid tåslede Y og jord. Dette ville forlate R, time ard i R, så dette olde&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Denne prosessen kan gjentas for å skjære ut deler av en krets og erstatte dem med enklere ekvivalente kretser som inneholder bare en enkelt spenningskilde (Vth) og motstand (Rin).
+I et eksempel senere i dette kapittelet viser vi et eksempel som bruker Thevenin-ekvivalenter for å bestemme responsen til et nettverk av motstander og en kondensator.&lt;/p&gt;</content><author><name></name></author><category term="Kretsanalyse" /><summary type="html">For kompliserte nettverk. det er ofte nyttig å kunne forenkle deler av kretsløpsanalysen. En kraftig forenklingsteknikk er konseptet med Therein euth. utlånt krets. Thevenins teorem sier at ethvert to-terminalt nettverk av motstander (virker alle lineære elementer) og spennings- og/eller strømkilder tilsvarer en enkelt motstand. serie med en enkelt spenningskilde. Spenningskilden (kalt Thevenin ekvivalent spenning, eller Vth) er lik åpen kretsspenning mellom de to nodene. Seriemotstanden (kalt Theremin ekvivalent motstand, eller Rt) kan bli funnet ved å bruke et par forskjellige tilnærminger En metode er å hevde Ohms lov i den ekvivalente kretsen og beskrive Rth som Vin dividert med strømmen som ville flyte hvis nodene A og B ble kortsluttet sammen. En annen tilnærming er å analysere den ekvivalente motstanden til nettverket uten spennings- eller strømkildene. For å utføre denne analysen må spenningskildene i kretsen fjernes og erstattes kortslutninger. Nåværende kilder bør ganske enkelt fjernes, slik at den resulterende delen er åpen. Når dette er gjort, vil du sitte igjen med en samling motstander som du kan forenkle med reglene for parallell- og seriekombinasjoner. I figur 9.13 vil åpen kretsspenning være VA -VB: Vin R, + R2 RA X Re) - 0 = VinR, + Res = Vil (920 *a kunne finne Ply ved å fjerne Va-spenningskilden og deretter kortslutte den wouid tåslede Y og jord. Dette ville forlate R, time ard i R, så dette olde</summary></entry><entry><title type="html">Superposisjon</title><link href="http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/superposisjon.html" rel="alternate" type="text/html" title="Superposisjon" /><published>2023-02-15T00:09:00+01:00</published><updated>2023-02-15T00:09:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/superposisjon</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/superposisjon.html">&lt;p&gt;I elektronikk er superposisjon et prinsipp som sier at responsen til en lineær krets på et sett med inngangssignaler kan bestemmes ved å vurdere hvert inngangssignal individuelt og deretter summere resultatene. Spesielt gjelder superposisjonsprinsippet for lineære kretser, som er kretser som tilfredsstiller følgende to egenskaper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Homogenitet: Hvis inngangen til kretsen multipliseres med en konstant, så multipliseres også utgangen med den samme konstanten.&lt;/li&gt;
+  &lt;li&gt;Additivitet: Hvis inngangen til kretsen er summen av to eller flere signaler, er utgangen summen av utgangene som ville følge av å bruke hvert inngangssignal individuelt.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Prinsippet om superposisjon er en konsekvens av disse to egenskapene. Det lar oss analysere komplekse kretsløp ved å bryte dem ned i enklere deler og deretter kombinere resultatene. Spesifikt kan vi bruke prinsippet om superposisjon ved å følge disse trinnene:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Vurder hvert inngangssignal individuelt og anta at alle andre inngangssignaler er null.&lt;/li&gt;
+  &lt;li&gt;Beregn responsen til kretsen på det inngangssignalet ved å bruke standardteknikker som Kirchhoffs lover, Ohms lov og så videre.&lt;/li&gt;
+  &lt;li&gt;Gjenta trinn 1 og 2 for hvert inngangssignal.&lt;/li&gt;
+  &lt;li&gt;Sum resultatene oppnådd i trinn 2 for å oppnå den totale responsen til kretsen på alle inngangssignaler.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ved å bruke superposisjonsprinsippet kan vi forenkle analysen av komplekse kretsløp og få innsikt i deres oppførsel. Det er imidlertid viktig å merke seg at superposisjonsprinsippet bare gjelder for lineære kretser og ikke kan brukes for ikke-lineære kretser, som ikke tilfredsstiller homogenitets- og additivitetsegenskapene.&lt;/p&gt;</content><author><name></name></author><category term="Kretsanalyse" /><summary type="html">I elektronikk er superposisjon et prinsipp som sier at responsen til en lineær krets på et sett med inngangssignaler kan bestemmes ved å vurdere hvert inngangssignal individuelt og deretter summere resultatene. Spesielt gjelder superposisjonsprinsippet for lineære kretser, som er kretser som tilfredsstiller følgende to egenskaper:</summary></entry><entry><title type="html">Node- og Mesh-analyse</title><link href="http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/nodemeshanalye.html" rel="alternate" type="text/html" title="Node- og Mesh-analyse" /><published>2023-02-15T00:08:00+01:00</published><updated>2023-02-15T00:08:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/nodemeshanalye</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/nodemeshanalye.html">&lt;p&gt;Nodeanalyse og mesh-analyse er to vanlige teknikker som brukes i kretsanalyse for å bestemme spenningene og strømmene i en krets.&lt;/p&gt;
+
+&lt;p&gt;Nodeanalyse er en metode som brukes til å bestemme spenningene ved hver node i en krets i forhold til et referansepunkt, vanligvis bakken. En node er et punkt i en krets der to eller flere komponenter er koblet sammen. Nodeanalyse innebærer å anvende Kirchhoffs gjeldende lov&lt;/p&gt;
+
+&lt;p&gt;(KCL) ved hver node i kretsen og ved å bruke Ohms lov for å uttrykke strømmene i form av nodespenningene.&lt;/p&gt;
+
+&lt;p&gt;På den annen side er mesh-analyse en metode som brukes til å bestemme strømmene i hver maske eller sløyfe i en krets. Et nett er en lukket bane i en krets som ikke inneholder noen andre lukkede baner. Mesh-analyse innebærer å bruke Kirchhoffs spenningslov (KVL) på hvert nett i kretsen og bruke Ohms lov for å uttrykke spenningene i form av nettstrømmene.&lt;/p&gt;
+
+&lt;p&gt;For å bruke nodeanalyse må du følge disse trinnene:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; Identifiser alle noder i kretsen.
+ Velg én node som referansenode og tilordne den en spenning på null.
+ Påfør KCL på hver av de andre nodene i kretsen for å få en ligning for strømmene som strømmer inn og ut av noden når det gjelder nodespenningene.
+ Bruk Ohms lov for å uttrykke strømmene i form av nodespenningene.
+ Løs det resulterende ligningssystemet for å bestemme spenningene ved hver node.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;For å bruke mesh-analyse må du følge disse trinnene:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; Identifiser alle masker i kretsen.
+ Tilordne en strømvariabel til hver mesh og tilordne en retning til hver strøm.
+ Påfør KVL på hver maske for å få en ligning for spenningene rundt nettet i form av maskestrømmene.
+ Bruk Ohms lov til å uttrykke spenningene i form av nettstrømmene.
+ Løs det resulterende ligningssystemet for å bestemme strømmene i hver maske.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Nodeanalyse og mesh-analyse er begge kraftige teknikker for å analysere kretser, og hvilken metode du bruker vil avhenge av den spesifikke kretsen du analyserer og dine personlige preferanser.&lt;/p&gt;</content><author><name></name></author><category term="Kretsanalyse" /><summary type="html">Nodeanalyse og mesh-analyse er to vanlige teknikker som brukes i kretsanalyse for å bestemme spenningene og strømmene i en krets.</summary></entry><entry><title type="html">Reaktans</title><link href="http://localhost:4000/IN1080-kompendium/impedans/2023/02/11/reaktans.html" rel="alternate" type="text/html" title="Reaktans" /><published>2023-02-11T00:10:00+01:00</published><updated>2023-02-11T00:10:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/impedans/2023/02/11/reaktans</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/impedans/2023/02/11/reaktans.html">&lt;p&gt;Fra notatet om &lt;a href=&quot;/IN1080-kompendium/kondensator og induktor/2023/02/10/kondensator.html&quot;&gt; Kondensatorer &lt;/a&gt; kom vi frem til denne likningen for forholdet mellom strøm og spenning for en kondensator:&lt;/p&gt;
+
+\[V_o = I_o\frac{1}{j\omega C} \tag{11}\]
+
+&lt;p&gt;I dette resulterende uttrykket er det en sterk likhet med Ohms lov for motstander. I
+Både \(V = IR\), og dette forholdet har vi en lineær sammenheng
+mellom amplitudene til spenningen og strømsvingningene. I forholdet til en kondensator er amplituden til spenningssvingningen proporsjonal med amplituden til strømsvingningen med en proporsjonalitetskonstant på \(\frac{1}{j\omega C}\).
+Vi kan fullføre analogien til Ohms lov ved å identifisere mengden, \(\frac{1}{j\omega C}\), som &lt;strong&gt;ekvivalent motstand for en kondensator&lt;/strong&gt;, også kalt dens &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reaktans&lt;/code&gt;&lt;/strong&gt;. Denne “motstanden” har noen uvanlige egenskaper. For det første er det frekvensavhengig - i dette tilfellet øker “motstanden” ettersom frekvensen av oscillasjonen reduseres, og blir faktisk uendelig når frekvensen går til O. Dette skal virke intuitivt korrekt. Vi vet at platene til kondensatoren er
+atskilt av en isolator, slik at det ikke kan være noen jevn (f = 0 Hz, eller DC) strømflyt. En annen
+egenskapen er at “ekvivalent motstand” er imaginær - betyr at det er en V-1 i nevneren. I analysen av kretser med kondensatorer vil vi finne at disse faktorene til V-1 kan betraktes som en faseforskyvning på 90°. Når det gjelder kondensatoren, er det faktisk slik at spenningsoscillasjonen er 90° ute av fase med strømsvingningen. Til slutt ser vi at “ekvivalent motstand” er omvendt proporsjonal med kapasitansen, noe som indikerer at kondensatorer med større verdier av kapasitans C vil ha lavere effektiv motstand for en gitt oscillasjonsfrekvens. Sagt på en annen måte: for en gitt spenningsoscillasjon, en stor&lt;/p&gt;
+
+&lt;p&gt;kondensator vil sende mer strøm enn en liten kondensator. Til sammenligning, med samme spenningsoscillasjon, ville en stor motstand passere mindre strøm enn en liten motstand. I denne forstand er
+“motstand” til kondensatorer er omvendt proporsjonal med kapasitansverdien.
+I elektroteknikk brukes begrepet &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impedans&lt;/code&gt;&lt;/strong&gt; for å betegne en motstand med en kompleks komponent. Når det gjelder en motstand, er impedansen reell (dvs. ingen faseforskjell mellom spenning og strøm) og for en kondensator er impedansen imaginær (1e., en 90° faseforskjell). I vanlig bruk brukes begrepet impedans for å betegne et uttrykk for motstand som kan ha enten eller både komplekse og reelle komponenter. på noen få sider vil vi vise noen eksempler på hvordan denne ekvivalente motstanden eller impedansen kan brukes i kretsanalyse, noe som fører til en enkel forståelse av hvordan kondensatorer oppfører seg i virkelige kretser. Det viktigste å huske på om kondensatorer er.
+For likespenninger flyter ingen strøm gjennom kondensatoren.
+For oscillerende strømmer og spenninger oppfører kondensatorer seg mye som motstander - det er et enkelt lineært forhold mellom amplitudene til strømmen og spenningene, og forholdet ligner på mange måter Ohms lov.&lt;/p&gt;
+
+&lt;p&gt;Nok en gang kan vi se at dette ser ut som Ohms lov med tilsvarende motstand
+for en induktor gitt ved R, = joL. I motsetning til tilfellet for kondensatorer, er denne “motstand-
+tance” øker med induktansverdi og med frekvens. Det er også faseforskyvninger&lt;/p&gt;
+
+&lt;p&gt;9.8 Tids- og frekvensdomenene 161
+assosiert med induktorer som det var for kondensatorer, som det fremgår av j-begrepet i ekvivalent motstand.
+Ekte induktorer har noen svært uønskede egenskaper, som hysterese, stor størrelse og vekt, høye kostnader og tendensen til å generere magnetiske felt som kan forårsake elektrisk støyproblemer i en krets. Med noen få unntak, for eksempel radiofrekvens (RF) og byttestrømforsyningskretser, bruker moderne kretsdesign svært få induktorer. Ingen av disse temaene er vektlagt i denne teksten: vi vil ikke dekke RF-design, og vi utforsker induktorer som brukes til å bytte strømforsyninger bare nok til å forstå teorien deres om drift.
+Vi vil imidlertid møte og ha behov for å håndtere induktans i virkelige kretser i en rekke sammenhenger. Hver ledning i hver krets viser en viss mengde induktans, og selv den lille mengden som er tilstede kan spille en viktig rolle i noen tilfeller. Mekatronikkingeniøren vil mest sannsynlig støte på dette problemet når han håndterer støyen knyttet til veksling av høystrømsbelastninger (kapittel 21). På samme måte bidrar ledningene og konstruksjonen til kondensatorer (avsnitt 9.14.1) til en parasittisk induktans i kondensatorer, noe som påvirker deres egnethet for ulike bruksområder (avsnitt 9.14). Til slutt viser de elektromagnetiske aktuatorene som bruker spoler for å generere krefter, slik som motorer og solenoider (kapittel 22-26), den samme elektriske oppførselen som induktorer. Så selv om vi ikke skal sette noen eksplisitte induktorer inn i kretsene våre, vil vi ikke kunne unngå å møte induktans, og en grunnleggende forståelse av induktoratferd vil hjelpe oss å forutse hvordan det vil manifestere seg i kretsene våre.&lt;/p&gt;</content><author><name></name></author><category term="Impedans" /><summary type="html">Fra notatet om Kondensatorer kom vi frem til denne likningen for forholdet mellom strøm og spenning for en kondensator:</summary></entry><entry><title type="html">Kondensator</title><link href="http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/kondensator.html" rel="alternate" type="text/html" title="Kondensator" /><published>2023-02-10T00:10:00+01:00</published><updated>2023-02-10T00:10:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/kondensator</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/kondensator.html">&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080-kompendium/assets/img/kondensator.svg&quot; height=&quot;90px&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;En kondensator er en to-terminal enhet som ikke kan lede en uforanderlig, jevn strøm (DC) men ser ut til å lede oscillerende strømmer (AC). En kondensator kan forklares med en vannanalogi. Se for deg en elastisk membran som dekker tverrsnittet av et vannrør.
+Den fleksible membranen forhindrer konstant flyt av vann. Imidlertid kan et plutselig trykk som oppstår på den ene siden føre til at membranen forvrenges, og dermed forskyve væske på den andre siden av membranen, og skape en forbigående strøm. Til slutt kommer membranen i likevekt med det påførte trykket og slutter å forvrenge.
+På samme måte vil en virkelig kondensator lede strøm helt til den er fullladet (eller utladet hvis strømrettningen er reversert).&lt;/p&gt;
+
+&lt;div class=&quot;centerimg&quot;&gt;
+ &lt;video width=&quot;500&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;/IN1080-kompendium/assets/video/Kondensator1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+Your browser does not support the video tag.
+&lt;/video&gt; 
+&lt;/div&gt;
+
+&lt;div class=&quot;centerimg&quot;&gt;
+ &lt;video width=&quot;500&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;/IN1080-kompendium/assets/video/Kondensator.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+Your browser does not support the video tag.
+&lt;/video&gt; 
+&lt;/div&gt;
+
+&lt;p&gt;Akkurat som i denne hydrauliske analysen, er kondensatorer elektriske energilagringselementer.
+Gitt at kondensatoren er et energilagringselement, burde det ikke komme som en stor overraskelse at dens V-1-karakteristikk er en integrert ligning&lt;/p&gt;
+
+\[V(t)=\frac{1}{C}\int_0^t I(\tau)\: \mathrm{d}\tau = \frac{Q(t)}C \tag{1}\]
+
+&lt;p&gt;Fra lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt;, kan vi også se at det er en lineær sammenheng (med helning = \(1/C\))
+mellom spenningen over kondensatoren og ladningen som er lagret på kondensatoren. Dette gjør kondensatoren til et lineært kretselement.&lt;/p&gt;
+
+&lt;p&gt;Like nyttig som integralligningen er for å forstå energilagringsnaturen til kondensatoren, hvis vi differensierer lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt;, kan resultatene gi innsikt i den dynamiske oppførselen til kondensatoren:&lt;/p&gt;
+
+\[I(t)=C\frac{\mathrm{d}V}{\mathrm{d}t} \tag{2}\]
+
+&lt;p&gt;Dette viser oss at den tilsynelatende strømmen gjennom en kondensator er en funksjon av størrelsen på kondensatoren og endringshastigheten til spenningen over kondensatoren.&lt;/p&gt;
+
+&lt;p&gt;I nærvær av et stabilt spenning, skal det ikke være noen strøm. Siden ved stabil tilstand er \(\frac{\mathrm{d}V}{\mathrm{d}t}=0\), lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt; ville forutsi ingen strømflyt under disse forholdene.&lt;/p&gt;
+
+&lt;p&gt;En gitt spenningsforskjell vil forårsake en konsistent strøm. Jo kortere tidsperiode som forskyvningen finner sted, desto høyere strømningshastighet (volum/tid) vil produseres
+lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt; forutsier at jo raskere spenningen endres (høyere \(\frac{\mathrm{d}V}{\mathrm{d}t}\)), jo større blir strømmen (lading/tid).&lt;/p&gt;
+
+&lt;p&gt;Ved å bruke lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt;, det generelle uttrykk for kraft som \(V\cdot I\) og definisjonen av effekt som \(\frac{\mathrm{d}E}{\mathrm{d}t}\), kan vi utvikle et uttrykk for mengden energi (E, joule) som er lagret i en ladet kondensator:&lt;/p&gt;
+
+\[E_C=\int P\;\mathrm{d}t=\int VI\;\mathrm{d}t = \int VC\frac{\mathrm{d}V}{\mathrm{d}t}=\int CV\;\mathrm{d}V=\frac{1}{2}CV^2 \tag{3}\]
+
+&lt;p&gt;Inne i kondensatoren er terminalene koblet til et par plater som er atskilt med en tynn isolator (dielektrisk), figur 9.15. Verdien av kapasitansen bestemmes av arealet til disse to platene, avstanden mellom dem, og egenskapene til det dielektriske elementet.
+Det er viktig å være klar over det faktum at alle to ledere atskilt av et isolerende gap utgjør en kondensator, selv om det ikke var hensikten. Dette kan forårsake elektrisk støy.&lt;/p&gt;
+
+&lt;p&gt;Grunntanken bak en kondensator er at ladning kan bygge seg opp på platene til kondensatoren, og svingninger i strøm og spenning på den ene siden kan overføres til den andre siden ved å låne fra den lagrede ladningen. Dette fungerer bare i en begrenset tid, da det bare kan være en endelig ladning lagret, men hvis tidsskalaene til svingningene er godt tilpasset mengden ladning som er lagret, resulterer nyttige nivåer av spenning og strøm.
+Vi kan tenke på strømsvingninger som går gjennom kondensatoren akkurat som statiske strømmer går gjennom motstander. Når det gjelder kondensatorer, er nøkkelen som gjør at dette kan skje at strømmen som forlater kondensatorens venstre elektrode ikke trenger å involvere de samme elektronene som strømmen som kommer inn på høyre side av kondensatoren. Fra utsiden ser det ut som strøm “passer gjennom” når det kommer strøm inn på den ene siden og forlater den andre, og vi vil analysere oppførselen til disse systemene som om det er akkurat det som skjer.
+En annen måte å se på Lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt; er å merke seg at når spenningen over kondensatoren endres, må det være en viss ladning som legges til eller trekkes fra kondensatorplatene. Siden endringer i mengden ladning over tid utgjør en strøm, krever endringer i spenning over kondensatoren tilstedeværelse av en strøm. Når det er en oscillerende spenning påført platene til kondensatoren, er det også en oscillasjon i strømmen.&lt;/p&gt;
+
+&lt;h1 id=&quot;kondensatorer-i-serie-og-parallell&quot;&gt;Kondensatorer i serie og parallell&lt;/h1&gt;
+
+&lt;p&gt;Vi kan analysere kretser med flere kondensatorer på omtrent samme måte som vi gjorde for motstander: ved å bruke KCL og KVL. Figuren under viser en krets der vi har flere kondensatorer parallelt.&lt;/p&gt;
+
+&lt;!-- bilde bilde bilde --&gt;
+
+&lt;p&gt;Siden den samme spenningen vises over alle elementene parallelt, kan vi skrive&lt;/p&gt;
+
+\[I_{total}=I_1 + I_2 + I_3=C_1\frac{\mathrm{d}V}{\mathrm{d}t}+C_2\frac{\mathrm{d}V}{\mathrm{d}t}+C_3\frac{\mathrm{d}V}{\mathrm{d}t}=(C_1+C_2+C3)\frac{\mathrm{d}V}{\mathrm{d}t}
+\tag{4}\]
+
+&lt;p&gt;hvorfra vi ser at den totale kapasitansen til et antall kondensatorer parallelt ganske enkelt er summen av de individuelle kapasitansene.
+Hvis vi tar den gruppen av kondensatorer og setter dem i serie, kan vi bruke
+KVL og det faktum at strømmen gjennom enheter i serie må være lik i alle enheter for å skrive&lt;/p&gt;
+
+\[V_{total}=V_1 + V_2 + V_3=\frac{1}{C_1}\int I\;\mathrm{d}t+\frac{1}{C_2}\int I\;\mathrm{d}t+\frac{1}{C_3}\int I\;\mathrm{d}t=
+(\frac{1}{C_1}+\frac{1}{C_2}+\frac{1}{C3})\int I\;\mathrm{d}t
+\tag{5}\]
+
+&lt;p&gt;Fra dette kan vi se at kondensatorer i serie legger til på omtrent samme måte som motstandene&lt;/p&gt;
+
+\[\frac{1}{C_{total}}=\frac{1}{C_1}+\frac{1}{C_2}+\frac{1}{C_3}+\cdots +\frac{1}{C_n}\tag{6}\]
+
+&lt;p&gt;Når vi beskriver oppførselen til kretselementer i nærvær av forskjellige typer tidsvarierende signaler, vil det være nyttig å kunne anvende superposisjonsprinsippet og Fourier-teoremet. Superposisjonsprinsippet sier at en krets med flere kilder kan analyseres ved å behandle hver av kildene uavhengig og deretter summere resultatene fra hver av kildene. Superposisjonsprinsippet gjelder for alle kretser som består av lineære kretselementer. Fourier-teoremet (Jean Baptiste Joseph Fourier, 1768-1830) sier at enhver periodisk bølgeform av frekvensen \(f\) kan representeres av en (muligens uendelig) sum (dvs. superposisjonen) av sinus- og cosinusledd av frekvenser: \(f, 2f, 3f , …, nf\) På grunn av Fouriers teorem kan vi fokusere våre anstrengelser for å forstå kretsatferd ved å studere responsene til disse kretsene på sinusoider, sikre på at vi med den forståelsen og Fouriers teorem kan beskrive enhver krets respons på en hvilken som helst periodisk bølgeform.
+Hvis strømmen og spenningen begge er sinusformede oscillasjoner, vil de ha formen:&lt;/p&gt;
+
+\[I=I_{o}\mathrm{exp}(j\omega t)\tag{7}\]
+
+\[V=V_{o}\mathrm{exp}(j\omega t)\tag{8}\]
+
+&lt;p&gt;disse eksponentielle funksjonene tar et imaginert tall som  argument \( j=\sqrt{-1}\), \(j\) er valgt isteden for \(i\) for å unngå forvirring med symbolet for strøm i disse ligningene. Disse funksjonene er en praktisk måte å representere sinusformede spenninger med en vinkelfrekvens \(\omega = 2\pi f\). Hvis vi tar disse to funksjonene og kombinerer dem med forholdet mellom strøm og spenning lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt; for en kondensator, får vi&lt;/p&gt;
+
+\[I_{o}\mathrm{exp}(j\omega t) = Cj\omega V_o\mathrm{e}^{j\omega t}\tag{9}\]
+
+\[I_{o} = Cj\omega V_o\tag{10}\]
+
+&lt;p&gt;Å løse for \(V_o\) gir et uttrykk for amplituden til spenningssvingningen som en funksjon av amplituden til strømsvingningen og frekvensen og kapasitansverdien.&lt;/p&gt;
+
+\[V_o = I_o\frac{1}{j\omega C} \tag{11}\]</content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html"></summary></entry><entry><title type="html">Induktor</title><link href="http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/spole.html" rel="alternate" type="text/html" title="Induktor" /><published>2023-02-10T00:09:00+01:00</published><updated>2023-02-10T00:09:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/spole</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/spole.html">&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080-kompendium/assets/img/induktor.svg&quot; width=&quot;400px&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Induktorer består vanligvis av spoler av tråd viklet rundt metall eller magnetisk permeable kjerner. Den grunnleggende egenskapen til induktorer er tendensen til å motstå endringer i strømflyten. Som en kondensator er induktoren en energilagringsenhet, denne gangen med energi lagret i et magnetfelt. Enheten som brukes til å måle induktans er Henry&lt;/p&gt;
+
+\[H = \frac{V}{A/\mathrm{s}}\tag{1}\]
+
+&lt;p&gt;Oppførselen til strømmen og spenningen er definert som:&lt;/p&gt;
+
+\[I(t)=\frac{1}{L}\int_0^t V(\tau)\: \mathrm{d}\tau \tag{2}\]
+
+\[V(t)=L\frac{\mathrm{d}I}{\mathrm{d}t} \tag{3}\]
+
+&lt;p&gt;Av dette kan vi observere at en spenning må påføres for å endre strømmen i en induktor, eller at endringer i strømmen vil føre til at det oppstår spenninger over induktoren.
+Den hydrauliske analogien for en induktor er et vannhjul
+Vannhjulets treghet begrenser strømmen av vann til å begynne med, men med tiden vil hjulet snurre opp og ikke gi like mye  motstand mot strømmen. Hvis vannet skulle slutte å
+strømme (tilsvarer en brutt krets), vil tregheten til hjulet holde den i sving, og gjøre den om til en pumpe og skape en trykkforskjell over innløpet og utløpet. Analogt, hvis vi plutselig stopper strømmen i en krets som inkluderer en induktor, vil induktorens kollapsende magnetfelt generere en spenningsforskjell over terminalene til induktoren.
+Mengden energi som er lagret i en induktor kan også utledes ved hjelp av en tilnærming
+lik det som brukes for kondensatoren, ved å bruke det generaliserte uttrykket for effekt \(P = VI\). og
+definisjon av effekt som \(\mathrm{d}W/\mathrm{d}t\):&lt;/p&gt;
+
+\[E_L = \int P\;\mathrm{d}t = \int VI\;\mathrm{d}t = \int L\frac{\;\mathrm{d}I}{\;\mathrm{d}t}I\;\mathrm{d}t = \int LI\;\mathrm{d}i = \frac{1}{2}LI^2 \tag{4}\]
+
+&lt;blockquote&gt;
+  &lt;p&gt;Mengden energi som er lagret i magnetfeltet til en induktor vil være viktig når vi behandler snubbing litt senere.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ved å bruke en tilnærming som ligner på analysen som vi utførte for kondensatorer, kan vi analysere effekten av sinusformede strømmer og spenninger på induktoren for å se forholdet mellom amplitudene. Vi begynner med igjen å anta at svingninger i strøm og spenning er sinusformede:&lt;/p&gt;
+
+\[I=I_{o}\mathrm{exp}(j\omega t)\tag{5}\]
+
+\[V=V_{o}\mathrm{exp}(j\omega t)\tag{6}\]
+
+&lt;p&gt;Erstatter vi lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5&lt;/code&gt; og &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6&lt;/code&gt; inn i lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3&lt;/code&gt;, får vi:&lt;/p&gt;
+
+\[V_{o}\mathrm{exp}(j\omega t) = j\omega LI_o\mathrm{e}^{j\omega t}\tag{7}\]
+
+&lt;p&gt;som vi kan forenkle til&lt;/p&gt;
+
+\[V_{o} = Lj\omega I_o\tag{8}\]</content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html"></summary></entry><entry><title type="html">RC</title><link href="http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/RC.html" rel="alternate" type="text/html" title="RC" /><published>2023-02-10T00:08:00+01:00</published><updated>2023-02-10T00:08:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/RC</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/RC.html">&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080-kompendium/assets/img/RC.svg&quot; height=&quot;150px&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Som diskutert ovenfor tillater Kirchhoffs lover oss å finne strømmen og spenningen ved enhver node i en krets ved å skrive ned ligninger for spenningen og strømmen over hver komponent, og for nettostrømmene inn og ut av kryssene, og deretter løse disse settene av ligninger. I denne delen vil vi bruke disse prinsippene til å studere oppførselen til kretser som består av flere komponenttyper, med fokus på RC-kretser (dvs. kretser som inneholder motstander og kondensatorer).
+9.9.1 Grunnleggende RC-kretskonfigurasjoner
+Når man studerer RC-kretser, er det i utgangspunktet to konfigurasjoner som har størst betydning for oss. Dette er de to seriekonfigurasjonene vist i figur 9.22.&lt;/p&gt;
+
+&lt;p&gt;9.9 Kretsanalyse med flere komponenttyper 163
+Av grunner som vi vil gjøre klart i avsnitt 9.9.5, kalles konfigurasjon a et lavpassfilter og konfigurasjon b kalles et høypassfilter, med henvisning til deres frekvensdomeneoppførsel. Spenningskilden vist som Vin kan være en hvilken som helst spennings- eller signalkilde. Høypassfilterkonfigurasjonen blir også noen ganger referert til som AC-koblet fordi strømmen som skaper en spenning over motstanden R har gått “gjennom” kondensatoren C.&lt;/p&gt;
+
+&lt;p&gt;9.9.2 Lavpass RC-filteratferd i tidsdomenet
+Vi begynner vår undersøkelse av RC-kretser med å studere tidsdomene-oppførselen til lavpass-RC-kretsen vist i figur 9.23, når bryteren flyttes fra posisjon A til B. Dette tilsvarer den stigende trinnfunksjonen fra figur 9.20.
+•R VR&lt;/p&gt;
+
+&lt;p&gt;FIGUR 9.23
+RC-krets begynner å lade kondensatoren.
+Hvis bryteren har vært i posisjon A i tilstrekkelig lang tid (skal defineres snart), vil kondensator C være helt utladet og Vc og VR vil begge være 0 V. Etter at bryteren flyttes til posisjon B, kan vi bruke KVL til skrive:
+Vs = RI +•
+(9.40)
+Ved å differensiere denne ligningen og bruke startbetingelsen som på tidspunktet for
+bryterlukking Vc = 0V (spenningen over en kondensator kan ikke endres øyeblikkelig), vi
+kan utvikle et uttrykk for I som funksjon av tid [Eq. (9,41)].
+7 _ Ys
+per
+(9,41)
+Vi kan da bruke dette uttrykket for / for å beregne uttrykk for spenningen over motstanden og kondensatoren som funksjon av tiden:
+k- Vscre
+(9,42)
+Vc = VS
+(9,43)
+RC-produktet vises i hvert av uttrykkene og får et spesielt navn, tidskonstanten og symbol . Plotting av Va og Vc som funksjon av tid (Figur 9124) viser oppførselen grafisk for en krets med en 5 V drivspenning (Vs) og en tidskonstant på
+0,1 sekund.&lt;/p&gt;
+
+&lt;p&gt;På et tidspunkt 1 = sperre bryterlukkingen har spenningen over kondensatoren steget til
+63,2 % av drivspenningen. På et tidspunkt I = 5r etter bryterlukkingen har spenningen steget
+til 99,24 % av drivspenningen. Hvis bryteren hadde vært stengt i det minste så lenge før overgangen, ville antakelsen vår vært oppfylt.
+Hvis bryteren forblir i posisjon B i minst 51, vil kondensatoren være i det vesentlige fulladet. Hvis bryteren deretter returneres til posisjon A, vil den ladede kondensatoren lades ut gjennom motstanden R. Vi kan bruke samme type analyse som vi brukte for ladetilfellet, med unntak av at i det ladede tilfellet er startbetingelsen at spenningen på kondensatoren er 5 V. Etter å ha fullført den analysen vil vi finne at Eqs. (9.41) og (9.42) er de samme for lade- og utladingskassen. Når det gjelder spenningen over kondensatoren under utlading finner vi at uttrykket er
+Vc = VseRC
+(9,44)
+Dette bør gi intuitiv mening. Vi forventer at spenningen på kondensatoren avtar etter hvert som den ble utladet. Ekv. (9.44) spår at spenningen på kondensatoren starter på Vs kl
+Nt = O og avtar (på grunn av den negative eksponenten for e) når tiden øker. Figur 9.25 viser
+dette grafisk.
+Firkantbølger, som bare er en vanlig rekke av stigende kanter og fallende kanter, er en så vanlig forekomst i digitale systemer at det er nyttig å undersøke hvordan denne kretsen&lt;/p&gt;
+
+&lt;p&gt;(Figur 9.26) reagerer på en firkantbølgeinngang slik at du kan lære å gjenkjenne denne oppførselen på et oscilloskopspor.
+I figur 9.26 erstatter vi kretselementene Vs og bryteren med en firkantbølgegenerator, merket “Sq Wave.” Hvis perioden til firkantbølgen er lang i forhold til tidskonstanten til RC (minst 10 ganger så lang), kan vi behandle de stigende og fallende kantene som distinkte hendelser og forutsi responsene ved å bruke lign. (9,41)-(9,44). De resulterende bølgeformene vises som figur 9.27. De avrundede kantene på bølgeformen er karakteristiske for en lavpassfilterrespons på en firkantbølge.&lt;/p&gt;
+
+&lt;p&gt;Hvis perioden til firkantbølgen er mye kortere enn RC-tidskonstanten, har ikke utgangen tid til å stige til full amplitude av frekvensomformeren, og heller ikke falle helt til null (Figur 9.28), noe som resulterer i en veldig forvrengt bølgeform på en mindre amplitude enn drivverket.&lt;/p&gt;</content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html"></summary></entry><entry><title type="html">RC ekstra (ikke pensum)</title><link href="http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/RC1.html" rel="alternate" type="text/html" title="RC ekstra (ikke pensum)" /><published>2023-02-10T00:08:00+01:00</published><updated>2023-02-10T00:08:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/RC1</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/RC1.html">&lt;h2 id=&quot;tilfellet-v0&quot;&gt;Tilfellet \(V=0\)&lt;/h2&gt;
+
+&lt;p&gt;Hvis \(V=0\) kan ligningen separeres:&lt;/p&gt;
+
+\[R\frac{\mathrm{d}Q}{\mathrm{d}t} = -\frac{1}{C}Q(t) \stackrel{\mathrm{hvis} Q\neq0}{\Longleftrightarrow} \frac{\mathrm{d}Q}{Q} = -\frac{1}{RC}\mathrm{d}t
+\Longleftrightarrow \int\frac{\mathrm{d}Q}{Q} = -\frac{1}{RC}\int \mathrm{d}t \\
+\Longleftrightarrow \mathrm{ln}|Q|=-\frac{1}{RC}t+k\\\Longleftrightarrow Q(t)=K\mathrm{exp}\left(\frac{-t}{RC}\right)\tag{4}\]
+
+&lt;p&gt;Der \(K=\pm \mathrm{e}^k\).&lt;/p&gt;
+
+&lt;p&gt;Ved \(t=0\), er \(Q(0)=K\mathrm{e}^0=K\) så \(Q(t)=Q(0)\mathrm{exp}\left(\frac{-t}{RC}\right)\). Det betyr at kondensatoren lades ut eksponensielt gjennom
+resistoren.&lt;/p&gt;
+
+&lt;h2 id=&quot;det-generelle-tilfellet&quot;&gt;Det generelle tilfellet&lt;/h2&gt;
+
+&lt;p&gt;Når \(V\neq0\) kan ligningen ikke lenger separeres. Men det er et annet triks som tillater oss for å løse den, 
+nemlig ved å manipulere venstre side til en perfekt derivert.
+Dette trikset fungerer for alle første ordens lineære differensialligninger.
+Del først ligningen på \(R\), slik at koeffisienten til \(\dot{Q}(t)\)
+er nøyaktig \(1\)&lt;/p&gt;
+
+\[\dot{Q}(t) + \frac{1}{RC}Q(t) = \frac{1}{R}V(t)\tag{5}\]
+
+&lt;p&gt;Nå skal vi multiplisere hele ligningen med en funksjon \(\mu(t)\) (kalt en integrerende faktor)&lt;/p&gt;
+
+\[\mu(t)\dot{Q}(t) + \frac{1}{RC}\mu(t)Q(t) = \frac{1}{R}\mu(t)V(t)\tag{6}\]
+
+&lt;p&gt;Denne funksjonen vil bli nøye valgt slik at den nye venstresiden er en perfekt derivativ. Ved
+produktregel&lt;/p&gt;
+
+\[\frac{\mathrm{d}}{\mathrm{d}t}\left(\mu(t)Q(t)\right)=\mu(t)\dot{Q}(t)+\dot{\mu}(t)Q(t)\tag{7}\]
+
+&lt;p&gt;Så den nye venstre siden er nøyaktig \(\frac{\mathrm{d}}{\mathrm{d}t}\left(\mu(t)Q(t)\right)\)
+forutsatt at \(\dot{\mu}(t) = \frac{1}{RC}\mu(t)\).
+Denne ligningen for \(\mu(t)\) er separerbar og kan derfor løses med samme teknikk som vi
+brukte til å løse \(\dot{Q} = − \frac{1}{RC}Q\).
+Men det er lettere å bare gjette en løsning. Vi ser etter en løsning på
+\(\dot{\mu}(t) = \frac{1}{RC}\mu(t)\) Det vil si at derivering av \(\mu(t)\) må få frem en faktor
+\(\frac{1}{RC}\).&lt;/p&gt;
+
+\[\mu(t) = \mathrm{exp}\left(\frac{t}{RC}\right)\tag{8}\]
+
+&lt;p&gt;gjør jobben. Vi trenger kun én \(\mu(t)\) så vi velger \(\mu(t) = \mathrm{exp}\left(\frac{t}{RC}\right)\).&lt;/p&gt;
+
+&lt;p&gt;Ganger vi lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5&lt;/code&gt; med \(\mathrm{exp}\left(\frac{t}{RC}\right)\) får vi:&lt;/p&gt;
+
+\[\begin{align*}
+    \mathrm{exp}\left(\frac{t}{RC}\right)\dot{Q}(t) + \frac{1}{RC}\mathrm{exp}\left(\frac{t}{RC}\right)Q(t) &amp;amp;= \frac{1}{R}\mathrm{exp}\left(\frac{t}{RC}\right)V(t)\\
+    \frac{\mathrm{d}}{\mathrm{d}t}\left(\mathrm{exp}\left(\frac{t}{RC}\right)Q(t)\right) &amp;amp;= \frac{1}{R}\mathrm{exp}\left(\frac{t}{RC}\right)V(t)\\
+    \mathrm{exp}\left(\frac{t}{RC}\right)Q(t) &amp;amp;= \frac{1}{R}\int\mathrm{exp}\left(\frac{t}{RC}\right)V(t)\;\mathrm{d}t
+\end{align*}\]
+
+\[Q(t) = \frac{1}{R}\mathrm{exp}\left(-\frac{t}{RC}\right)\int\mathrm{exp}\left(\frac{t}{RC}\right)V(t)\;\mathrm{d}t\]
+
+&lt;p&gt;Hvis \(V(t)=V_0\), en konstant, (ved f.eks DC spenning). Vil \(\int \mathrm{e}^{t/RC}V(t)\;\mathrm{dt} = RCV_0\mathrm{e}^{t/RC} +k\) og&lt;/p&gt;
+
+\[Q(t) = CV_0 + K\mathrm{e}^{-t/RC}\]
+
+&lt;p&gt;Merk at vi kan finne spenningen istedenfor ved å gange med \(\frac{1}{C}\):&lt;/p&gt;
+
+\[V_C = V_s\left(1-\mathrm{e}^{-t/RC}\right)\]</content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html">Tilfellet \(V=0\)</summary></entry><entry><title type="html">RL</title><link href="http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/RL.html" rel="alternate" type="text/html" title="RL" /><published>2023-02-10T00:07:00+01:00</published><updated>2023-02-10T00:07:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/RL</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kondensator%20og%20induktor/2023/02/10/RL.html"></content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html"></summary></entry><entry><title type="html">KVL</title><link href="http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/KVL.html" rel="alternate" type="text/html" title="KVL" /><published>2023-02-05T00:10:00+01:00</published><updated>2023-02-05T00:10:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/KVL</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/KVL.html">&lt;p&gt;Kirchhoffs Spenningslov (også kjent som Kirchhoffs andre lov):
 Summen av spenningsforskjellene rundt enhver lukket sløyfe i en krets er null.
 Dette kan angis matematisk som&lt;/p&gt;
 
@@ -13,248 +329,4 @@ Et slikt integral er også en definisjon for spenning:&lt;/p&gt;
 
 \[\mathbf E = -\nabla V\tag{2}\]
 
-\[U=V_b-V_a=\int_a^b \mathbf E\cdot \mathrm d \mathbf s \tag{3}\]</content><author><name></name></author><category term="Kirchoff" /><summary type="html">Kirchhoffs Spenningslov (også kjent som Kirchhoffs andre lov): Summen av spenningsforskjellene rundt enhver lukket sløyfe i en krets er null. Dette kan angis matematisk som</summary></entry><entry><title type="html">KCL</title><link href="http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/KCL.html" rel="alternate" type="text/html" title="KCL" /><published>2023-02-05T00:09:00+01:00</published><updated>2023-02-05T00:09:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/KCL</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/KCL.html">&lt;p&gt;Kirchhoffs Strømlov (også kjent som Kirchhoffs første lov):
-Summen av all strømmen som kommer inn i en node i en krets er den samme som summen av all strømmen som forlater den samme noden.
-Hvis vi er enige om konvensjonen om at strøm som går inn i en node har et positivt fortegn og strøm som går ut av noden har et negativt fortegn (eller omvendt), så kan vi angi Kirchhoffs gjeldende lov matematisk som&lt;/p&gt;
-
-\[\sum_{k=1}^n I_k = 0\tag{1}\]
-
-&lt;p&gt;“Kirchhoffs Current Law” (KCL) er egentlig ikke noe annet enn bevaringsprinsippet som brukes på lading. Siden ladningsstrømmen ved roten er strømmen av elektroner og vi ikke skaper eller ødelegger elektroner, er det naturlig at summen av alle elektroner som kommer inn og forlater en node må være null. Hvis det ikke var null, ville vi enten ødelegge elektroner eller skape elektroner på et vis. For vår vannanalogi, forteller KCL oss at alt vannet som kommer inn i et rør må forlate det røret og ikke noe vann vil bli opprettet eller ødelagt inne i røret.&lt;/p&gt;</content><author><name></name></author><category term="Kirchoff" /><summary type="html">Kirchhoffs Strømlov (også kjent som Kirchhoffs første lov): Summen av all strømmen som kommer inn i en node i en krets er den samme som summen av all strømmen som forlater den samme noden. Hvis vi er enige om konvensjonen om at strøm som går inn i en node har et positivt fortegn og strøm som går ut av noden har et negativt fortegn (eller omvendt), så kan vi angi Kirchhoffs gjeldende lov matematisk som</summary></entry><entry><title type="html">Resistorer i serie og parallell</title><link href="http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/resiserie.html" rel="alternate" type="text/html" title="Resistorer i serie og parallell" /><published>2023-02-05T00:08:00+01:00</published><updated>2023-02-05T00:08:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/resiserie</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/resiserie.html">&lt;p&gt;Vi kan bruke disse tre lovene (KVL, KCL og Ohms lov) for å beskrive spenningene og strømmene i enhver krets som består av en vilkårlig kombinasjon av de tre elementene som vi har introdusert så langt: spenningskilder, strømkilder og motstander.&lt;/p&gt;
-
-&lt;div class=&quot;centerimg&quot;&gt;
-&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080-kompendium/assets/img/resiserie.svg&quot; height=&quot;150px&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Denne figuren viser en krets der to motstander er i serie. Per definisjon, når to elementer er i serie, flyter den samme strømmen i begge elementene. Vi kan bruke KVL til å skrive en ligning som relaterer spenning, strøm og motstand i denne kretsen ved ganske enkelt å krysse kretsen og summere spenningsfallet mens vi går:&lt;/p&gt;
-
-\[V-iR_1 - iR_2 = 0 \tag{1}\]
-
-&lt;p&gt;Omorganiserer:&lt;/p&gt;
-
-\[V= i(R_1 + R_2) \tag{2}\]
-
-&lt;p&gt;hvorfra vi kan se at motstanden som følger av å ha motstander i serie, ganske enkelt er summen av deres individuelle verdier.
-Merk at for å skrive likningen måtte vi anta en retning for strømmen. Antakelsen om retning er helt vilkårlig, selv om det vil være mer intuitivt hvis du velger retningen for å antyde en økning i potensialet som går over spenningskilden. Hvis du hadde antatt den andre retningen, ville tegnet på uttrykket for strøm vært negativt, noe som indikerer at strømmen faktisk gikk i motsatt retning.&lt;/p&gt;
-
-&lt;p&gt;To motstander i en kretskonfigurasjon kjent som parallell:&lt;/p&gt;
-
-&lt;div class=&quot;centerimg&quot;&gt;
-&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080-kompendium/assets/img/resiparal.svg&quot; height=&quot;200px&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;To kretselementer anses å være parallelle når det samme potensialet vises over begge elementene.
-Siden vi prøver å forstå hvordan disse to motstandene kombineres, er det vi ser etter et uttrykk i form av Ohms lov som vil beskrive sammenhengene mellom spenning, strøm og kombinasjonen av de to motstandene:&lt;/p&gt;
-
-\[V = I_{total}R_{parallel} \tag{3}\]
-
-&lt;p&gt;Vi kan starte analysen av hvordan disse motstandene kombineres ved å bruke KCL ved node
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt;:&lt;/p&gt;
-
-\[I_{total} = i_1 + i_2 \tag{4}\]
-
-&lt;p&gt;Deretter kan vi se på hva som skjer ved hver av motstandene separat, ved å bruke det faktum at den samme spenningen \(V\) vises over begge motstandene:&lt;/p&gt;
-
-\[i_1 = \frac{V}{R_1}\tag{5}\]
-
-\[i_2 = \frac{V}{R_2}\tag{6}\]
-
-&lt;p&gt;Vi kan da kombinere lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4,5,6&lt;/code&gt;:&lt;/p&gt;
-
-\[V=\left(\frac{V}{R_1} + \frac{V}{R_2}\right)R_{parallel}\tag{7}\]
-
-&lt;p&gt;Omorganiserer:&lt;/p&gt;
-
-\[R_{parallel} = \frac{V}{\left(\frac{V}{R_1} + \frac{V}{R_2}\right)}\tag{8}\]
-
-&lt;p&gt;Forenkler:&lt;/p&gt;
-
-\[R_{parallel} = \frac{V}{\left(\frac{V}{R_1} + \frac{V}{R_2}\right)} \cdot \frac{R_1R_2}{R_1R_2}\tag{9}\]
-
-\[R_{parallel} = \frac{R_1R_2}{R_1 + R_2}\tag{10}\]
-
-&lt;p&gt;Vi kan generalisere dette:&lt;/p&gt;
-
-\[\frac{1}{R_{parallel}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}\tag{11}\]</content><author><name></name></author><category term="Kirchoff" /><summary type="html">Vi kan bruke disse tre lovene (KVL, KCL og Ohms lov) for å beskrive spenningene og strømmene i enhver krets som består av en vilkårlig kombinasjon av de tre elementene som vi har introdusert så langt: spenningskilder, strømkilder og motstander.</summary></entry><entry><title type="html">Spenningdeler</title><link href="http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/spenningsdeler-copy.html" rel="alternate" type="text/html" title="Spenningdeler" /><published>2023-02-05T00:08:00+01:00</published><updated>2023-02-05T00:08:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/spenningsdeler%20copy</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kirchoff/2023/02/05/spenningsdeler-copy.html">&lt;p&gt;Kretsen nednfor har fått et eget navn: &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;spenningsdeler&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;centerimg&quot;&gt;
-&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080-kompendium/assets/img/spenningsdeler.svg&quot; height=&quot;250px&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;For denne analysen vil vi anta at det ikke går strøm til \(V_{out}\). I følge KCL må all strømmen som kommer inn i noden merket &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; også gå ut. Derfor må strømmen gjennom \(R_1\), som beveger seg fra \(V_{in}\) til node &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt;, være lik strømmen gjennom \(R_2\), som beveger seg fra node &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; til jord. Ved å bruke Ohms lov kan vi skrive ned et par ligninger for spenningene over \(R_1\) og \(R_2\). I dette ligningsparet har vi antatt at strømmen som går fra \(R_1\) er den samme som strømmen gjennom \(R_2\), merket \(I\). Legg også merke til at den nedre terminalen til \(R_2\) er koblet til jord, som er vårt referansepunkt og derfor på nullpotensial \(0V\).&lt;/p&gt;
-
-\[V_{in} - V_{out} = IR_1 \tag{1}\]
-
-\[V_{out} - 0 = IR_2 \tag{2}\]
-
-&lt;p&gt;Vi antar at strømmen går fra \(V_{in}\) til jord. Denne antagelsen er kanskje ikke nøyaktig - hvis \(V_{in}\) er negativ, vil den strømme i den andre retningen. Det viktigste som imidlertid er nødvendig i analysen er at vi gjør en konsistent antagelse gjennom hele analysen. Når vi er ferdige, hvis faktisk den antatte strømretningen var feil, ville de resulterende ligningene for strømmen alle ende opp med negative fortegn. Konsistens i dine antagelser om retningen på strømstrømmen er avgjørende for suksessen når du setter opp ligningene gjennom analysen.
-Dette paret av to ligninger med to ukjente \(I\) og \(V_{out}\) kan løses ved hjelp av flere tilnærminger. Vi kan legge disse ligningene sammen for å få&lt;/p&gt;
-
-\[V_{in}=I(R_1+R_2)\tag{3}\]
-
-&lt;p&gt;Omorganiserer:&lt;/p&gt;
-
-\[I = \frac{V_{in}}{(R_1+R_2)}\tag{4}\]
-
-&lt;p&gt;Setter inn lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt; for \(I\):&lt;/p&gt;
-
-\[V_{out} = V_{in}\frac{R_2}{(R_1+R_2)}\tag{5}\]
-
-&lt;p&gt;Vi vil referere til dette resultatet som spenningsdelerligningen. Vi ser at utgangsspenningen er proporsjonal med inngangsspenningen, med en konstant skaleringsfaktor, som vi bør forvente for enhver lineær krets. La oss også teste dette forholdet for ekstreme tilfeller. For eksempel, hvis \(R_2\) var “uendelig” i verdi, ville det ikke være noen strømflyt og derfor ikke noe spenningsfall over \(R_1\), så vi forventer at \(V_{out}\) ville være lik \(V_{in}\). Til slutt, hvis \(R_2\) var en short (dvs. \(R_2 = 0\Omega\)), så \(V_{out}\) vil være koblet direkte til jord og vi forventer \(V_{out} = 0V\).&lt;/p&gt;</content><author><name></name></author><category term="Kirchoff" /><summary type="html">Kretsen nednfor har fått et eget navn: spenningsdeler.</summary></entry><entry><title type="html">Strøm Spenning og Effekt</title><link href="http://localhost:4000/IN1080-kompendium/intro/2023/01/20/Strom.html" rel="alternate" type="text/html" title="Strøm Spenning og Effekt" /><published>2023-01-20T00:06:00+01:00</published><updated>2023-01-20T00:06:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/intro/2023/01/20/Strom</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/intro/2023/01/20/Strom.html">&lt;p&gt;Spenning og strøm er de to grunnleggende størrelsene som vi bruker for å beskrive oppførselen til kretser og elektriske komponenter. De er nært beslektet, og forholdet mellom dem (V-I-karakteristikken) er ofte det avgjørende aspektet ved en komponents oppførsel.&lt;/p&gt;
-
-&lt;h4 id=&quot;enheter&quot;&gt;Enheter&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ladning&lt;/code&gt;&lt;/strong&gt; målt i Coulomb \(\text{C}\), i formler blir symbolet \(Q\) brukt. En coulomb er ladningen assosiert med 
-\(6.241506 × 10^{18}\) ladede partikler&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Strøm&lt;/code&gt;&lt;/strong&gt; målt i Ampere \(\text{A}\), i formler blir symbolene \(I,i\) brukt&lt;br /&gt;
-\(I\) betegner DC, \(i\) betegner AC&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Spenning&lt;/code&gt;&lt;/strong&gt; målt i Volt \(\text{V}\), i formler blir symbolene \(U,E,V\) brukt&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Motstand&lt;/code&gt;&lt;/strong&gt; målt i Ohm \(\Omega\), i formler blir symbolet \(R\) brukt&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;strøm&quot;&gt;Strøm&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Elektrisk strøm er antall ladede partikler som beveger seg forbi et gitt punkt i et tidsintervall i en elektrisk krets&lt;/em&gt;&lt;/strong&gt; 
-\[\frac{\text{d}Q}{\text{d}t}\tag{1}\] 
-Denne strømningshastigheten måles i ladning per sekund 
-\[1 \text{A} = 1 \text{C}/\text{s} \tag{2}\]
-Strømmen er analog med strømmen av vann i et rør. Dette er ikke en perfekt analogi av flere grunner, men det er likevel nyttig ved at det hjelper oss å utvikle intuisjon om oppførselen til disse usynlige elektriske strømmene. Strøm er en vektor (både verdi og retning)&lt;/p&gt;
-
-&lt;h1 id=&quot;spenning&quot;&gt;Spenning&lt;/h1&gt;
-
-&lt;p&gt;Ladninger flytter seg (strøm) som svar på et eksternt påført elektrisk felt. 
-Vi snakker om potensialet til en ladd partikkel i et elektriske felt på en måte som er analog med en masse sin potensielle energi i et gravitasjonsfelt.
-&lt;strong&gt;&lt;em&gt;Spenning er elektrisk potensiell energi per ladningsenhet, målt i joule per coulomb&lt;/em&gt;&lt;/strong&gt;
-\[1\text{V} = 1\frac{\text{J}}{\text{C}} \tag{3}\]
-Det blir ofte referert til som “elektrisk potensial”, som da må skilles fra elektrisk potensiell energi
-ved å merke seg at “potensialet” er en “per-enhet-ladning” mengde.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;elektrisk potensial ≠ elektrisk potensiell energi&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Et viktig aspekt ved spenning er at det ikke er en absolutt mengde, den er relativ. Spenning måles alltid som en forskjell mellom to punkter i en krets.
-Nullpunktet for potensialet kan velges på en virkårlig plass, så &lt;strong&gt;&lt;em&gt;forskjellen i spenning er mengden som er fysisk meningsfull&lt;/em&gt;&lt;/strong&gt;. Forskjellen i spenning målt mellom punkt &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; og punkt &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;B&lt;/code&gt; i en krets, er lik arbeidet som må gjøres, per enhetsladning, mot det elektriske feltet for å flytte ladningen fra &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; til &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;B&lt;/code&gt;. 
-\[\frac{W}{Q} = \Delta U \tag{4}\]
-Når en spenning genereres, er det noen ganger kalt en “elektromotorisk kraft” eller emf.&lt;/p&gt;
-
-&lt;h1 id=&quot;effekt&quot;&gt;Effekt&lt;/h1&gt;
-
-&lt;p&gt;Hastigheten på arbeidet som utføres av ladningene kalles &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;effekt&lt;/code&gt;&lt;/strong&gt;. Hvis arbeidet utføres med en konstant hastighet.
-vi kan uttrykke effekten som:&lt;/p&gt;
-
-&lt;p&gt;\[ P = \frac{W}{t} = \frac{\text{J}}{\text{s}} = \frac{\text{J}}{\text{C}}\cdot \frac{\text{C}}{\text{s}} = UI \tag{5}\]&lt;/p&gt;
-
-&lt;p&gt;Effekt, i elektriske termer, er produktet av spenning og strøm. Hvis du kjenner spenningen som påføres en enhet og mengden strøm som strømmer inn i den enheten, er strømmen som forbrukes av enheten ganske enkelt produktet av spenningen og strømmen.
-I elektriske kretser flyter strømmen som svar på forskjeller i spenning. Hvis det ikke er noen forskjell i spenning, vil det ikke være strøm. I en vannanalogi strømmer vann i et rør som svar på forskjeller i trykk. En leder er analog med røret, spenning er analog med trykk, og strømmen er analog med vannstrømmen.&lt;/p&gt;</content><author><name></name></author><category term="Intro" /><summary type="html">Spenning og strøm er de to grunnleggende størrelsene som vi bruker for å beskrive oppførselen til kretser og elektriske komponenter. De er nært beslektet, og forholdet mellom dem (V-I-karakteristikken) er ofte det avgjørende aspektet ved en komponents oppførsel.</summary></entry><entry><title type="html">Kretser og Jord</title><link href="http://localhost:4000/IN1080-kompendium/intro/2023/01/20/jord.html" rel="alternate" type="text/html" title="Kretser og Jord" /><published>2023-01-20T00:05:00+01:00</published><updated>2023-01-20T00:05:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/intro/2023/01/20/jord</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/intro/2023/01/20/jord.html">&lt;h4 id=&quot;symboler&quot;&gt;Symboler&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;img src=&quot;/IN1080-kompendium/assets/img/gnd.svg&quot; /&gt; jord
-&lt;img src=&quot;/IN1080-kompendium/assets/img/gnd1.svg&quot; /&gt; signal jord&lt;br /&gt;
-&lt;img src=&quot;/IN1080-kompendium/assets/img/ACsource.svg&quot; width=&quot;90px&quot; /&gt; AC Spenningskilde  
-&lt;img src=&quot;/IN1080-kompendium/assets/img/DCsource.svg&quot; width=&quot;90px&quot; /&gt; DC Spenningskilde&lt;br /&gt;
-&lt;img src=&quot;/IN1080-kompendium/assets/img/stromkilde.svg&quot; width=&quot;90px&quot; /&gt; Strømkilde          
-&lt;img src=&quot;/IN1080-kompendium/assets/img/batteri.svg&quot; width=&quot;90px&quot; /&gt;Batteri&lt;br /&gt;
-&lt;img src=&quot;/IN1080-kompendium/assets/img/dependentstrom.svg&quot; width=&quot;90px&quot; /&gt;avhengig strømkilde
-&lt;img src=&quot;/IN1080-kompendium/assets/img/dependentspenning.svg&quot; width=&quot;90px&quot; /&gt;avhengig spenningskilde&lt;br /&gt;
-&lt;img src=&quot;/IN1080-kompendium/assets/img/res.svg&quot; width=&quot;90px&quot; /&gt;resistor/motstand  
-&lt;img src=&quot;/IN1080-kompendium/assets/img/res1.svg&quot; width=&quot;90px&quot; /&gt;resistor/motstand&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;krets&quot;&gt;Krets&lt;/h1&gt;
-
-&lt;p&gt;Kretser er en sammen kobling av kretselementer. Kretselementer er &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aktive&lt;/code&gt;&lt;/strong&gt; (spennings-/strømkilder) eller &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;passive&lt;/code&gt;&lt;/strong&gt; (resistorer, spoler, kondensatorer). Passive elementer kalles
-noen ganger for last.
-For at strømmen skal flyte, må det være det som omtales som en komplett krets. En komplett krets er en krets der det er en vei fra den ene terminalen til kilden til den andre terminalen til den samme kilden&lt;/p&gt;
-
-&lt;div class=&quot;centerimg&quot;&gt;
-&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080-kompendium/assets/img/circuit.svg&quot; height=&quot;90px&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Hvis banen fra en terminal av kilden til den andre er brutt eller ikke kontinuerlig
-dette omtales som en åpen krets og det går ingen strøm.&lt;/p&gt;
-
-&lt;div class=&quot;centerimg&quot;&gt;
-&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080-kompendium/assets/img/nocircuit.svg&quot; height=&quot;90px&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Hvis det eksisterer en bane mellom to terminaler på samme enhet som ikke går gjennom andre enheter refereres det til som en kortslutning.
-Kortslutning over passive enheter resulterer i høyst en forbigående effekt. Kortslutning over spenningskilder vil føre til at det flyter svært høy strøm og bør unngås. Det resulterer ofte i skade på eller ødeleggelse av spenningskilden.&lt;/p&gt;
-
-&lt;div class=&quot;centerimg&quot;&gt;
-&lt;img src=&quot;/IN1080-kompendium/assets/img/shortcircuit.svg&quot; height=&quot;90px&quot; /&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;jord&quot;&gt;Jord&lt;/h1&gt;
-
-&lt;p&gt;Selvom spenning er en relativ mengde, vil du fortsatt høre noen snakke om “spenningen ved bunnen av transistoren” eller “spenningen i noden”
-Det viktige i disse tilfellene er at hvis bare et enkelt punkt er nevnt i forhold til spenning, er det underforståtte referansepunktet jord.
-Så, hva og hvor er “bakken”? I en krets som er koblet til bygningens strømsystem, kan jord fysisk spores tilbake til en stake eller et ledende rør som bokstavelig talt er begravd i jorden. Når det gjelder en enhet som drives av batterier eller en strømkilde som ikke er direkte koblet til bygningskraft, er jord et noe vilkårlig punkt, ofte koblet til den negative polen til et batteri eller annen strømkilde.
-I begge tilfeller er jord et felles referansepunkt gjennom en krets og representerer punktet som vil bli tildelt en verdi på \(0\text{V}\).
-Det er en rekke forskjellige symboler som brukes for å indikere de forskjellige typene jord som du vil møte i kretser og skjemaer.
-Det er uheldig, men det er ingen reell konsistens i bruken av de forskjellige jordsymbolene.
-I mange tilfeller brukes jordsymbolet som en erstatning for returbanen tilbake til den negative terminalen på en spenningskilde.&lt;/p&gt;
-
-&lt;div class=&quot;centerimg&quot;&gt;
-    &lt;img src=&quot;/IN1080-kompendium/assets/img/gndcircuit.svg&quot; height=&quot;90px&quot; /&gt;&amp;nbsp;&amp;nbsp;
-    &lt;img src=&quot;/IN1080-kompendium/assets/img/gndcircuit1.svg&quot; height=&quot;90px&quot; /&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="Intro" /><summary type="html">Symboler</summary></entry><entry><title type="html">Resistans og I-V-Karakteristikk</title><link href="http://localhost:4000/IN1080-kompendium/intro/2023/01/20/motstand.html" rel="alternate" type="text/html" title="Resistans og I-V-Karakteristikk" /><published>2023-01-20T00:04:00+01:00</published><updated>2023-01-20T00:04:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/intro/2023/01/20/motstand</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/intro/2023/01/20/motstand.html">&lt;p&gt;Når vann strømmer gjennom et rør, møter strømmen motstand på grunn av fenomener som en begrensning (en reduksjon av rørets tverrsnittsareal) og det viskøse draget til det bevegelige fluidet mot den faste veggen av røret. For å få vann til å strømme gjennom motstanden til røret eller en begrensning, må vi påføre trykk. Motstand mot strømning resulterer i at trykket i et rør faller når strømmen beveger seg, for eksempel lenger bort fra en pumpe.
-Selv om årsakene er svært forskjellige, møter elektrisk strøm også motstand når den strømmer gjennom enheter i en krets. Denne elektriske motstanden resulterer i et fall i spenningen når strømmen beveger seg gjennom motstanden.&lt;/p&gt;
-
-&lt;h1 id=&quot;resistans&quot;&gt;Resistans&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;resistivitet&lt;/code&gt;&lt;/strong&gt; \( \rho \) er en egenskap materialer har som sier noe om hvor mye motstand det har mot elektrisk strøm.
-&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;resistansen&lt;/code&gt;&lt;/strong&gt; til en resistor er bestemt av resistiviteten til materialet og dens fysikse form (lendge og tverrsnitt)
-Det inverse av resistans er &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;konduktuans&lt;/code&gt;&lt;/strong&gt; med symbol \( G \)&lt;/p&gt;
-
-&lt;p&gt;\[ G = \frac{1}{R} \tag{1}\]&lt;/p&gt;
-
-&lt;p&gt;Både resistans og konduktans er reelle verdier \( \in \mathbb{R} \) mens &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impedans&lt;/code&gt;&lt;/strong&gt; og &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;admittans&lt;/code&gt;&lt;/strong&gt; som vi kommer til senere er komplekse verdier \( \in \mathbb{C} \)
-Forholdet mellom spenning og strøm i et resistivt element er kjent som &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ohms lov&lt;/code&gt;&lt;/strong&gt; og er beskrevet av ligningen:&lt;/p&gt;
-
-&lt;p&gt;\[ U = IR \tag{2}\]&lt;/p&gt;
-
-&lt;p&gt;Spenning og motstand er ofte definert ved å bruke Ohms lov: 1 volt er potensialet som er nødvendig for å tvinge 1 ampere
-strøm som skal flyte gjennom en motstand på 1 ohm. Selv om det også er en mer grunnleggende,
-fysisk definisjon for ohm, kan det være greit å bare akseptere at \( U = IR \) er en gitt lov.&lt;/p&gt;
-
-&lt;h1 id=&quot;-i---v--karakteristikk&quot;&gt;\( I \)-\( V \)-Karakteristikk&lt;/h1&gt;
-&lt;p&gt;Grafisk beskriver Ohms lov I-V-karakteristikken. Kretselementer sin oppførsel blir beskrevet av matematiske funksjoner. I-V-karakteristikken er er en fin måte å visualisere disse funksjonene. Enten det er strøm som en funksjon av spenning eller spenning som en funksjon av strøm:&lt;/p&gt;
-
-&lt;div class=&quot;centerimg&quot;&gt;
-&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080-kompendium/assets/img/IV.svg&quot; height=&quot;150px&quot; /&gt;
-&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080-kompendium/assets/img/IV2.svg&quot; height=&quot;150px&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;For en motstand vil verdien av helningen til I-V-karakteristikken tilsvare resistansen \( R = \frac{V}{I} \)&lt;/p&gt;
-
-&lt;div class=&quot;centerimg&quot;&gt;
-&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080-kompendium/assets/img/IVres.svg&quot; height=&quot;150px&quot; /&gt;
-&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I dette tilfellet vil helningen bli \( G = \frac{I}{V} \) som er den inverse til resistansen. Vi kan bytte aksene om vi ønsker slik at helningen blir resistansen&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Det er veldig vanlig, selv for enheter som har et ikke-lineært I-V-forhold, å beskrive oppførselen deres i form av I-V-karakteristikken. I mange av disse tilfellene vil vi snakke om den øyeblikkelige helningen til IV-kurven som den effektive motstanden til enheten. Forholdet mellom V og I for motstanden er lineært, noe som gjør den til ett lineært kretselement.&lt;/p&gt;</content><author><name></name></author><category term="Intro" /><summary type="html">Når vann strømmer gjennom et rør, møter strømmen motstand på grunn av fenomener som en begrensning (en reduksjon av rørets tverrsnittsareal) og det viskøse draget til det bevegelige fluidet mot den faste veggen av røret. For å få vann til å strømme gjennom motstanden til røret eller en begrensning, må vi påføre trykk. Motstand mot strømning resulterer i at trykket i et rør faller når strømmen beveger seg, for eksempel lenger bort fra en pumpe. Selv om årsakene er svært forskjellige, møter elektrisk strøm også motstand når den strømmer gjennom enheter i en krets. Denne elektriske motstanden resulterer i et fall i spenningen når strømmen beveger seg gjennom motstanden.</summary></entry><entry><title type="html">Arduino</title><link href="http://localhost:4000/IN1080-kompendium/intro/2023/01/20/arduino.html" rel="alternate" type="text/html" title="Arduino" /><published>2023-01-20T00:03:00+01:00</published><updated>2023-01-20T00:03:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/intro/2023/01/20/arduino</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/intro/2023/01/20/arduino.html">&lt;p&gt;&lt;a href=&quot;https://www.arduino.cc/reference/en/&quot;&gt;Reference&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Arduinokode starter alltid med en setup-prosedyre etterfulgt av en evig loop&lt;/p&gt;
-
-&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;pinMode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OUTPUT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;// sets the digital pin 13 as output&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-
-&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;loop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;digitalWrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HIGH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// sets the digital pin 13 on&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;delay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;            &lt;span class=&quot;c1&quot;&gt;// waits for a second&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;digitalWrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// sets the digital pin 13 off&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;delay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;            &lt;span class=&quot;c1&quot;&gt;// waits for a second&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="Intro" /><summary type="html">Reference</summary></entry></feed>
+\[U=V_b-V_a=\int_a^b \mathbf E\cdot \mathrm d \mathbf s \tag{3}\]</content><author><name></name></author><category term="Kirchoff" /><summary type="html">Kirchhoffs Spenningslov (også kjent som Kirchhoffs andre lov): Summen av spenningsforskjellene rundt enhver lukket sløyfe i en krets er null. Dette kan angis matematisk som</summary></entry></feed>
