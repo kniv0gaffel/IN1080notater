@@ -15,14 +15,14 @@ Den fleksible membranen forhindrer konstant flyt av vann. Imidlertid kan et plut
 På samme måte vil en virkelig kondensator lede strøm helt til den er fullladet (eller utladet hvis strømrettningen er reversert).
 
  <div class="centerimg">
- <video width="500" autoplay loop muted>
+ <video width="300" autoplay loop muted>
   <source src="{{site.baseurl}}/assets/video/Kondensator1.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video> 
 </div>
 
  <div class="centerimg">
- <video width="500" autoplay loop muted>
+ <video width="300" autoplay loop muted>
   <source src="{{site.baseurl}}/assets/video/Kondensator.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video> 
