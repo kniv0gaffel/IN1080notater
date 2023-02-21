@@ -87,6 +87,14 @@ body {
     padding-bottom: 1rem;
     padding-right: 1.4rem;
 }
+.button-grid2 {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 1rem; 
+  grid-row-gap: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
 
 .centerimg
 {

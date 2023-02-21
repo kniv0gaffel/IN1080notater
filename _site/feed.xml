@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/IN1080-kompendium/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IN1080-kompendium/" rel="alternate" type="text/html" /><updated>2023-02-20T11:58:53+01:00</updated><id>http://localhost:4000/IN1080-kompendium/feed.xml</id><title type="html">IN1080 Kompendium</title><subtitle></subtitle><entry><title type="html">Norton og Thevenin</title><link href="http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/norttheve.html" rel="alternate" type="text/html" title="Norton og Thevenin" /><published>2023-02-15T00:10:00+01:00</published><updated>2023-02-15T00:10:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/norttheve</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/norttheve.html">&lt;p&gt;For kompliserte nettverk. det er ofte nyttig å kunne forenkle deler av kretsløpsanalysen. En kraftig forenklingsteknikk er konseptet med Therein euth. utlånt krets. Thevenins teorem sier at ethvert to-terminalt nettverk av motstander (virker alle lineære elementer) og spennings- og/eller strømkilder tilsvarer en enkelt motstand. serie med en enkelt spenningskilde.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/IN1080-kompendium/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IN1080-kompendium/" rel="alternate" type="text/html" /><updated>2023-02-21T16:48:10+01:00</updated><id>http://localhost:4000/IN1080-kompendium/feed.xml</id><title type="html">IN1080 Kompendium</title><subtitle></subtitle><entry><title type="html">Norton og Thevenin</title><link href="http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/norttheve.html" rel="alternate" type="text/html" title="Norton og Thevenin" /><published>2023-02-15T00:10:00+01:00</published><updated>2023-02-15T00:10:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/norttheve</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/kretsanalyse/2023/02/15/norttheve.html">&lt;p&gt;For kompliserte nettverk. det er ofte nyttig å kunne forenkle deler av kretsløpsanalysen. En kraftig forenklingsteknikk er konseptet med Therein euth. utlånt krets. Thevenins teorem sier at ethvert to-terminalt nettverk av motstander (virker alle lineære elementer) og spennings- og/eller strømkilder tilsvarer en enkelt motstand. serie med en enkelt spenningskilde.
 Spenningskilden (kalt Thevenin ekvivalent spenning, eller Vth) er lik åpen kretsspenning mellom de to nodene. Seriemotstanden (kalt Theremin ekvivalent motstand, eller Rt) kan bli funnet ved å bruke et par forskjellige tilnærminger En metode er å hevde Ohms lov i den ekvivalente kretsen og beskrive Rth som Vin dividert med strømmen som ville flyte hvis nodene A og B ble kortsluttet sammen. En annen tilnærming er å analysere den ekvivalente motstanden til nettverket uten spennings- eller strømkildene. For å utføre denne analysen må spenningskildene i kretsen fjernes og erstattes kortslutninger. Nåværende kilder bør ganske enkelt fjernes, slik at den resulterende delen er åpen. Når dette er gjort, vil du sitte igjen med en samling motstander som du kan forenkle med reglene for parallell- og seriekombinasjoner.
 I figur 9.13 vil åpen kretsspenning være VA -VB:
 Vin
@@ -36,21 +36,23 @@ I et eksempel senere i dette kapittelet viser vi et eksempel som bruker Thevenin
 
 &lt;p&gt;For å bruke nodeanalyse må du følge disse trinnene:&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; Identifiser alle noder i kretsen.
- Velg én node som referansenode og tilordne den en spenning på null.
- Påfør KCL på hver av de andre nodene i kretsen for å få en ligning for strømmene som strømmer inn og ut av noden når det gjelder nodespenningene.
- Bruk Ohms lov for å uttrykke strømmene i form av nodespenningene.
- Løs det resulterende ligningssystemet for å bestemme spenningene ved hver node.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Identifiser alle noder i kretsen.&lt;/li&gt;
+  &lt;li&gt;Velg én node som referansenode og tilordne den en spenning på null.&lt;/li&gt;
+  &lt;li&gt;Påfør KCL på hver av de andre nodene i kretsen for å få en ligning for strømmene som strømmer inn og ut av noden når det gjelder nodespenningene.&lt;/li&gt;
+  &lt;li&gt;Bruk Ohms lov for å uttrykke strømmene i form av nodespenningene.&lt;/li&gt;
+  &lt;li&gt;Løs det resulterende ligningssystemet for å bestemme spenningene ved hver node.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;For å bruke mesh-analyse må du følge disse trinnene:&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; Identifiser alle masker i kretsen.
- Tilordne en strømvariabel til hver mesh og tilordne en retning til hver strøm.
- Påfør KVL på hver maske for å få en ligning for spenningene rundt nettet i form av maskestrømmene.
- Bruk Ohms lov til å uttrykke spenningene i form av nettstrømmene.
- Løs det resulterende ligningssystemet for å bestemme strømmene i hver maske.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Identifiser alle masker i kretsen.&lt;/li&gt;
+  &lt;li&gt;Tilordne en strømvariabel til hver mesh og tilordne en retning til hver strøm.&lt;/li&gt;
+  &lt;li&gt;Påfør KVL på hver maske for å få en ligning for spenningene rundt nettet i form av maskestrømmene.&lt;/li&gt;
+  &lt;li&gt;Bruk Ohms lov til å uttrykke spenningene i form av nettstrømmene.&lt;/li&gt;
+  &lt;li&gt;Løs det resulterende ligningssystemet for å bestemme strømmene i hver maske.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Nodeanalyse og mesh-analyse er begge kraftige teknikker for å analysere kretser, og hvilken metode du bruker vil avhenge av den spesifikke kretsen du analyserer og dine personlige preferanser.&lt;/p&gt;</content><author><name></name></author><category term="Kretsanalyse" /><summary type="html">Nodeanalyse og mesh-analyse er to vanlige teknikker som brukes i kretsanalyse for å bestemme spenningene og strømmene i en krets.</summary></entry><entry><title type="html">Reaktans</title><link href="http://localhost:4000/IN1080-kompendium/impedans/2023/02/11/reaktans.html" rel="alternate" type="text/html" title="Reaktans" /><published>2023-02-11T00:10:00+01:00</published><updated>2023-02-11T00:10:00+01:00</updated><id>http://localhost:4000/IN1080-kompendium/impedans/2023/02/11/reaktans</id><content type="html" xml:base="http://localhost:4000/IN1080-kompendium/impedans/2023/02/11/reaktans.html">&lt;p&gt;Fra notatet om &lt;a href=&quot;/IN1080-kompendium/kondensator og induktor/2023/02/10/kondensator.html&quot;&gt; Kondensatorer &lt;/a&gt; kom vi frem til denne likningen for forholdet mellom strøm og spenning for en kondensator:&lt;/p&gt;
 
@@ -84,18 +86,20 @@ Vi vil imidlertid møte og ha behov for å håndtere induktans i virkelige krets
 Den fleksible membranen forhindrer konstant flyt av vann. Imidlertid kan et plutselig trykk som oppstår på den ene siden føre til at membranen forvrenges, og dermed forskyve væske på den andre siden av membranen, og skape en forbigående strøm. Til slutt kommer membranen i likevekt med det påførte trykket og slutter å forvrenge.
 På samme måte vil en virkelig kondensator lede strøm helt til den er fullladet (eller utladet hvis strømrettningen er reversert).&lt;/p&gt;
 
-&lt;div class=&quot;centerimg&quot;&gt;
- &lt;video width=&quot;500&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;div class=&quot;button-grid2&quot;&gt;
+ &lt;div&gt;
+ &lt;video width=&quot;300&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;/IN1080-kompendium/assets/video/Kondensator1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 Your browser does not support the video tag.
 &lt;/video&gt; 
 &lt;/div&gt;
 
-&lt;div class=&quot;centerimg&quot;&gt;
- &lt;video width=&quot;500&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+ &lt;div&gt;
+ &lt;video width=&quot;300&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;/IN1080-kompendium/assets/video/Kondensator.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 Your browser does not support the video tag.
 &lt;/video&gt; 
+&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Akkurat som i denne hydrauliske analysen, er kondensatorer elektriske energilagringselementer.

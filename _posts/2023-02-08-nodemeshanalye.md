@@ -16,18 +16,18 @@ På den annen side er mesh-analyse en metode som brukes til å bestemme strømme
 
 For å bruke nodeanalyse må du følge disse trinnene:
 
-     Identifiser alle noder i kretsen.
-     Velg én node som referansenode og tilordne den en spenning på null.
-     Påfør KCL på hver av de andre nodene i kretsen for å få en ligning for strømmene som strømmer inn og ut av noden når det gjelder nodespenningene.
-     Bruk Ohms lov for å uttrykke strømmene i form av nodespenningene.
-     Løs det resulterende ligningssystemet for å bestemme spenningene ved hver node.
+- Identifiser alle noder i kretsen.
+- Velg én node som referansenode og tilordne den en spenning på null.
+- Påfør KCL på hver av de andre nodene i kretsen for å få en ligning for strømmene som strømmer inn og ut av noden når det gjelder nodespenningene.
+- Bruk Ohms lov for å uttrykke strømmene i form av nodespenningene.
+- Løs det resulterende ligningssystemet for å bestemme spenningene ved hver node.
 
 For å bruke mesh-analyse må du følge disse trinnene:
 
-     Identifiser alle masker i kretsen.
-     Tilordne en strømvariabel til hver mesh og tilordne en retning til hver strøm.
-     Påfør KVL på hver maske for å få en ligning for spenningene rundt nettet i form av maskestrømmene.
-     Bruk Ohms lov til å uttrykke spenningene i form av nettstrømmene.
-     Løs det resulterende ligningssystemet for å bestemme strømmene i hver maske.
+- Identifiser alle masker i kretsen.
+- Tilordne en strømvariabel til hver mesh og tilordne en retning til hver strøm.
+- Påfør KVL på hver maske for å få en ligning for spenningene rundt nettet i form av maskestrømmene.
+- Bruk Ohms lov til å uttrykke spenningene i form av nettstrømmene.
+- Løs det resulterende ligningssystemet for å bestemme strømmene i hver maske.
 
 Nodeanalyse og mesh-analyse er begge kraftige teknikker for å analysere kretser, og hvilken metode du bruker vil avhenge av den spesifikke kretsen du analyserer og dine personlige preferanser.

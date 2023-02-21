@@ -14,18 +14,20 @@ En kondensator er en to-terminal enhet som ikke kan lede en uforanderlig, jevn s
 Den fleksible membranen forhindrer konstant flyt av vann. Imidlertid kan et plutselig trykk som oppstår på den ene siden føre til at membranen forvrenges, og dermed forskyve væske på den andre siden av membranen, og skape en forbigående strøm. Til slutt kommer membranen i likevekt med det påførte trykket og slutter å forvrenge.
 På samme måte vil en virkelig kondensator lede strøm helt til den er fullladet (eller utladet hvis strømrettningen er reversert).
 
- <div class="centerimg">
+<div class="button-grid2">
+ <div>
  <video width="300" autoplay loop muted>
   <source src="{{site.baseurl}}/assets/video/Kondensator1.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video> 
 </div>
 
- <div class="centerimg">
+ <div>
  <video width="300" autoplay loop muted>
   <source src="{{site.baseurl}}/assets/video/Kondensator.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video> 
+</div>
 </div>
 
 Akkurat som i denne hydrauliske analysen, er kondensatorer elektriske energilagringselementer.
