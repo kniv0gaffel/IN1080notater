@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/IN1080notater/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IN1080notater/" rel="alternate" type="text/html" /><updated>2023-02-23T09:35:35+01:00</updated><id>http://localhost:4000/IN1080notater/feed.xml</id><title type="html">IN1080 Notater</title><subtitle></subtitle><entry><title type="html">Desibel</title><link href="http://localhost:4000/IN1080notater/db/2023/02/22/dB.html" rel="alternate" type="text/html" title="Desibel" /><published>2023-02-22T00:10:00+01:00</published><updated>2023-02-22T00:10:00+01:00</updated><id>http://localhost:4000/IN1080notater/db/2023/02/22/dB</id><content type="html" xml:base="http://localhost:4000/IN1080notater/db/2023/02/22/dB.html">&lt;h4 id=&quot;effektmål&quot;&gt;Effektmål&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/IN1080notater/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IN1080notater/" rel="alternate" type="text/html" /><updated>2023-03-05T17:13:03+01:00</updated><id>http://localhost:4000/IN1080notater/feed.xml</id><title type="html">IN1080 Notater</title><subtitle></subtitle><entry><title type="html">Grensefrekvens</title><link href="http://localhost:4000/IN1080notater/rc%20i%20frekvensdomene/2023/03/01/grensefreq.html" rel="alternate" type="text/html" title="Grensefrekvens" /><published>2023-03-01T00:10:00+01:00</published><updated>2023-03-01T00:10:00+01:00</updated><id>http://localhost:4000/IN1080notater/rc%20i%20frekvensdomene/2023/03/01/grensefreq</id><content type="html" xml:base="http://localhost:4000/IN1080notater/rc%20i%20frekvensdomene/2023/03/01/grensefreq.html">&lt;p&gt;&lt;strong&gt;&lt;em&gt;Geir Yngve Paulsen, geiryp@ifi.uio.no&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;grensefrekvens-og-båndbredde&quot;&gt;Grensefrekvens og båndbredde&lt;/h1&gt;
+
+&lt;p&gt;Grensefrekvensen (også kalt knekkfrekvens) og båndbredde omtales gjerne i sammenheng da et signal (for eksempel målt i spenning)
+dempes (med filter) eller forsterkes. Visse frekvenser i signalet blir dempet eller forsterket. Ofte har vi
+et frekvensområde som dempes/forsterkes omtrent like mye. Dette området kalles filterets/forsterkerens
+båndbredde.
+Området som er del av båndbredden er for de frekvensene der signalet er størst (forsterkes mest, eller
+dempes minst). For å måle dette området kan en sende inn et sinussignal med samme amplitude, men
+med forskjellig frekvens. På utgangen av filteret/forsterkeren måler en dempningen/forsterkningen av
+sinussignalet. Det virker kanskje rart ut, men om en sender inn et sinus signal, får en ut et sinus signal.
+Da en sender inn sinus signal med forskjellig frekvenser, får en ut sinuser med samme frekvenser men
+der amplituden og fasen er ulik fra sinusen på inngangen
+For et signal målt i spenningen angir fraksjonen \(A_V = 20\,\mathrm{log}\left(\frac{U_{ut}}{U_{inn}}\right)\)
+for forskjellige frekvenser forsterkningen/dempningen. Der forsterkningen/dempningen er \(\frac{1}{\sqrt(2)}\) av maksverdien, avgrenses båndbredden av det
+som kalles grensefrekvens. På desibelskalaen er grensefrekvensen der maksverdien av forsterkningen har
+minsket med 3 dB. I figuren under som symboliserer et båndbass filter, har båndbredden en undre og øvre
+grensefrekvens. I figuren har vi frekvens på x-aksen og forsterkning/dempning (gain) på y-aksen.&lt;/p&gt;
+
+&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080notater/assets/img/bandwidth.svg&quot; height=&quot;300px&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;rc-flter&quot;&gt;RC-Flter&lt;/h1&gt;
+
+&lt;p&gt;En elektrisk krets kan danne et høypass eller lavpass filter med et motstand \(R\) og en kondensator \(C\). I
+Da en regner med filtre (og komplekse tall), bruker gjerne litt annen notasjon for motstand, konden-
+satorer og induktorer. Vi bruker \(Z_R = R, Z_C = 1\)
+\(j\omega C\) , der \(\omega = 2\pi f\) og \(Z_L = j\omega L\). \(j\) er notasjon for den
+imaginære delen i komplekse tall. Bruker vi dette sammen med formelen for spenningsdeling, får vi dette
+utrykket for lavpass filteret:&lt;/p&gt;
+
+\[U_{ut} = \frac{ZC}{ZR + ZC}U_{inn} = \frac{\frac{1}{j\omega C}}{R + \frac{1}{jwC}} U_{inn} = \frac{1} {1 + j\omega RC} U_{inn} \tag{1}\]
+
+&lt;p&gt;Dette kan skrives om på formen \(A_V = \frac{U_{ut}}{U_{inn}}\)&lt;/p&gt;
+
+\[\frac{U_{ut}}{U_{inn}}= \frac{1}{1 + j\omega RC} \tag{2}\]
+
+&lt;p&gt;Tar en lengden av dette, får en uttrykket under.&lt;/p&gt;
+
+\[\left|{\frac{U_{ut}}{U_{inn}}}\right| = \frac{1}{\sqrt{1^2 + (\omega RC)^2}} \tag{3}\]
+
+&lt;p&gt;Grensefrekvensen for lavpass filteret, er da ligningen &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3&lt;/code&gt; er lik \(\frac{1}{\sqrt{2}}\) . Vi har dermed:&lt;/p&gt;
+
+\[\begin{align*}
+\omega RC &amp;amp;= 1\\
+2\pi f RC &amp;amp;= 1\\
+f &amp;amp;= \frac{1}{2\pi RC} \tag{4}
+\end{align*}\]
+
+&lt;p&gt;Ved å sette inn verdier for \(R\) og \(C\) kan en finne grensefrekvensen for lavpass-filteret. Fasen (ved grense-
+frekvensen) på utsignalet i forhold til innsignalet er 45°, da den reelle og imaginære delen er 1&lt;/p&gt;</content><author><name>Geir Yngve Paulsen</name></author><category term="RC i Frekvensdomene" /><summary type="html">Geir Yngve Paulsen, geiryp@ifi.uio.no</summary></entry><entry><title type="html">Desibel</title><link href="http://localhost:4000/IN1080notater/rc%20i%20frekvensdomene/2023/02/22/dB.html" rel="alternate" type="text/html" title="Desibel" /><published>2023-02-22T00:10:00+01:00</published><updated>2023-02-22T00:10:00+01:00</updated><id>http://localhost:4000/IN1080notater/rc%20i%20frekvensdomene/2023/02/22/dB</id><content type="html" xml:base="http://localhost:4000/IN1080notater/rc%20i%20frekvensdomene/2023/02/22/dB.html">&lt;h1 id=&quot;effektmål&quot;&gt;Effektmål&lt;/h1&gt;
 
 \[\mathrm{dB} = 10\mathrm{log}_{10}\left(\frac{W_2}{W_1}\right)\]
 
@@ -11,7 +63,7 @@ med i &lt;strong&gt;effektmål&lt;/strong&gt;.&lt;/p&gt;
 
 \[\mathrm{dB} = 10\text{log}_{10}\left(\frac{L_2^2}{L_1^2}\right) = 20\text{log}_{10}\left(\frac{L_2}{L_1}\right)\]
 
-&lt;h4 id=&quot;lineære-størrelser&quot;&gt;Lineære Størrelser&lt;/h4&gt;
+&lt;h1 id=&quot;lineære-størrelser&quot;&gt;Lineære Størrelser&lt;/h1&gt;
 
 &lt;p&gt;der \(L_2\) og \(L_1\) er &lt;strong&gt;linære størrelser&lt;/strong&gt; som spenning og strøm.&lt;/p&gt;
 
@@ -21,93 +73,7 @@ med i &lt;strong&gt;effektmål&lt;/strong&gt;.&lt;/p&gt;
 
 \[20\text{log}_{10}\left(\frac{\sqrt{2}}{1}\right) =3.01\]
 
-&lt;p&gt;som vil si at dersom \(L_2\) er \(\sqrt{2}\) ganger større enn \(L_1\) tisvarer det dB på &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.0&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="dB" /><summary type="html">Effektmål</summary></entry><entry><title type="html">Norton og Thevenin</title><link href="http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/norttheve.html" rel="alternate" type="text/html" title="Norton og Thevenin" /><published>2023-02-15T00:10:00+01:00</published><updated>2023-02-15T00:10:00+01:00</updated><id>http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/norttheve</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/norttheve.html">&lt;p&gt;For kompliserte nettverk. det er ofte nyttig å kunne forenkle deler av kretsanalysen.&lt;/p&gt;
-
-&lt;h4 id=&quot;thévenins-teorem&quot;&gt;Thévenins teorem&lt;/h4&gt;
-
-&lt;p&gt;Ethvert lineært to-terminalers nettverk bestående av strømkilder, spenningskilder og resistorer kan erstattes av en ekvivalent krets med én 
-spenningskilde i serie med én resistor&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Identifiser (del)kretsen som skal erstattes av en Thévenin-ekvivalent
-– Beregn \(V_{th}\) og \(R_{th}\)&lt;/li&gt;
-  &lt;li&gt;\(V_{th}\): Spenningen \(V_{AB}\) mellom A og B etter at resten av kretsen er fjernet&lt;/li&gt;
-  &lt;li&gt;\(R_{th}\): Resistansen mellom A og B når spenningskildene kortsluttes og strømkildene åpnes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Nuller ut kilden(e): Kortslutter V1&lt;/li&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Beregner Rth mellom node a og b: R1&lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt;R2=(R1&lt;em&gt;R2)/(R1+R2)=(3Ω&lt;/em&gt;6Ω)/(3Ω+6Ω)=2Ω&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Setter tilbake V1 og finner Vab: Vab=Vth=V1&lt;em&gt;(R2/(R1+R2)=9v&lt;/em&gt;(6Ω)/(3Ω+6Ω)=6v&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;nortons-teorem&quot;&gt;Nortons teorem&lt;/h4&gt;
-
-&lt;p&gt;Samme metode som for Thévenins teorem&lt;br /&gt;
-– Likhet: Kildene kortsluttes (spenningskilder) eller åpnes (strømkilder)&lt;br /&gt;
-– Forskjell: Terminalene A og B kortsluttes for å finne strømmen gjennom dem (istedenfor å beregne spenningen over dem)&lt;/p&gt;
-
-&lt;h5 id=&quot;sammenhengen-mellom-norton--og-thévenin-ekvivalenter&quot;&gt;Sammenhengen mellom Norton- og Thévenin-ekvivalenter:&lt;/h5&gt;
-
-&lt;p&gt;Rth = Rno
-Vth = InoRno
-Vth
-Rth
-= Ino&lt;/p&gt;</content><author><name></name></author><category term="Kretsanalyse" /><summary type="html">For kompliserte nettverk. det er ofte nyttig å kunne forenkle deler av kretsanalysen.</summary></entry><entry><title type="html">Superposisjon</title><link href="http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/superposisjon.html" rel="alternate" type="text/html" title="Superposisjon" /><published>2023-02-15T00:09:00+01:00</published><updated>2023-02-15T00:09:00+01:00</updated><id>http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/superposisjon</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/superposisjon.html">&lt;p&gt;I elektronikk er superposisjon et prinsipp som sier at responsen til en lineær krets på et sett med inngangssignaler kan bestemmes ved å vurdere hvert inngangssignal individuelt og deretter summere resultatene. Spesielt gjelder superposisjonsprinsippet for lineære kretser, som er kretser som tilfredsstiller følgende to egenskaper:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Homogenitet: Hvis inngangen til kretsen multipliseres med en konstant, så multipliseres også utgangen med den samme konstanten.&lt;/li&gt;
-  &lt;li&gt;Additivitet: Hvis inngangen til kretsen er summen av to eller flere signaler, er utgangen summen av utgangene som ville følge av å bruke hvert inngangssignal individuelt.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Prinsippet om superposisjon er en konsekvens av disse to egenskapene. Det lar oss analysere komplekse kretsløp ved å bryte dem ned i enklere deler og deretter kombinere resultatene. Spesifikt kan vi bruke prinsippet om superposisjon ved å følge disse trinnene:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Vurder hvert inngangssignal individuelt og anta at alle andre inngangssignaler er null.&lt;/li&gt;
-  &lt;li&gt;Beregn responsen til kretsen på det inngangssignalet ved å bruke standardteknikker som Kirchhoffs lover, Ohms lov og så videre.&lt;/li&gt;
-  &lt;li&gt;Gjenta trinn 1 og 2 for hvert inngangssignal.&lt;/li&gt;
-  &lt;li&gt;Sum resultatene oppnådd i trinn 2 for å oppnå den totale responsen til kretsen på alle inngangssignaler.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ved å bruke superposisjonsprinsippet kan vi forenkle analysen av komplekse kretsløp og få innsikt i deres oppførsel. Det er imidlertid viktig å merke seg at superposisjonsprinsippet bare gjelder for lineære kretser og ikke kan brukes for ikke-lineære kretser, som ikke tilfredsstiller homogenitets- og additivitetsegenskapene.&lt;/p&gt;</content><author><name></name></author><category term="Kretsanalyse" /><summary type="html">I elektronikk er superposisjon et prinsipp som sier at responsen til en lineær krets på et sett med inngangssignaler kan bestemmes ved å vurdere hvert inngangssignal individuelt og deretter summere resultatene. Spesielt gjelder superposisjonsprinsippet for lineære kretser, som er kretser som tilfredsstiller følgende to egenskaper:</summary></entry><entry><title type="html">Node- og Mesh-analyse</title><link href="http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/nodemeshanalye.html" rel="alternate" type="text/html" title="Node- og Mesh-analyse" /><published>2023-02-15T00:08:00+01:00</published><updated>2023-02-15T00:08:00+01:00</updated><id>http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/nodemeshanalye</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/nodemeshanalye.html">&lt;p&gt;Nodeanalyse og mesh-analyse er to vanlige teknikker som brukes i kretsanalyse for å bestemme spenningene og strømmene i en krets.&lt;/p&gt;
-
-&lt;p&gt;Nodeanalyse er en metode som brukes til å bestemme spenningene ved hver node i en krets i forhold til et referansepunkt, vanligvis bakken. En node er et punkt i en krets der to eller flere komponenter er koblet sammen. Nodeanalyse innebærer å anvende Kirchhoffs gjeldende lov&lt;/p&gt;
-
-&lt;p&gt;(KCL) ved hver node i kretsen og ved å bruke Ohms lov for å uttrykke strømmene i form av nodespenningene.&lt;/p&gt;
-
-&lt;p&gt;På den annen side er mesh-analyse en metode som brukes til å bestemme strømmene i hver maske eller sløyfe i en krets. Et nett er en lukket bane i en krets som ikke inneholder noen andre lukkede baner. Mesh-analyse innebærer å bruke Kirchhoffs spenningslov (KVL) på hvert nett i kretsen og bruke Ohms lov for å uttrykke spenningene i form av nettstrømmene.&lt;/p&gt;
-
-&lt;p&gt;For å bruke nodeanalyse må du følge disse trinnene:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Identifiser alle noder i kretsen.&lt;/li&gt;
-  &lt;li&gt;Velg én node som referansenode og tilordne den en spenning på null.&lt;/li&gt;
-  &lt;li&gt;Påfør KCL på hver av de andre nodene i kretsen for å få en ligning for strømmene som strømmer inn og ut av noden når det gjelder nodespenningene.&lt;/li&gt;
-  &lt;li&gt;Bruk Ohms lov for å uttrykke strømmene i form av nodespenningene.&lt;/li&gt;
-  &lt;li&gt;Løs det resulterende ligningssystemet for å bestemme spenningene ved hver node.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For å bruke mesh-analyse må du følge disse trinnene:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Identifiser alle masker i kretsen.&lt;/li&gt;
-  &lt;li&gt;Tilordne en strømvariabel til hver mesh og tilordne en retning til hver strøm.&lt;/li&gt;
-  &lt;li&gt;Påfør KVL på hver maske for å få en ligning for spenningene rundt nettet i form av maskestrømmene.&lt;/li&gt;
-  &lt;li&gt;Bruk Ohms lov til å uttrykke spenningene i form av nettstrømmene.&lt;/li&gt;
-  &lt;li&gt;Løs det resulterende ligningssystemet for å bestemme strømmene i hver maske.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Nodeanalyse og mesh-analyse er begge kraftige teknikker for å analysere kretser, og hvilken metode du bruker vil avhenge av den spesifikke kretsen du analyserer og dine personlige preferanser.&lt;/p&gt;</content><author><name></name></author><category term="Kretsanalyse" /><summary type="html">Nodeanalyse og mesh-analyse er to vanlige teknikker som brukes i kretsanalyse for å bestemme spenningene og strømmene i en krets.</summary></entry><entry><title type="html">Reaktans</title><link href="http://localhost:4000/IN1080notater/impedans/2023/02/11/reaktans.html" rel="alternate" type="text/html" title="Reaktans" /><published>2023-02-11T00:10:00+01:00</published><updated>2023-02-11T00:10:00+01:00</updated><id>http://localhost:4000/IN1080notater/impedans/2023/02/11/reaktans</id><content type="html" xml:base="http://localhost:4000/IN1080notater/impedans/2023/02/11/reaktans.html">&lt;p&gt;Fra notatet om &lt;a href=&quot;/IN1080notater/kondensator og induktor/2023/02/10/kondensator.html&quot;&gt; Kondensatorer &lt;/a&gt; kom vi frem til denne likningen for forholdet mellom strøm og spenning for en kondensator:&lt;/p&gt;
+&lt;p&gt;som vil si at dersom \(L_2\) er \(\sqrt{2}\) ganger større enn \(L_1\) tisvarer det dB på &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.0&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="RC i Frekvensdomene" /><summary type="html">Effektmål</summary></entry><entry><title type="html">Impedans</title><link href="http://localhost:4000/IN1080notater/impedans/2023/02/20/reaktans.html" rel="alternate" type="text/html" title="Impedans" /><published>2023-02-20T00:10:00+01:00</published><updated>2023-02-20T00:10:00+01:00</updated><id>http://localhost:4000/IN1080notater/impedans/2023/02/20/reaktans</id><content type="html" xml:base="http://localhost:4000/IN1080notater/impedans/2023/02/20/reaktans.html">&lt;p&gt;Fra notatet om &lt;a href=&quot;/IN1080notater/kondensator og induktor/2023/02/10/kondensator.html&quot;&gt; Kondensatorer &lt;/a&gt; kom vi frem til denne likningen for forholdet mellom strøm og spenning for en kondensator:&lt;/p&gt;
 
 \[V_o = I_o\frac{1}{j\omega C} \tag{11}\]
 
@@ -131,7 +97,7 @@ tance&quot; øker med induktansverdi og med frekvens. Det er også faseforskyvni
 9.8 Tids- og frekvensdomenene 161
 assosiert med induktorer som det var for kondensatorer, som det fremgår av j-begrepet i ekvivalent motstand.
 Ekte induktorer har noen svært uønskede egenskaper, som hysterese, stor størrelse og vekt, høye kostnader og tendensen til å generere magnetiske felt som kan forårsake elektrisk støyproblemer i en krets. Med noen få unntak, for eksempel radiofrekvens (RF) og byttestrømforsyningskretser, bruker moderne kretsdesign svært få induktorer. Ingen av disse temaene er vektlagt i denne teksten: vi vil ikke dekke RF-design, og vi utforsker induktorer som brukes til å bytte strømforsyninger bare nok til å forstå teorien deres om drift.
-Vi vil imidlertid møte og ha behov for å håndtere induktans i virkelige kretser i en rekke sammenhenger. Hver ledning i hver krets viser en viss mengde induktans, og selv den lille mengden som er tilstede kan spille en viktig rolle i noen tilfeller. Mekatronikkingeniøren vil mest sannsynlig støte på dette problemet når han håndterer støyen knyttet til veksling av høystrømsbelastninger (kapittel 21). På samme måte bidrar ledningene og konstruksjonen til kondensatorer (avsnitt 9.14.1) til en parasittisk induktans i kondensatorer, noe som påvirker deres egnethet for ulike bruksområder (avsnitt 9.14). Til slutt viser de elektromagnetiske aktuatorene som bruker spoler for å generere krefter, slik som motorer og solenoider (kapittel 22-26), den samme elektriske oppførselen som induktorer. Så selv om vi ikke skal sette noen eksplisitte induktorer inn i kretsene våre, vil vi ikke kunne unngå å møte induktans, og en grunnleggende forståelse av induktoratferd vil hjelpe oss å forutse hvordan det vil manifestere seg i kretsene våre. --&gt;</content><author><name></name></author><category term="Impedans" /><summary type="html">Fra notatet om Kondensatorer kom vi frem til denne likningen for forholdet mellom strøm og spenning for en kondensator:</summary></entry><entry><title type="html">Kondensator</title><link href="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/kondensator.html" rel="alternate" type="text/html" title="Kondensator" /><published>2023-02-10T00:10:00+01:00</published><updated>2023-02-10T00:10:00+01:00</updated><id>http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/kondensator</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/kondensator.html">&lt;div class=&quot;centerimg&quot;&gt;
+Vi vil imidlertid møte og ha behov for å håndtere induktans i virkelige kretser i en rekke sammenhenger. Hver ledning i hver krets viser en viss mengde induktans, og selv den lille mengden som er tilstede kan spille en viktig rolle i noen tilfeller. Mekatronikkingeniøren vil mest sannsynlig støte på dette problemet når han håndterer støyen knyttet til veksling av høystrømsbelastninger (kapittel 21). På samme måte bidrar ledningene og konstruksjonen til kondensatorer (avsnitt 9.14.1) til en parasittisk induktans i kondensatorer, noe som påvirker deres egnethet for ulike bruksområder (avsnitt 9.14). Til slutt viser de elektromagnetiske aktuatorene som bruker spoler for å generere krefter, slik som motorer og solenoider (kapittel 22-26), den samme elektriske oppførselen som induktorer. Så selv om vi ikke skal sette noen eksplisitte induktorer inn i kretsene våre, vil vi ikke kunne unngå å møte induktans, og en grunnleggende forståelse av induktoratferd vil hjelpe oss å forutse hvordan det vil manifestere seg i kretsene våre. --&gt;</content><author><name></name></author><category term="Impedans" /><summary type="html">Fra notatet om Kondensatorer kom vi frem til denne likningen for forholdet mellom strøm og spenning for en kondensator:</summary></entry><entry><title type="html">Kondensator</title><link href="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/kondensator.html" rel="alternate" type="text/html" title="Kondensator" /><published>2023-02-19T00:10:00+01:00</published><updated>2023-02-19T00:10:00+01:00</updated><id>http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/kondensator</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/kondensator.html">&lt;div class=&quot;centerimg&quot;&gt;
 &lt;img class=&quot;centerimg&quot; src=&quot;/IN1080notater/assets/img/kondensator.svg&quot; height=&quot;90px&quot; /&gt;
 &lt;/div&gt;
 
@@ -223,7 +189,7 @@ Hvis strømmen og spenningen begge er sinusformede oscillasjoner, vil de ha form
 
 &lt;p&gt;Å løse for \(V_o\) gir et uttrykk for amplituden til spenningssvingningen som en funksjon av amplituden til strømsvingningen og frekvensen og kapasitansverdien.&lt;/p&gt;
 
-\[V_o = I_o\frac{1}{j\omega C} \tag{11}\]</content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html"></summary></entry><entry><title type="html">Induktor</title><link href="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/spole.html" rel="alternate" type="text/html" title="Induktor" /><published>2023-02-10T00:09:00+01:00</published><updated>2023-02-10T00:09:00+01:00</updated><id>http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/spole</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/spole.html">&lt;div class=&quot;centerimg&quot;&gt;
+\[V_o = I_o\frac{1}{j\omega C} \tag{11}\]</content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html"></summary></entry><entry><title type="html">Induktor</title><link href="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/spole.html" rel="alternate" type="text/html" title="Induktor" /><published>2023-02-19T00:09:00+01:00</published><updated>2023-02-19T00:09:00+01:00</updated><id>http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/spole</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/spole.html">&lt;div class=&quot;centerimg&quot;&gt;
 &lt;img class=&quot;centerimg&quot; src=&quot;/IN1080notater/assets/img/induktor.svg&quot; width=&quot;400px&quot; /&gt;
 &lt;/div&gt;
 
@@ -263,62 +229,87 @@ definisjon av effekt som \(\mathrm{d}W/\mathrm{d}t\):&lt;/p&gt;
 
 &lt;p&gt;som vi kan forenkle til&lt;/p&gt;
 
-\[V_{o} = Lj\omega I_o\tag{8}\]</content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html"></summary></entry><entry><title type="html">RC</title><link href="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/RC.html" rel="alternate" type="text/html" title="RC" /><published>2023-02-10T00:08:00+01:00</published><updated>2023-02-10T00:08:00+01:00</updated><id>http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/RC</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/RC.html">&lt;div class=&quot;centerimg&quot;&gt;
-&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080notater/assets/img/RC.svg&quot; height=&quot;150px&quot; /&gt;
-&lt;/div&gt;
-
-&lt;!-- Som diskutert ovenfor tillater Kirchhoffs lover oss å finne strømmen og spenningen ved enhver node i en krets ved å skrive ned ligninger for spenningen og strømmen over hver komponent, og for nettostrømmene inn og ut av kryssene, og deretter løse disse settene av ligninger. I denne delen vil vi bruke disse prinsippene til å studere oppførselen til kretser som består av flere komponenttyper, med fokus på RC-kretser (dvs. kretser som inneholder motstander og kondensatorer).
+\[V_{o} = Lj\omega I_o\tag{8}\]</content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html"></summary></entry><entry><title type="html">RC i Tidsdomenet</title><link href="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/RC.html" rel="alternate" type="text/html" title="RC i Tidsdomenet" /><published>2023-02-19T00:08:00+01:00</published><updated>2023-02-19T00:08:00+01:00</updated><id>http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/RC</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/RC.html">&lt;!-- Som diskutert ovenfor tillater Kirchhoffs lover oss å finne strømmen og spenningen ved enhver node i en krets ved å skrive ned ligninger for spenningen og strømmen over hver komponent, og for nettostrømmene inn og ut av kryssene, og deretter løse disse settene av ligninger. I denne delen vil vi bruke disse prinsippene til å studere oppførselen til kretser som består av flere komponenttyper, med fokus på RC-kretser (dvs. kretser som inneholder motstander og kondensatorer).
 9.9.1 Grunnleggende RC-kretskonfigurasjoner
 Når man studerer RC-kretser, er det i utgangspunktet to konfigurasjoner som har størst betydning for oss. Dette er de to seriekonfigurasjonene vist i figur 9.22.
 
 9.9 Kretsanalyse med flere komponenttyper 163
 Av grunner som vi vil gjøre klart i avsnitt 9.9.5, kalles konfigurasjon a et lavpassfilter og konfigurasjon b kalles et høypassfilter, med henvisning til deres frekvensdomeneoppførsel. Spenningskilden vist som Vin kan være en hvilken som helst spennings- eller signalkilde. Høypassfilterkonfigurasjonen blir også noen ganger referert til som AC-koblet fordi strømmen som skaper en spenning over motstanden R har gått &quot;gjennom&quot; kondensatoren C. --&gt;
+&lt;h1 id=&quot;lavpass&quot;&gt;Lavpass&lt;/h1&gt;
 
-&lt;h2 id=&quot;tidsdomene&quot;&gt;Tidsdomene&lt;/h2&gt;
+&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080notater/assets/img/RC.svg&quot; height=&quot;150px&quot; /&gt;
+&lt;/div&gt;
 
-&lt;h4 id=&quot;høypass&quot;&gt;Høypass&lt;/h4&gt;
+&lt;p&gt;Vi begynner vår undersøkelse av RC-kretser med å studere tidsdomene-oppførselen til lavpass-RC-kretsen&lt;/p&gt;
 
-&lt;h4 id=&quot;lavpass&quot;&gt;Lavpass&lt;/h4&gt;
+&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080notater/assets/img/RCnatural.svg&quot; height=&quot;300px&quot; /&gt;
+&lt;/div&gt;
 
-&lt;!-- Vi begynner vår undersøkelse av RC-kretser med å studere tidsdomene-oppførselen til lavpass-RC-kretsen vist i figur 9.23, når bryteren flyttes fra posisjon A til B. Dette tilsvarer den stigende trinnfunksjonen fra figur 9.20.
-•R VR
+&lt;p&gt;Hvis bryteren har vært i posisjon A i tilstrekkelig lang tid, vil kondensator C være helt utladet og \(V_C\) og \(V_R\) vil begge være \(0\mathrm{V}\). Etter at bryteren flyttes til posisjon B, kan vi bruke KVL til skrive:&lt;/p&gt;
 
-FIGUR 9.23
-RC-krets begynner å lade kondensatoren.
-Hvis bryteren har vært i posisjon A i tilstrekkelig lang tid (skal defineres snart), vil kondensator C være helt utladet og Vc og VR vil begge være 0 V. Etter at bryteren flyttes til posisjon B, kan vi bruke KVL til skrive:
-Vs = RI +•
-(9.40)
-Ved å differensiere denne ligningen og bruke startbetingelsen som på tidspunktet for
-bryterlukking Vc = 0V (spenningen over en kondensator kan ikke endres øyeblikkelig), vi
-kan utvikle et uttrykk for I som funksjon av tid [Eq. (9,41)].
-7 _ Ys
-per
-(9,41)
-Vi kan da bruke dette uttrykket for / for å beregne uttrykk for spenningen over motstanden og kondensatoren som funksjon av tiden:
-k- Vscre
-(9,42)
-Vc = VS
-(9,43)
-RC-produktet vises i hvert av uttrykkene og får et spesielt navn, tidskonstanten og symbol . Plotting av Va og Vc som funksjon av tid (Figur 9124) viser oppførselen grafisk for en krets med en 5 V drivspenning (Vs) og en tidskonstant på
-0,1 sekund.
+\[V_s = RI + \frac{1}{C}\int I \: \mathrm{d}t \tag{1}\]
 
-På et tidspunkt 1 = sperre bryterlukkingen har spenningen over kondensatoren steget til
-63,2 % av drivspenningen. På et tidspunkt I = 5r etter bryterlukkingen har spenningen steget
-til 99,24 % av drivspenningen. Hvis bryteren hadde vært stengt i det minste så lenge før overgangen, ville antakelsen vår vært oppfylt.
-Hvis bryteren forblir i posisjon B i minst 51, vil kondensatoren være i det vesentlige fulladet. Hvis bryteren deretter returneres til posisjon A, vil den ladede kondensatoren lades ut gjennom motstanden R. Vi kan bruke samme type analyse som vi brukte for ladetilfellet, med unntak av at i det ladede tilfellet er startbetingelsen at spenningen på kondensatoren er 5 V. Etter å ha fullført den analysen vil vi finne at Eqs. (9.41) og (9.42) er de samme for lade- og utladingskassen. Når det gjelder spenningen over kondensatoren under utlading finner vi at uttrykket er
-Vc = VseRC
-(9,44)
-Dette bør gi intuitiv mening. Vi forventer at spenningen på kondensatoren avtar etter hvert som den ble utladet. Ekv. (9.44) spår at spenningen på kondensatoren starter på Vs kl
-Nt = O og avtar (på grunn av den negative eksponenten for e) når tiden øker. Figur 9.25 viser
-dette grafisk.
-Firkantbølger, som bare er en vanlig rekke av stigende kanter og fallende kanter, er en så vanlig forekomst i digitale systemer at det er nyttig å undersøke hvordan denne kretsen
+&lt;p&gt;Ved å differensiere denne ligningen og bruke startbetingelsen som på tidspunktet for
+bryterlukking \(V_C = 0\mathrm{V}\). kan vi utvikle et uttrykk for \(I\) som funksjon av tid:&lt;/p&gt;
 
-(Figur 9.26) reagerer på en firkantbølgeinngang slik at du kan lære å gjenkjenne denne oppførselen på et oscilloskopspor.
-I figur 9.26 erstatter vi kretselementene Vs og bryteren med en firkantbølgegenerator, merket &quot;Sq Wave.&quot; Hvis perioden til firkantbølgen er lang i forhold til tidskonstanten til RC (minst 10 ganger så lang), kan vi behandle de stigende og fallende kantene som distinkte hendelser og forutsi responsene ved å bruke lign. (9,41)-(9,44). De resulterende bølgeformene vises som figur 9.27. De avrundede kantene på bølgeformen er karakteristiske for en lavpassfilterrespons på en firkantbølge.
+\[I = \frac{V_s}{R}\mathrm{e}^{\frac{-t}{RC}}\tag{2}\]
 
-Hvis perioden til firkantbølgen er mye kortere enn RC-tidskonstanten, har ikke utgangen tid til å stige til full amplitude av frekvensomformeren, og heller ikke falle helt til null (Figur 9.28), noe som resulterer i en veldig forvrengt bølgeform på en mindre amplitude enn drivverket. --&gt;
+&lt;p&gt;Vi kan da bruke dette uttrykket for \(I\) for å beregne uttrykk for spenningen over motstanden og kondensatoren som funksjon av tiden:&lt;/p&gt;
 
-&lt;h2 id=&quot;frekvensdomene&quot;&gt;Frekvensdomene&lt;/h2&gt;</content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html"></summary></entry><entry><title type="html">RC - Diffligning (ikke pensum)</title><link href="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/RC1.html" rel="alternate" type="text/html" title="RC - Diffligning (ikke pensum)" /><published>2023-02-10T00:08:00+01:00</published><updated>2023-02-10T00:08:00+01:00</updated><id>http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/RC1</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/RC1.html">&lt;h2 id=&quot;tilfellet-v0&quot;&gt;Tilfellet \(V=0\)&lt;/h2&gt;
+\[\begin{align*}
+V_R &amp;amp;= V_s\mathrm{e}^{\frac{-t}{RC}} \tag{3}\\
+V_C &amp;amp;= V_s\left(1-\mathrm{e}^{\frac{-t}{RC}}\right) \tag{4}
+\end{align*}\]
+
+&lt;p&gt;RC-produktet vises i hvert av uttrykkene og får et spesielt navn, tidskonstanten og symbol \(\tau = RC\) Plotting av \(V_R\) og \(V_C\) som funksjon av tid viser oppførselen grafisk for en krets med en 5 V drivspenning (Vs) og en tidskonstant på \(\tau = 0,1 \mathrm{s}\).&lt;/p&gt;
+
+&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080notater/assets/img/RCplot.svg&quot; height=&quot;300px&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;På et tidspunkt \(t = \tau\) etter at bryteren har lukket kretsen, har spenningen over kondensatoren steget til
+63,2 % av drivspenningen. På et tidspunkt \(I = 5\tau\) etter bryterlukkingen har spenningen steget
+til 99,24 % av drivspenningen. Hvis bryteren forblir i posisjon B i minst \(5\tau\), vil kondensatoren være i det vesentlige fulladet. Hvis bryteren deretter returneres til posisjon A, vil den ladede kondensatoren lades ut gjennom motstanden \(R\). Vi kan bruke samme type analyse som vi brukte for ladetilfellet, med unntak av at i det ladede tilfellet er startbetingelsen at spenningen på kondensatoren er 5 V. Etter å ha fullført den analysen vil vi finne at Ligning &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt; og &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt; er de samme for lade- og utladingskassen. Når det gjelder spenningen over kondensatoren under utlading finner vi at uttrykket er&lt;/p&gt;
+
+\[V_C = V_s\mathrm{e}^{\frac{-t}{RC}} \tag{5}\]
+
+&lt;p&gt;Dette bør gi intuitiv mening. Vi forventer at spenningen på kondensatoren avtar etter hvert som den ble utladet. Lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5&lt;/code&gt; spår at spenningen på kondensatoren starter på \(V_s\) når \(t = 0\) og avtar når tiden øker.&lt;/p&gt;
+&lt;h1 id=&quot;høypass&quot;&gt;Høypass&lt;/h1&gt;
+
+&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080notater/assets/img/RC2.svg&quot; height=&quot;150px&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Vi har ganske enkelt byttet om på posisjonene til \(R\) og \(C\) fra lavpassfilteret
+Hvis vi tar utgangspunkt i samme krest som over med bryteren som går fra A til B, der \(R\) og \(C\) nå har byttet plass. Hvis bryteren har vært i posisjon A i tilstrekkelig lang tid vil kondensatoren \(C\) være helt utladet, og \(V_C\) og \(V_R\) vil begge være 0V. Etter at bryteren flyttes til posisjon B, kan vi igjen bruke KVL for å skrive:&lt;/p&gt;
+
+\[V_s = RI + \frac{1}{C}\int I \: \mathrm{d}t \tag{6}\]
+
+&lt;p&gt;En sammenligning av lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt; og lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt; vil vise at de er identiske. Dette bør gi mening. Vi har de samme tre kretselementene i serie, så den samme strømoppførselen bør eksistere og de samme spenningsforskjellene bør vises på tvers av enhetene. Som et resultat vil de samme uttrykkene lign. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3&lt;/code&gt; og &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4&lt;/code&gt; beskrive spenningene over motstanden og kondensatoren også i dette tilfellet.&lt;/p&gt;
+
+&lt;p&gt;Når kondensatoren er fulladet, kan vi flytte bryteren fra posisjon B til posisjon A, akkurat som vi gjorde for lavpassfilteranalysen. Dette tilfellet er imidlertid annerledes enn lavpassfilteret. Legg merke til at etter at kondensatoren er fulladet, vil spenningen ved den positive terminalen til kondensatoren (\(C+\)) være på kildespenningen V over den negative terminalen til kondensatoren (\(C-\)). Når bryteren flyttes til posisjon A, vil \(C+\) øyeblikkelig plasseres på jordpotensial 0 V. Siden spenningen over kondensatoren ikke kan endres momentant, må spenningen ved \(C-\) forbli \(V\) volt under \(V+\) -terminalen, noe som får den til å være på et potensial på \(-V\). Dette gir et litt annerledes uttrykk for \(V_C\) og \(V_R\) enn det vi oppnådde i lavpassfilteranalysen.&lt;/p&gt;
+
+&lt;p&gt;\(V_C = V_R = -V_s\mathrm{e}^{\frac{-t}{RC}} \tag{7}\)&lt;/p&gt;
+&lt;h1 id=&quot;arduino&quot;&gt;Arduino&lt;/h1&gt;
+
+&lt;div class=&quot;centerimg&quot;&gt;
+&lt;img class=&quot;centerimg&quot; src=&quot;/IN1080notater/assets/img/breadboard.svg&quot; height=&quot;600px&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Serial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;38400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;loop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;analogRead&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Serial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;delay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html">&amp;lt;!– Som diskutert ovenfor tillater Kirchhoffs lover oss å finne strømmen og spenningen ved enhver node i en krets ved å skrive ned ligninger for spenningen og strømmen over hver komponent, og for nettostrømmene inn og ut av kryssene, og deretter løse disse settene av ligninger. I denne delen vil vi bruke disse prinsippene til å studere oppførselen til kretser som består av flere komponenttyper, med fokus på RC-kretser (dvs. kretser som inneholder motstander og kondensatorer). 9.9.1 Grunnleggende RC-kretskonfigurasjoner Når man studerer RC-kretser, er det i utgangspunktet to konfigurasjoner som har størst betydning for oss. Dette er de to seriekonfigurasjonene vist i figur 9.22.</summary></entry><entry><title type="html">RC - Diffligning (ikke pensum)</title><link href="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/RC1.html" rel="alternate" type="text/html" title="RC - Diffligning (ikke pensum)" /><published>2023-02-19T00:08:00+01:00</published><updated>2023-02-19T00:08:00+01:00</updated><id>http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/RC1</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/RC1.html">&lt;h1 id=&quot;tilfellet-v0&quot;&gt;Tilfellet \(V=0\)&lt;/h1&gt;
 
 &lt;p&gt;Hvis \(V=0\) kan ligningen separeres:&lt;/p&gt;
 
@@ -331,7 +322,7 @@ Hvis perioden til firkantbølgen er mye kortere enn RC-tidskonstanten, har ikke 
 &lt;p&gt;Ved \(t=0\), er \(Q(0)=K\mathrm{e}^0=K\) så \(Q(t)=Q(0)\mathrm{exp}\left(\frac{-t}{RC}\right)\). Det betyr at kondensatoren lades ut eksponensielt gjennom
 resistoren.&lt;/p&gt;
 
-&lt;h2 id=&quot;det-generelle-tilfellet&quot;&gt;Det generelle tilfellet&lt;/h2&gt;
+&lt;h1 id=&quot;det-generelle-tilfellet&quot;&gt;Det generelle tilfellet&lt;/h1&gt;
 
 &lt;p&gt;Når \(V\neq0\) kan ligningen ikke lenger separeres. Men det er et annet triks som tillater oss for å løse den, 
 nemlig ved å manipulere venstre side til en perfekt derivert.
@@ -374,4 +365,62 @@ Men det er lettere å bare gjette en løsning. Vi ser etter en løsning på
 
 &lt;p&gt;Hvis \(V(t)=V_0\), en konstant, (ved f.eks DC spenning). Vil \(\int \mathrm{e}^{t/RC}V(t)\;\mathrm{dt} = RCV_0\mathrm{e}^{t/RC} +k\) og&lt;/p&gt;
 
-\[Q(t) = CV_0 + K\mathrm{e}^{-t/RC}\]</content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html">Tilfellet \(V=0\)</summary></entry><entry><title type="html">RL</title><link href="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/RL.html" rel="alternate" type="text/html" title="RL" /><published>2023-02-10T00:07:00+01:00</published><updated>2023-02-10T00:07:00+01:00</updated><id>http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/RL</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/10/RL.html"></content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html"></summary></entry></feed>
+\[Q(t) = CV_0 + K\mathrm{e}^{-t/RC}\]</content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html">Tilfellet \(V=0\)</summary></entry><entry><title type="html">RL</title><link href="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/RL.html" rel="alternate" type="text/html" title="RL" /><published>2023-02-19T00:07:00+01:00</published><updated>2023-02-19T00:07:00+01:00</updated><id>http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/RL</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kondensator%20og%20induktor/2023/02/19/RL.html"></content><author><name></name></author><category term="Kondensator og Induktor" /><summary type="html"></summary></entry><entry><title type="html">Norton og Thevenin</title><link href="http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/norttheve.html" rel="alternate" type="text/html" title="Norton og Thevenin" /><published>2023-02-15T00:10:00+01:00</published><updated>2023-02-15T00:10:00+01:00</updated><id>http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/norttheve</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/norttheve.html">&lt;p&gt;For kompliserte nettverk. det er ofte nyttig å kunne forenkle deler av kretsanalysen.&lt;/p&gt;
+
+&lt;h1 id=&quot;thévenins-teorem&quot;&gt;Thévenins teorem&lt;/h1&gt;
+
+&lt;p&gt;Ethvert lineært to-terminalers nettverk bestående av strømkilder, spenningskilder og resistorer kan erstattes av en ekvivalent krets med én 
+spenningskilde i serie med én resistor&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Identifiser (del)kretsen som skal erstattes av en Thévenin-ekvivalent
+– Beregn \(V_{th}\) og \(R_{th}\)&lt;/li&gt;
+  &lt;li&gt;\(V_{th}\): Spenningen \(V_{AB}\) mellom A og B etter at resten av kretsen er fjernet&lt;/li&gt;
+  &lt;li&gt;\(R_{th}\): Resistansen mellom A og B når spenningskildene kortsluttes og strømkildene åpnes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Nuller ut kilden(e): Kortslutter V1&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Beregner Rth mellom node a og b: R1&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt;R2=(R1&lt;em&gt;R2)/(R1+R2)=(3Ω&lt;/em&gt;6Ω)/(3Ω+6Ω)=2Ω&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Setter tilbake V1 og finner Vab: Vab=Vth=V1&lt;em&gt;(R2/(R1+R2)=9v&lt;/em&gt;(6Ω)/(3Ω+6Ω)=6v&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;nortons-teorem&quot;&gt;Nortons teorem&lt;/h1&gt;
+
+&lt;p&gt;Samme metode som for Thévenins teorem&lt;br /&gt;
+– Likhet: Kildene kortsluttes (spenningskilder) eller åpnes (strømkilder)&lt;br /&gt;
+– Forskjell: Terminalene A og B kortsluttes for å finne strømmen gjennom dem (istedenfor å beregne spenningen over dem)&lt;/p&gt;
+
+&lt;h4 id=&quot;sammenhengen-mellom-norton--og-thévenin-ekvivalenter&quot;&gt;Sammenhengen mellom Norton- og Thévenin-ekvivalenter:&lt;/h4&gt;
+
+&lt;!-- Rth = Rno
+Vth = InoRno
+Vth
+Rth
+= Ino --&gt;</content><author><name></name></author><category term="Kretsanalyse" /><summary type="html">For kompliserte nettverk. det er ofte nyttig å kunne forenkle deler av kretsanalysen.</summary></entry><entry><title type="html">Superposisjon</title><link href="http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/superposisjon.html" rel="alternate" type="text/html" title="Superposisjon" /><published>2023-02-15T00:09:00+01:00</published><updated>2023-02-15T00:09:00+01:00</updated><id>http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/superposisjon</id><content type="html" xml:base="http://localhost:4000/IN1080notater/kretsanalyse/2023/02/15/superposisjon.html">&lt;p&gt;I elektronikk er superposisjon et prinsipp som sier at responsen til en lineær krets på et sett med inngangssignaler kan bestemmes ved å vurdere hvert inngangssignal individuelt og deretter summere resultatene. Spesielt gjelder superposisjonsprinsippet for lineære kretser, som er kretser som tilfredsstiller følgende to egenskaper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Homogenitet: Hvis inngangen til kretsen multipliseres med en konstant, så multipliseres også utgangen med den samme konstanten.&lt;/li&gt;
+  &lt;li&gt;Additivitet: Hvis inngangen til kretsen er summen av to eller flere signaler, er utgangen summen av utgangene som ville følge av å bruke hvert inngangssignal individuelt.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Prinsippet om superposisjon er en konsekvens av disse to egenskapene. Det lar oss analysere komplekse kretsløp ved å bryte dem ned i enklere deler og deretter kombinere resultatene. Spesifikt kan vi bruke prinsippet om superposisjon ved å følge disse trinnene:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Vurder hvert inngangssignal individuelt og anta at alle andre inngangssignaler er null.&lt;/li&gt;
+  &lt;li&gt;Beregn responsen til kretsen på det inngangssignalet ved å bruke standardteknikker som Kirchhoffs lover, Ohms lov og så videre.&lt;/li&gt;
+  &lt;li&gt;Gjenta trinn 1 og 2 for hvert inngangssignal.&lt;/li&gt;
+  &lt;li&gt;Sum resultatene oppnådd i trinn 2 for å oppnå den totale responsen til kretsen på alle inngangssignaler.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ved å bruke superposisjonsprinsippet kan vi forenkle analysen av komplekse kretsløp og få innsikt i deres oppførsel. Det er imidlertid viktig å merke seg at superposisjonsprinsippet bare gjelder for lineære kretser og ikke kan brukes for ikke-lineære kretser, som ikke tilfredsstiller homogenitets- og additivitetsegenskapene.&lt;/p&gt;</content><author><name></name></author><category term="Kretsanalyse" /><summary type="html">I elektronikk er superposisjon et prinsipp som sier at responsen til en lineær krets på et sett med inngangssignaler kan bestemmes ved å vurdere hvert inngangssignal individuelt og deretter summere resultatene. Spesielt gjelder superposisjonsprinsippet for lineære kretser, som er kretser som tilfredsstiller følgende to egenskaper:</summary></entry></feed>

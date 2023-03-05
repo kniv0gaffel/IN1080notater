@@ -3,7 +3,7 @@ layout: post
 title:  "Kondensator"
 usemathjax : true
 categories: [Kondensator og Induktor]
-date: 2023-02-10 00:10
+date: 2023-02-19 00:10
 ---
 
 <div class="centerimg">

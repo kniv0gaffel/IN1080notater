@@ -1,5 +1,5 @@
 ---
-title : IN1080 Kompendium
+title : IN1080 Notater
 layout : post
 usemathjax : true
 ---

@@ -8,7 +8,7 @@ date: 2023-02-15 00:10
 
 For kompliserte nettverk. det er ofte nyttig å kunne forenkle deler av kretsanalysen. 
 
-#### Thévenins teorem
+# Thévenins teorem
 
 Ethvert lineært to-terminalers nettverk bestående av strømkilder, spenningskilder og resistorer kan erstattes av en ekvivalent krets med én 
 spenningskilde i serie med én resistor  
@@ -23,13 +23,13 @@ spenningskilde i serie med én resistor
 3. Setter tilbake V1 og finner Vab: Vab=Vth=V1*(R2/(R1+R2)=9v*(6Ω)/(3Ω+6Ω)=6v
 
 
-#### Nortons teorem
+# Nortons teorem
 
 Samme metode som for Thévenins teorem  
 – Likhet: Kildene kortsluttes (spenningskilder) eller åpnes (strømkilder)  
 – Forskjell: Terminalene A og B kortsluttes for å finne strømmen gjennom dem (istedenfor å beregne spenningen over dem)
 
-##### Sammenhengen mellom Norton- og Thévenin-ekvivalenter:
+#### Sammenhengen mellom Norton- og Thévenin-ekvivalenter:
 
 <!-- Rth = Rno
 Vth = InoRno
